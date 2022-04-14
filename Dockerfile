@@ -1,5 +1,5 @@
 ARG PGX_DOCKER_TAG=latest
-FROM 749961925374.dkr.ecr.us-east-1.amazonaws.com/helix-py-app-pgx:${PGX_DOCKER_TAG}
+FROM 820411415250.dkr.ecr.us-east-1.amazonaws.com/helix-py-app-pgx:${PGX_DOCKER_TAG}
 
 WORKDIR /pgx-verification
 ENV PYTHONPATH=/src:/pgx-verification
