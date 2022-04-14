@@ -1,0 +1,58 @@
+{
+    "Analyses": [
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v1",
+            "SampleQcTableByRegion": {
+                "Path": ""
+            },
+            "AppSessionId": "132964731",
+            "AnalysisId": "AN-1",
+            "Bai": {
+                "Path": "tests/data/NA12878_slice.bam.bai"
+            },
+            "SampleQc": {
+                "Path": ""
+            },
+            "Bam": {
+                "Path": "tests/data/NA12878_slice.bam"
+            },
+            "Bcf": {
+                "Path": "tests/data/NA12878_slice.bcf"
+            },
+            "BcfIndex": {
+                "Path": "tests/data/NA12878_slice.bcf.csi"
+            },
+            "SampleId": "NA12878"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": ""
+            },
+            "AppSessionId": "133645816",
+            "AnalysisId": "AN-2",
+            "Bai": {
+                "Path": ""
+            },
+            "SampleQc": {
+                "Path": ""
+            },
+            "Bam": {
+                "Path": "tests/data/CL-13_slice.bam"
+            },
+            "Bcf": {
+                "Path": "tests/data/NA12878_slice.bcf"
+            },
+            "BcfIndex": {
+                "Path": "tests/data/NA12878_slice.bcf.csi"
+            },
+            "SampleId": "CL-13"
+        }
+   ],
+    "Batch": {
+        "BatchId": "batch3",
+        "FlowcellId": "H3JGMCFXX"
+    }
+}

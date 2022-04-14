@@ -1,0 +1,1249 @@
+{
+    "callSetId": "NA12878-EV3-EXP29a-A08-1a-A04_194492330",
+    "pgxVersion": "2.1.0",
+    "results": {
+        "starAlleles": [
+            {
+                "gene": "CYP2D6",
+                "alleles": [
+                    "*3",
+                    "*4",
+                    "*68"
+                ],
+                "callQuality": 43,
+                "filter": [
+                    "PASS"
+                ],
+                "degenerate": false,
+                "degenerateAlleles": null,
+                "copyNumber": [
+                    {
+                        "exonId": "CYP2D6.e1",
+                        "callPloidy": 3,
+                        "maxLikelihoodPloidy": 4,
+                        "ploidyPval": "4.11e-05"
+                    },
+                    {
+                        "exonId": "CYP2D6.e2",
+                        "callPloidy": 2,
+                        "maxLikelihoodPloidy": 3,
+                        "ploidyPval": "1.57e-04"
+                    },
+                    {
+                        "exonId": "CYP2D6.e3",
+                        "callPloidy": 2,
+                        "maxLikelihoodPloidy": 2,
+                        "ploidyPval": "1.14e-01"
+                    },
+                    {
+                        "exonId": "CYP2D6.e4",
+                        "callPloidy": 2,
+                        "maxLikelihoodPloidy": 1,
+                        "ploidyPval": "1.33e-10"
+                    },
+                    {
+                        "exonId": "CYP2D6.e5",
+                        "callPloidy": 2,
+                        "maxLikelihoodPloidy": 2,
+                        "ploidyPval": "1.85e-01"
+                    },
+                    {
+                        "exonId": "CYP2D6.e6",
+                        "callPloidy": 2,
+                        "maxLikelihoodPloidy": 2,
+                        "ploidyPval": "4.49e-03"
+                    },
+                    {
+                        "exonId": "CYP2D6.e7",
+                        "callPloidy": 2,
+                        "maxLikelihoodPloidy": 2,
+                        "ploidyPval": "1.49e-01"
+                    },
+                    {
+                        "exonId": "CYP2D6.e8",
+                        "callPloidy": 2,
+                        "maxLikelihoodPloidy": 4,
+                        "ploidyPval": "0.00e+00"
+                    },
+                    {
+                        "exonId": "CYP2D6.e9",
+                        "callPloidy": 2,
+                        "maxLikelihoodPloidy": 2,
+                        "ploidyPval": "7.72e-04"
+                    },
+                    {
+                        "exonId": "CYP2D7.e1",
+                        "callPloidy": 2,
+                        "maxLikelihoodPloidy": 2,
+                        "ploidyPval": "1.40e-02"
+                    },
+                    {
+                        "exonId": "CYP2D7.e2",
+                        "callPloidy": 3,
+                        "maxLikelihoodPloidy": 3,
+                        "ploidyPval": "2.37e-02"
+                    },
+                    {
+                        "exonId": "CYP2D7.e3",
+                        "callPloidy": 3,
+                        "maxLikelihoodPloidy": 3,
+                        "ploidyPval": "1.23e-01"
+                    },
+                    {
+                        "exonId": "CYP2D7.e4",
+                        "callPloidy": 3,
+                        "maxLikelihoodPloidy": 3,
+                        "ploidyPval": "8.21e-02"
+                    },
+                    {
+                        "exonId": "CYP2D7.e5",
+                        "callPloidy": 3,
+                        "maxLikelihoodPloidy": 3,
+                        "ploidyPval": "4.24e-02"
+                    },
+                    {
+                        "exonId": "CYP2D7.e6",
+                        "callPloidy": 3,
+                        "maxLikelihoodPloidy": 3,
+                        "ploidyPval": "1.08e-02"
+                    },
+                    {
+                        "exonId": "CYP2D7.e7",
+                        "callPloidy": 3,
+                        "maxLikelihoodPloidy": 4,
+                        "ploidyPval": "7.63e-04"
+                    },
+                    {
+                        "exonId": "CYP2D7.e8",
+                        "callPloidy": 3,
+                        "maxLikelihoodPloidy": 2,
+                        "ploidyPval": "2.31e-06"
+                    },
+                    {
+                        "exonId": "CYP2D7.e9",
+                        "callPloidy": 3,
+                        "maxLikelihoodPloidy": 3,
+                        "ploidyPval": "3.71e-02"
+                    }
+                ],
+                "variants": [
+                    {
+                        "variantId": "g.42126605G>A",
+                        "rsId": "rs568495591",
+                        "txId": "4187C>T",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 159,
+                        "altAd": 0,
+                        "mutPval": "2.02e-01"
+                    },
+                    {
+                        "variantId": "g.42126611C>G",
+                        "rsId": "rs1135840",
+                        "txId": "4181G>C",
+                        "refPloidy": 1,
+                        "altPloidy": 1,
+                        "refAd": 72,
+                        "altAd": 87,
+                        "mutPval": "1.33e-01"
+                    },
+                    {
+                        "variantId": "g.42126634A>C",
+                        "rsId": null,
+                        "txId": "4158T>G",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 167,
+                        "altAd": 0,
+                        "mutPval": "1.87e-01"
+                    },
+                    {
+                        "variantId": "g.42126666_42126667insAGTGGGCAC",
+                        "rsId": null,
+                        "txId": "4133_4134insGTGCCCACT",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 167,
+                        "altAd": 0,
+                        "mutPval": "1.87e-01"
+                    },
+                    {
+                        "variantId": "g.42126681G>C",
+                        "rsId": null,
+                        "txId": "4111C>G",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 167,
+                        "altAd": 0,
+                        "mutPval": "1.87e-01"
+                    },
+                    {
+                        "variantId": "g.42126697G>T",
+                        "rsId": null,
+                        "txId": "4095C>A",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 167,
+                        "altAd": 0,
+                        "mutPval": "1.87e-01"
+                    },
+                    {
+                        "variantId": "g.42126735C>T",
+                        "rsId": "rs751092905",
+                        "txId": "4057G>A",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 167,
+                        "altAd": 0,
+                        "mutPval": "1.87e-01"
+                    },
+                    {
+                        "variantId": "g.42126746C>T",
+                        "rsId": "rs532668079",
+                        "txId": "4046G>A",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 167,
+                        "altAd": 0,
+                        "mutPval": "1.87e-01"
+                    },
+                    {
+                        "variantId": "g.42126747G>A",
+                        "rsId": "rs730882251",
+                        "txId": "4045C>T",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 167,
+                        "altAd": 0,
+                        "mutPval": "1.87e-01"
+                    },
+                    {
+                        "variantId": "g.42126749C>T",
+                        "rsId": "rs267608319",
+                        "txId": "4043G>A",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 167,
+                        "altAd": 0,
+                        "mutPval": "1.87e-01"
+                    },
+                    {
+                        "variantId": "g.42126752C>T",
+                        "rsId": "rs569439709",
+                        "txId": "4040G>A",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 167,
+                        "altAd": 0,
+                        "mutPval": "1.87e-01"
+                    },
+                    {
+                        "variantId": "g.42126896G>A",
+                        "rsId": "rs763964554",
+                        "txId": "3896C>T",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 167,
+                        "altAd": 0,
+                        "mutPval": "1.87e-01"
+                    },
+                    {
+                        "variantId": "g.42126904A>G",
+                        "rsId": "rs72549345",
+                        "txId": "3888T>C",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 167,
+                        "altAd": 0,
+                        "mutPval": "1.87e-01"
+                    },
+                    {
+                        "variantId": "g.42126914C>G",
+                        "rsId": null,
+                        "txId": "3878G>C",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 167,
+                        "altAd": 0,
+                        "mutPval": "1.87e-01"
+                    },
+                    {
+                        "variantId": "g.42126914C>T",
+                        "rsId": "rs28371733",
+                        "txId": "3878G>A",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 167,
+                        "altAd": 0,
+                        "mutPval": "1.87e-01"
+                    },
+                    {
+                        "variantId": "g.42126938C>T",
+                        "rsId": "rs769157652",
+                        "txId": "3854G>A",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 167,
+                        "altAd": 0,
+                        "mutPval": "1.87e-01"
+                    },
+                    {
+                        "variantId": "g.42126956T>G",
+                        "rsId": null,
+                        "txId": "3836A>C",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 167,
+                        "altAd": 0,
+                        "mutPval": "1.87e-01"
+                    },
+                    {
+                        "variantId": "g.42127457C>T",
+                        "rsId": "rs77312092",
+                        "txId": "3335G>A",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 148,
+                        "altAd": 0,
+                        "mutPval": "2.26e-01"
+                    },
+                    {
+                        "variantId": "g.42127473C>T",
+                        "rsId": "rs75386357",
+                        "txId": "3319G>A",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 148,
+                        "altAd": 0,
+                        "mutPval": "2.26e-01"
+                    },
+                    {
+                        "variantId": "g.42127514A>G",
+                        "rsId": "rs267608293",
+                        "txId": "3278T>C",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 148,
+                        "altAd": 0,
+                        "mutPval": "2.26e-01"
+                    },
+                    {
+                        "variantId": "g.42127523A>G",
+                        "rsId": "rs267608294",
+                        "txId": "3269T>C",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 148,
+                        "altAd": 0,
+                        "mutPval": "2.26e-01"
+                    },
+                    {
+                        "variantId": "g.42127533_42127534insAC",
+                        "rsId": null,
+                        "txId": "3260_3261insGT",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 148,
+                        "altAd": 0,
+                        "mutPval": "2.26e-01"
+                    },
+                    {
+                        "variantId": "g.42127556T>C",
+                        "rsId": "rs202102799",
+                        "txId": "3236A>G",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 148,
+                        "altAd": 0,
+                        "mutPval": "2.26e-01"
+                    },
+                    {
+                        "variantId": "g.42127565T>C",
+                        "rsId": "rs61736517",
+                        "txId": "3227A>G",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 148,
+                        "altAd": 0,
+                        "mutPval": "2.26e-01"
+                    },
+                    {
+                        "variantId": "g.42127590G>A",
+                        "rsId": "rs72549347",
+                        "txId": "3202C>T",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 148,
+                        "altAd": 0,
+                        "mutPval": "2.26e-01"
+                    },
+                    {
+                        "variantId": "g.42127593G>C",
+                        "rsId": "rs267608295",
+                        "txId": "3199C>G",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 148,
+                        "altAd": 0,
+                        "mutPval": "2.26e-01"
+                    },
+                    {
+                        "variantId": "g.42127608C>T",
+                        "rsId": "rs59421388",
+                        "txId": "3184G>A",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 148,
+                        "altAd": 0,
+                        "mutPval": "2.26e-01"
+                    },
+                    {
+                        "variantId": "g.42127610T>C",
+                        "rsId": "rs748712690",
+                        "txId": "3182A>G",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 148,
+                        "altAd": 0,
+                        "mutPval": "2.26e-01"
+                    },
+                    {
+                        "variantId": "g.42127619T>G",
+                        "rsId": "rs72549348",
+                        "txId": "3173A>C",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 148,
+                        "altAd": 0,
+                        "mutPval": "2.26e-01"
+                    },
+                    {
+                        "variantId": "g.42127803C>T",
+                        "rsId": "rs28371725",
+                        "txId": "2989G>A",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 148,
+                        "altAd": 0,
+                        "mutPval": "2.26e-01"
+                    },
+                    {
+                        "variantId": "g.42127841C>G",
+                        "rsId": "rs72549349",
+                        "txId": "2951G>C",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 148,
+                        "altAd": 0,
+                        "mutPval": "2.26e-01"
+                    },
+                    {
+                        "variantId": "g.42127852C>T",
+                        "rsId": "rs79292917",
+                        "txId": "2940G>A",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 148,
+                        "altAd": 0,
+                        "mutPval": "2.26e-01"
+                    },
+                    {
+                        "variantId": "g.42127853G>A",
+                        "rsId": "rs140513104",
+                        "txId": "2939C>T",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 148,
+                        "altAd": 0,
+                        "mutPval": "2.26e-01"
+                    },
+                    {
+                        "variantId": "g.42127856T>G",
+                        "rsId": "rs5030867",
+                        "txId": "2936A>C",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 148,
+                        "altAd": 0,
+                        "mutPval": "2.26e-01"
+                    },
+                    {
+                        "variantId": "g.42127846delCACATCCGGATGTAGGATC",
+                        "rsId": "rs730882170",
+                        "txId": "2928delGATCCTACATCCGGATGTG",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 148,
+                        "altAd": 0,
+                        "mutPval": "2.26e-01"
+                    },
+                    {
+                        "variantId": "g.42127938T>G",
+                        "rsId": "rs949717872",
+                        "txId": "2854A>C",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 148,
+                        "altAd": 0,
+                        "mutPval": "2.26e-01"
+                    },
+                    {
+                        "variantId": "g.42127941G>A",
+                        "rsId": "rs16947",
+                        "txId": "2851C>T",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 148,
+                        "altAd": 0,
+                        "mutPval": "2.26e-01"
+                    },
+                    {
+                        "variantId": "g.42127963delG",
+                        "rsId": "rs267608279",
+                        "txId": "2829delC",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 148,
+                        "altAd": 0,
+                        "mutPval": "2.26e-01"
+                    },
+                    {
+                        "variantId": "g.42128174delCTT",
+                        "rsId": "rs5030656",
+                        "txId": "2616delAAG",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 148,
+                        "altAd": 0,
+                        "mutPval": "2.26e-01"
+                    },
+                    {
+                        "variantId": "g.42128181A>T",
+                        "rsId": "rs1135828",
+                        "txId": "2611T>A",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 148,
+                        "altAd": 0,
+                        "mutPval": "2.26e-01"
+                    },
+                    {
+                        "variantId": "g.42128185C>T",
+                        "rsId": "rs77913725",
+                        "txId": "2607G>A",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 148,
+                        "altAd": 0,
+                        "mutPval": "2.26e-01"
+                    },
+                    {
+                        "variantId": "g.42128201delAGTC",
+                        "rsId": null,
+                        "txId": "2588delGACT",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 148,
+                        "altAd": 0,
+                        "mutPval": "2.26e-01"
+                    },
+                    {
+                        "variantId": "g.42128218_42128219insG",
+                        "rsId": null,
+                        "txId": "2580_2581insC",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 148,
+                        "altAd": 0,
+                        "mutPval": "2.26e-01"
+                    },
+                    {
+                        "variantId": "g.42128212G>A",
+                        "rsId": "rs367543000",
+                        "txId": "2580C>T",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 148,
+                        "altAd": 0,
+                        "mutPval": "2.26e-01"
+                    },
+                    {
+                        "variantId": "g.42128215G>A",
+                        "rsId": null,
+                        "txId": "2577C>T",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 148,
+                        "altAd": 0,
+                        "mutPval": "2.26e-01"
+                    },
+                    {
+                        "variantId": "g.42128217G>T",
+                        "rsId": "rs148769737",
+                        "txId": "2575C>A",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 148,
+                        "altAd": 0,
+                        "mutPval": "2.26e-01"
+                    },
+                    {
+                        "variantId": "g.42128235G>A",
+                        "rsId": "rs267608297",
+                        "txId": "2557C>T",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 148,
+                        "altAd": 0,
+                        "mutPval": "2.26e-01"
+                    },
+                    {
+                        "variantId": "g.42128242delT",
+                        "rsId": "rs35742686",
+                        "txId": "2550delA",
+                        "refPloidy": 1,
+                        "altPloidy": 1,
+                        "refAd": 72,
+                        "altAd": 52,
+                        "mutPval": "4.38e-02"
+                    },
+                    {
+                        "variantId": "g.42128249delAGTT",
+                        "rsId": "rs72549353",
+                        "txId": "2540delAACT",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 131,
+                        "altAd": 0,
+                        "mutPval": "2.68e-01"
+                    },
+                    {
+                        "variantId": "g.42128272T>G",
+                        "rsId": null,
+                        "txId": "2520A>C",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 131,
+                        "altAd": 0,
+                        "mutPval": "2.68e-01"
+                    },
+                    {
+                        "variantId": "g.42128308C>A",
+                        "rsId": "rs28371717",
+                        "txId": "2484G>T",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 131,
+                        "altAd": 0,
+                        "mutPval": "2.68e-01"
+                    },
+                    {
+                        "variantId": "g.42128796delG",
+                        "rsId": null,
+                        "txId": "1996delC",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 156,
+                        "altAd": 0,
+                        "mutPval": "2.08e-01"
+                    },
+                    {
+                        "variantId": "g.42128812A>G",
+                        "rsId": "rs199535154",
+                        "txId": "1980T>C",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 156,
+                        "altAd": 0,
+                        "mutPval": "2.08e-01"
+                    },
+                    {
+                        "variantId": "g.42128817_42128818insC",
+                        "rsId": "rs72549354",
+                        "txId": "1977_1978insG",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 156,
+                        "altAd": 0,
+                        "mutPval": "2.08e-01"
+                    },
+                    {
+                        "variantId": "g.42128815C>T",
+                        "rsId": "rs5030866",
+                        "txId": "1977G>A",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 156,
+                        "altAd": 0,
+                        "mutPval": "2.08e-01"
+                    },
+                    {
+                        "variantId": "g.42128848C>T",
+                        "rsId": "rs745365204",
+                        "txId": "1944G>A",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 156,
+                        "altAd": 0,
+                        "mutPval": "2.08e-01"
+                    },
+                    {
+                        "variantId": "g.42128903_42128904insTA",
+                        "rsId": null,
+                        "txId": "1888_1889insTA",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 156,
+                        "altAd": 0,
+                        "mutPval": "2.08e-01"
+                    },
+                    {
+                        "variantId": "g.42128936_42128937insGGGGCGAAAGGGGCGAAA",
+                        "rsId": "rs72549356",
+                        "txId": "1864_1865insTTTCGCCCCTTTCGCCCC",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 154,
+                        "altAd": 0,
+                        "mutPval": "2.13e-01"
+                    },
+                    {
+                        "variantId": "g.42128936_42128937insGGGGCGAAA",
+                        "rsId": "rs72549356",
+                        "txId": "1864_1865insTTTCGCCCC",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 154,
+                        "altAd": 0,
+                        "mutPval": "2.13e-01"
+                    },
+                    {
+                        "variantId": "g.42128933G>A",
+                        "rsId": "rs67780109",
+                        "txId": "1859C>T",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 156,
+                        "altAd": 0,
+                        "mutPval": "2.08e-01"
+                    },
+                    {
+                        "variantId": "g.42128945C>T",
+                        "rsId": "rs3892097",
+                        "txId": "1847G>A",
+                        "refPloidy": 1,
+                        "altPloidy": 1,
+                        "refAd": 77,
+                        "altAd": 77,
+                        "mutPval": "5.32e-01"
+                    },
+                    {
+                        "variantId": "g.42129033C>A",
+                        "rsId": "rs5030865",
+                        "txId": "1759G>T",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 142,
+                        "altAd": 0,
+                        "mutPval": "2.40e-01"
+                    },
+                    {
+                        "variantId": "g.42129033C>T",
+                        "rsId": "rs5030865",
+                        "txId": "1759G>A",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 142,
+                        "altAd": 0,
+                        "mutPval": "2.40e-01"
+                    },
+                    {
+                        "variantId": "g.42129042T>C",
+                        "rsId": "rs1135824",
+                        "txId": "1750A>G",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 142,
+                        "altAd": 0,
+                        "mutPval": "2.40e-01"
+                    },
+                    {
+                        "variantId": "g.42129056C>G",
+                        "rsId": null,
+                        "txId": "1736G>C",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 142,
+                        "altAd": 0,
+                        "mutPval": "2.40e-01"
+                    },
+                    {
+                        "variantId": "g.42129071T>A",
+                        "rsId": null,
+                        "txId": "1721A>T",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 142,
+                        "altAd": 0,
+                        "mutPval": "2.40e-01"
+                    },
+                    {
+                        "variantId": "g.42129071T>G",
+                        "rsId": "rs267608302",
+                        "txId": "1721A>C",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 142,
+                        "altAd": 0,
+                        "mutPval": "2.40e-01"
+                    },
+                    {
+                        "variantId": "g.42129075C>T",
+                        "rsId": "rs28371710",
+                        "txId": "1717G>A",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 142,
+                        "altAd": 0,
+                        "mutPval": "2.40e-01"
+                    },
+                    {
+                        "variantId": "g.42129084delA",
+                        "rsId": "rs5030655",
+                        "txId": "1708delT",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 142,
+                        "altAd": 0,
+                        "mutPval": "2.40e-01"
+                    },
+                    {
+                        "variantId": "g.42129087G>C",
+                        "rsId": "rs78482768",
+                        "txId": "1705C>G",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 142,
+                        "altAd": 0,
+                        "mutPval": "2.40e-01"
+                    },
+                    {
+                        "variantId": "g.42129098T>C",
+                        "rsId": "rs569229126",
+                        "txId": "1694A>G",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 142,
+                        "altAd": 0,
+                        "mutPval": "2.40e-01"
+                    },
+                    {
+                        "variantId": "g.42129113A>G",
+                        "rsId": "rs375135093",
+                        "txId": "1679T>C",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 142,
+                        "altAd": 0,
+                        "mutPval": "2.40e-01"
+                    },
+                    {
+                        "variantId": "g.42129132C>T",
+                        "rsId": "rs61736512",
+                        "txId": "1660G>A",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 146,
+                        "altAd": 0,
+                        "mutPval": "2.31e-01"
+                    },
+                    {
+                        "variantId": "g.42129174C>A",
+                        "rsId": "rs1135823",
+                        "txId": "1618G>T",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 146,
+                        "altAd": 0,
+                        "mutPval": "2.31e-01"
+                    },
+                    {
+                        "variantId": "g.42129180A>T",
+                        "rsId": "rs1135822",
+                        "txId": "1612T>A",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 146,
+                        "altAd": 0,
+                        "mutPval": "2.31e-01"
+                    },
+                    {
+                        "variantId": "g.42129183C>T",
+                        "rsId": "rs374616348",
+                        "txId": "1609G>A",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 146,
+                        "altAd": 0,
+                        "mutPval": "2.31e-01"
+                    },
+                    {
+                        "variantId": "g.42129759C>T",
+                        "rsId": "rs535642512",
+                        "txId": "1033G>A",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 146,
+                        "altAd": 0,
+                        "mutPval": "2.31e-01"
+                    },
+                    {
+                        "variantId": "g.42129770G>A",
+                        "rsId": "rs28371706",
+                        "txId": "1022C>T",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 146,
+                        "altAd": 0,
+                        "mutPval": "2.31e-01"
+                    },
+                    {
+                        "variantId": "g.42129779A>G",
+                        "rsId": "rs76187628",
+                        "txId": "1013T>C",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 146,
+                        "altAd": 0,
+                        "mutPval": "2.31e-01"
+                    },
+                    {
+                        "variantId": "g.42129780C>T",
+                        "rsId": "rs267608308",
+                        "txId": "1012G>A",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 146,
+                        "altAd": 0,
+                        "mutPval": "2.31e-01"
+                    },
+                    {
+                        "variantId": "g.42129809T>C",
+                        "rsId": "rs28371704",
+                        "txId": "983A>G",
+                        "refPloidy": 1,
+                        "altPloidy": 1,
+                        "refAd": 68,
+                        "altAd": 51,
+                        "mutPval": "7.11e-02"
+                    },
+                    {
+                        "variantId": "g.42129819G>T",
+                        "rsId": "rs28371703",
+                        "txId": "973C>A",
+                        "refPloidy": 1,
+                        "altPloidy": 1,
+                        "refAd": 67,
+                        "altAd": 50,
+                        "mutPval": "6.94e-02"
+                    },
+                    {
+                        "variantId": "g.42129821G>A",
+                        "rsId": "rs267608309",
+                        "txId": "971C>T",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 101,
+                        "altAd": 0,
+                        "mutPval": "3.62e-01"
+                    },
+                    {
+                        "variantId": "g.42129827C>G",
+                        "rsId": "rs267608276",
+                        "txId": "965G>C",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 101,
+                        "altAd": 0,
+                        "mutPval": "3.62e-01"
+                    },
+                    {
+                        "variantId": "g.42129836G>A",
+                        "rsId": "rs267608310",
+                        "txId": "956C>T",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 101,
+                        "altAd": 0,
+                        "mutPval": "3.62e-01"
+                    },
+                    {
+                        "variantId": "g.42129906G>A",
+                        "rsId": "rs267608311",
+                        "txId": "886C>T",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 101,
+                        "altAd": 0,
+                        "mutPval": "3.62e-01"
+                    },
+                    {
+                        "variantId": "g.42129910C>G",
+                        "rsId": "rs201377835",
+                        "txId": "882G>C",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 101,
+                        "altAd": 0,
+                        "mutPval": "3.62e-01"
+                    },
+                    {
+                        "variantId": "g.42130655_42130656insA",
+                        "rsId": "rs774671100",
+                        "txId": "137_138insT",
+                        "refPloidy": 3,
+                        "altPloidy": 0,
+                        "refAd": 156,
+                        "altAd": 0,
+                        "mutPval": "2.08e-01"
+                    },
+                    {
+                        "variantId": "g.42130667C>T",
+                        "rsId": "rs118203758",
+                        "txId": "125G>A",
+                        "refPloidy": 3,
+                        "altPloidy": 0,
+                        "refAd": 156,
+                        "altAd": 0,
+                        "mutPval": "2.08e-01"
+                    },
+                    {
+                        "variantId": "g.42130668C>T",
+                        "rsId": "rs5030862",
+                        "txId": "124G>A",
+                        "refPloidy": 3,
+                        "altPloidy": 0,
+                        "refAd": 156,
+                        "altAd": 0,
+                        "mutPval": "2.08e-01"
+                    },
+                    {
+                        "variantId": "g.42130692G>A",
+                        "rsId": "rs1065852",
+                        "txId": "100C>T",
+                        "refPloidy": 1,
+                        "altPloidy": 2,
+                        "refAd": 54,
+                        "altAd": 104,
+                        "mutPval": "4.40e-01"
+                    },
+                    {
+                        "variantId": "g.42130710G>A",
+                        "rsId": "rs138100349",
+                        "txId": "82C>T",
+                        "refPloidy": 3,
+                        "altPloidy": 0,
+                        "refAd": 93,
+                        "altAd": 0,
+                        "mutPval": "3.93e-01"
+                    },
+                    {
+                        "variantId": "g.42130715C>T",
+                        "rsId": "rs28371696",
+                        "txId": "77G>A",
+                        "refPloidy": 3,
+                        "altPloidy": 0,
+                        "refAd": 93,
+                        "altAd": 0,
+                        "mutPval": "3.93e-01"
+                    },
+                    {
+                        "variantId": "g.42130719G>A",
+                        "rsId": "rs267608313",
+                        "txId": "73C>T",
+                        "refPloidy": 3,
+                        "altPloidy": 0,
+                        "refAd": 93,
+                        "altAd": 0,
+                        "mutPval": "3.93e-01"
+                    },
+                    {
+                        "variantId": "g.42130761C>T",
+                        "rsId": "rs769258",
+                        "txId": "31G>A",
+                        "refPloidy": 3,
+                        "altPloidy": 0,
+                        "refAd": 93,
+                        "altAd": 0,
+                        "mutPval": "3.93e-01"
+                    },
+                    {
+                        "variantId": "g.42130773C>T",
+                        "rsId": "rs72549358",
+                        "txId": "19G>A",
+                        "refPloidy": 3,
+                        "altPloidy": 0,
+                        "refAd": 93,
+                        "altAd": 0,
+                        "mutPval": "3.93e-01"
+                    },
+                    {
+                        "variantId": "g.42130778G>A",
+                        "rsId": "rs773790593",
+                        "txId": "14C>T",
+                        "refPloidy": 3,
+                        "altPloidy": 0,
+                        "refAd": 93,
+                        "altAd": 0,
+                        "mutPval": "3.93e-01"
+                    },
+                    {
+                        "variantId": "g.42132375G>C",
+                        "rsId": "rs1080985",
+                        "txId": "-1584C>G",
+                        "refPloidy": null,
+                        "altPloidy": null,
+                        "refAd": 114,
+                        "altAd": 0,
+                        "mutPval": null
+                    }
+                ],
+                "novel": null
+            },
+            {
+                "gene": "CYP4F2",
+                "alleles": [
+                    "*1",
+                    "*1"
+                ],
+                "callQuality": 99,
+                "filter": [
+                    "PASS"
+                ],
+                "degenerate": false,
+                "degenerateAlleles": null,
+                "copyNumber": [
+                    {
+                        "exonId": "CYP4F2.e1",
+                        "callPloidy": 2,
+                        "maxLikelihoodPloidy": 2,
+                        "ploidyPval": "7.96e-02"
+                    },
+                    {
+                        "exonId": "CYP4F2.e2",
+                        "callPloidy": 2,
+                        "maxLikelihoodPloidy": 2,
+                        "ploidyPval": "9.44e-02"
+                    },
+                    {
+                        "exonId": "CYP4F2.e3",
+                        "callPloidy": 2,
+                        "maxLikelihoodPloidy": 2,
+                        "ploidyPval": "4.34e-01"
+                    },
+                    {
+                        "exonId": "CYP4F2.e4",
+                        "callPloidy": 2,
+                        "maxLikelihoodPloidy": 2,
+                        "ploidyPval": "4.51e-01"
+                    },
+                    {
+                        "exonId": "CYP4F2.e5",
+                        "callPloidy": 2,
+                        "maxLikelihoodPloidy": 2,
+                        "ploidyPval": "5.48e-02"
+                    },
+                    {
+                        "exonId": "CYP4F2.e6",
+                        "callPloidy": 2,
+                        "maxLikelihoodPloidy": 2,
+                        "ploidyPval": "1.71e-01"
+                    },
+                    {
+                        "exonId": "CYP4F2.e7",
+                        "callPloidy": 2,
+                        "maxLikelihoodPloidy": 2,
+                        "ploidyPval": "7.46e-02"
+                    },
+                    {
+                        "exonId": "CYP4F2.e8",
+                        "callPloidy": 2,
+                        "maxLikelihoodPloidy": 2,
+                        "ploidyPval": "1.85e-01"
+                    },
+                    {
+                        "exonId": "CYP4F2.e9",
+                        "callPloidy": 2,
+                        "maxLikelihoodPloidy": 2,
+                        "ploidyPval": "1.85e-01"
+                    },
+                    {
+                        "exonId": "CYP4F2.e10",
+                        "callPloidy": 2,
+                        "maxLikelihoodPloidy": 2,
+                        "ploidyPval": "4.26e-01"
+                    },
+                    {
+                        "exonId": "CYP4F2.e11",
+                        "callPloidy": 2,
+                        "maxLikelihoodPloidy": 2,
+                        "ploidyPval": "4.55e-01"
+                    },
+                    {
+                        "exonId": "CYP4F2.e12",
+                        "callPloidy": 2,
+                        "maxLikelihoodPloidy": 2,
+                        "ploidyPval": "4.34e-01"
+                    }
+                ],
+                "variants": [
+                    {
+                        "variantId": "g.15879621C>T",
+                        "rsId": "rs2108622",
+                        "txId": "17991G>A",
+                        "refPloidy": 2,
+                        "altPloidy": 0,
+                        "refAd": 81,
+                        "altAd": 0,
+                        "mutPval": "4.43e-01"
+                    }
+                ],
+                "novel": null
+            }
+        ],
+        "variantGenotypes": [
+            {
+                "gene": "VKORC1",
+                "genotypes": [
+                    {
+                        "rsId": "rs9923231",
+                        "genomicId": [
+                            "g.31096368C>A",
+                            "g.31096368C>G",
+                            "g.31096368C>T"
+                        ],
+                        "transcriptId": null,
+                        "genomicGenotype": [
+                            "C",
+                            "T"
+                        ],
+                        "transcriptGenotype": null,
+                        "filter": [
+                            "PASS"
+                        ],
+                        "genotypeQuality": 99,
+                        "genomicRefAd": 31,
+                        "genomicAltAd": [
+                            0,
+                            0,
+                            24
+                        ]
+                    }
+                ],
+                "filter": [
+                    "PASS"
+                ]
+            }
+        ]
+    }
+}

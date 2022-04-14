@@ -1,0 +1,2 @@
+rsid	genomic_id	transcript_id	genomic_genotype	transcript_genotype	filter	genotype_quality	genomic_ref_ad	genomic_alt_ad
+rs9923231	['g.31096368C>A', 'g.31096368C>G', 'g.31096368C>T']	None	['C', 'C']	None	['IMP']	None	None	None

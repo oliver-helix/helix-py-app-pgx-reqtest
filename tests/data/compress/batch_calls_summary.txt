@@ -1,0 +1,19 @@
+sample	allele_call	quality	filter	degenerate	low_yield	no_candidates	mle_ploidy	whole_gene
+NA12878-EV3-EXP29a-A08-1a-A04_194492330	('*3A', '*4A', '*68', 'null', 1, 1, 2)	43.0	PASS	False	False	False	[4, 3, 2, 1, 2, 2, 2, 4, 2, 2, 3, 3, 3, 3, 3, 4, 2, 3]	2h
+SR-5033-A01-EV3-EXP29a-B09-1a-B01_194442499	('*1A', '*4A', 'null', 'null', 1, 1, 2)	99	PASS	False	False	False	[2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]	2
+SR-5033-A12-EV3-EXP29a-D09-1a-D05_194476400	('*1B', '*2A', 'null', 'null', 1, 1, 2)	64.0	PASS	True	False	False	[2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]	2
+SR-5033-B04-EV3-EXP29a-B09-1a-B03_194397401	('*27', '*41', 'null', 'null', 1, 1, 2)	99	PASS	False	False	False	[2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]	2
+SR-5033-E11-EV3-EXP29a-A09-1a-A05_194489323	('*1B', '*2A', 'null', 'null', 1, 1, 2)	99	PASS	True	False	False	[2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]	2
+SR-5034-A02-EV3-EXP29a-C09-1a-C06_194448445	('*1A', '*4B', 'null', 'null', 1, 1, 2)	99	PASS	False	False	False	[2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]	2
+SR-5034-A12-EV3-EXP29a-D09-1a-D11_194418399	('*35A', '*41', 'null', 'null', 1, 1, 2)	99	PASS	False	False	False	[3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]	2
+SR-5037-A05-EV3-EXP29a-D02-1a-D04_198739547	None	None	LOWCOV	None	True	False	None	None
+SR-5042-C11-EV3-EXP29a-F08-1a-F01_194446449	('*5', '*10A', 'null', 'null', 1, 1, 2)	99	PASS	False	False	False	[1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2]	1
+SR-HG00421-EV3-EXP29a-B09-1a-B08_194494331	('*10A', '*2A', 'null', 'null', 2, 1, 2)	66.0	PASS	False	False	False	[4, 3, 3, 3, 3, 3, 3, 4, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2]	3
+SR-NA12892-EV3-EXP29a-G08-1a-G01_194416406	('*2A', '*3A', 'null', 'null', 1, 1, 2)	99	PASS	False	False	False	[2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]	2
+SR-NA18526-EV3-EXP29a-C09-1a-C05_194475391	('*10A', '*1B', '*36', '*36', 1, 1, 2)	99	PASS	False	False	False	[5, 5, 4, 4, 4, 4, 4, 4, 2, 2, 2, 2, 2, 2, 3, 2, 2, 4]	4h
+SR-NA18540-EV3-EXP29a-D09-1a-D12_194448428	('*10B', '*41', '*36', 'null', 2, 1, 2)	31.0	PASS	False	False	False	[5, 5, 4, 4, 5, 4, 5, 4, 3, 2, 2, 2, 2, 2, 2, 2, 3, 3]	4
+SR-NA18565-EV3-EXP29a-C09-1a-C07_194448432	('*5', '*10A', '*36', '*36', 1, 1, 2)	10.0	LOWQ	False	False	False	[4, 3, 3, 3, 3, 3, 4, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 4]	3
+SR-NA19238-EV3-EXP29a-H08-1a-H03_194489321	('*17', '*1B', 'null', 'null', 1, 1, 2)	99	PASS	False	False	False	[2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]	2
+SR-NA19239-EV3-EXP29a-C08-1a-C07_194480363	('*15', '*17', 'null', 'null', 1, 1, 2)	99	PASS	False	False	False	[2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]	2
+SR-NA19700-EV3-EXP29a-B08-1a-B08_194491322	('*29', '*4A', 'null', 'null', 1, 1, 2)	99	PASS	False	False	False	[2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2]	2
+SR-NA24217-EV3-EXP29a-B09-1a-B10_194410410	('*2A', '*41', 'null', 'null', 1, 3, 2)	99	PASS	False	False	False	[5, 4, 4, 4, 4, 4, 4, 4, 4, 2, 2, 2, 2, 2, 2, 2, 2, 2]	4

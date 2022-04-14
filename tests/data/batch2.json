@@ -1,0 +1,33 @@
+{
+    "Batch": {
+        "FlowcellId": "test_flowcell",
+        "BatchId": "batch2"
+    },
+    "Analyses": [
+        {
+            "SampleId": "CL-69-Plate_1-B01",
+            "AnalysisId": "AN-1",
+            "CompletionStatus": "Complete",
+            "AppSessionId": "133052682",
+            "Bam": {
+                "Path": "s3://helix-biofx-data-batch/helix-py-app-pgx/integration_test/CL-69-Plate_1-B01_133052682.cram"
+            },
+            "Bai": {
+                "Path": "s3://helix-biofx-data-batch/helix-py-app-pgx/integration_test/CL-69-Plate_1-B01_133052682.cram.crai"
+            },
+            "Bcf": {
+                "Path": "s3://helix-biofx-data-batch/helix-py-app-pgx/integration_test/CL-69-Plate_1-B01_133052682.bcf"
+            },
+            "BcfIndex": {
+                "Path": "s3://helix-biofx-data-batch/helix-py-app-pgx/integration_test/CL-69-Plate_1-B01_133052682.bcf.csi"
+            },
+            "SampleQc": {
+                "Path": "s3://helix-biofx-data-batch/helix-py-app-pgx/integration_test/CL-69-Plate_1-B01_133052682_qctable.txt"
+            },
+            "SampleQcTableByRegion": {
+                "Path": "s3://helix-biofx-data-batch/helix-py-app-pgx/integration_test/CL-69-Plate_1-B01_133052682_qctable-by-region.txt"
+            },
+            "AssayVersion": "v2"
+        }
+    ]
+}

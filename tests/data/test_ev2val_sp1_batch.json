@@ -1,0 +1,1708 @@
+{
+    "Analyses": [
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/932671f322d14e1f8817a9880188cc1b/QC/NA12878-CL-01-Plate_1-A03_qctable-by-region_6641635.132964731_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964750&response-content-disposition=filename%3DNA12878-CL-01-Plate_1-A03_qctable-by-region_6641635.132964731_helix.txt&response-content-type=text%2Fplain&Signature=%2FQv%2FVRqbsHuQd0LlJdgjYkx5cJg%3D"
+            },
+            "AppSessionId": "132964731",
+            "AnalysisId": "AN-1",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/932671f322d14e1f8817a9880188cc1b/BAM/NA12878-CL-01-Plate_1-A03_6641635.132964731_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964750&response-content-disposition=filename%3DNA12878-CL-01-Plate_1-A03_6641635.132964731_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=N4%2FMsX7F0trixdaxkwLoZtfqLg0%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/932671f322d14e1f8817a9880188cc1b/QC/NA12878-CL-01-Plate_1-A03_qctable_6641635.132964731_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964750&response-content-disposition=filename%3DNA12878-CL-01-Plate_1-A03_qctable_6641635.132964731_helix.txt&response-content-type=text%2Fplain&Signature=uF6GWk%2BgvDPk2q2OqXp3xCqhR7s%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/932671f322d14e1f8817a9880188cc1b/BAM/NA12878-CL-01-Plate_1-A03_6641635.132964731_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964750&response-content-disposition=filename%3DNA12878-CL-01-Plate_1-A03_6641635.132964731_helix.cram&response-content-type=application%2Foctet-stream&Signature=GT8mmeTtxQTT4aUeuDFWuZmS5xQ%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "NA12878-CL-01-Plate_1-A03"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/512f280840be475b9beea98900359061/QC/SA-17-Plate_1-A04_qctable-by-region_6641635.133645816_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964750&response-content-disposition=filename%3DSA-17-Plate_1-A04_qctable-by-region_6641635.133645816_helix.txt&response-content-type=text%2Fplain&Signature=Tm05p5BpZjP3Ng1YpsvaWgb%2BV3k%3D"
+            },
+            "AppSessionId": "133645816",
+            "AnalysisId": "AN-2",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/512f280840be475b9beea98900359061/BAM/SA-17-Plate_1-A04_6641635.133645816_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964750&response-content-disposition=filename%3DSA-17-Plate_1-A04_6641635.133645816_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=rso%2BQXPWeKaqu1NuzS9XLCzwrM4%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/512f280840be475b9beea98900359061/QC/SA-17-Plate_1-A04_qctable_6641635.133645816_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964750&response-content-disposition=filename%3DSA-17-Plate_1-A04_qctable_6641635.133645816_helix.txt&response-content-type=text%2Fplain&Signature=Jm1HYx1pbP8%2BdmI6%2B5DkOkZDFSI%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/512f280840be475b9beea98900359061/BAM/SA-17-Plate_1-A04_6641635.133645816_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964750&response-content-disposition=filename%3DSA-17-Plate_1-A04_6641635.133645816_helix.cram&response-content-type=application%2Foctet-stream&Signature=8CdICsTRTeyeKv4GSzZ9%2BTmLEr4%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "SA-17-Plate_1-A04"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/b24cea9ff03d41dc9bfba989004f8982/QC/SA-55-Plate_1-C02_qctable-by-region_6641635.133615932_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964751&response-content-disposition=filename%3DSA-55-Plate_1-C02_qctable-by-region_6641635.133615932_helix.txt&response-content-type=text%2Fplain&Signature=lt%2Fuv5tIhL0HPWdX44TGaNPRYPg%3D"
+            },
+            "AppSessionId": "133615932",
+            "AnalysisId": "AN-3",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/b24cea9ff03d41dc9bfba989004f8982/BAM/SA-55-Plate_1-C02_6641635.133615932_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964751&response-content-disposition=filename%3DSA-55-Plate_1-C02_6641635.133615932_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=%2FmNMVlR3eLORGBAjFobizJc61FI%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/b24cea9ff03d41dc9bfba989004f8982/QC/SA-55-Plate_1-C02_qctable_6641635.133615932_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964751&response-content-disposition=filename%3DSA-55-Plate_1-C02_qctable_6641635.133615932_helix.txt&response-content-type=text%2Fplain&Signature=ylj0inCgzr6oanka5III1FdOnfE%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/b24cea9ff03d41dc9bfba989004f8982/BAM/SA-55-Plate_1-C02_6641635.133615932_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964751&response-content-disposition=filename%3DSA-55-Plate_1-C02_6641635.133615932_helix.cram&response-content-type=application%2Foctet-stream&Signature=S%2FG4APfuxIsYSDU6i0Rxhs6ZxX0%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "SA-55-Plate_1-C02"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/5feab73b78854080903fa989000e7d08/QC/SA-18-Plate_1-B12_qctable-by-region_6641635.132964737_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964751&response-content-disposition=filename%3DSA-18-Plate_1-B12_qctable-by-region_6641635.132964737_helix.txt&response-content-type=text%2Fplain&Signature=fCouM9rBmHdRUjsykgoYWU9ye%2Fk%3D"
+            },
+            "AppSessionId": "132964737",
+            "AnalysisId": "AN-4",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/5feab73b78854080903fa989000e7d08/BAM/SA-18-Plate_1-B12_6641635.132964737_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964751&response-content-disposition=filename%3DSA-18-Plate_1-B12_6641635.132964737_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=OOYH1GJacXUAvuAA5gOyedoPbMk%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/5feab73b78854080903fa989000e7d08/QC/SA-18-Plate_1-B12_qctable_6641635.132964737_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964751&response-content-disposition=filename%3DSA-18-Plate_1-B12_qctable_6641635.132964737_helix.txt&response-content-type=text%2Fplain&Signature=u18udyjAs6PPKUWP8X4hqaXbgVE%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/5feab73b78854080903fa989000e7d08/BAM/SA-18-Plate_1-B12_6641635.132964737_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964751&response-content-disposition=filename%3DSA-18-Plate_1-B12_6641635.132964737_helix.cram&response-content-type=application%2Foctet-stream&Signature=8BnizAFFMUmOkksKgLU0CHHfxGM%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "SA-18-Plate_1-B12"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/7519e669e11f4ccd88b9a9890066a708/QC/SA-10-Plate_1-B11_qctable-by-region_6641635.133615914_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964752&response-content-disposition=filename%3DSA-10-Plate_1-B11_qctable-by-region_6641635.133615914_helix.txt&response-content-type=text%2Fplain&Signature=h333NV7qlUW0jd8MIpugfJ22qQk%3D"
+            },
+            "AppSessionId": "133615914",
+            "AnalysisId": "AN-5",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/7519e669e11f4ccd88b9a9890066a708/BAM/SA-10-Plate_1-B11_6641635.133615914_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964752&response-content-disposition=filename%3DSA-10-Plate_1-B11_6641635.133615914_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=iyQdVgUY8rIdOT%2Fvv016P6%2Fheqc%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/7519e669e11f4ccd88b9a9890066a708/QC/SA-10-Plate_1-B11_qctable_6641635.133615914_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964752&response-content-disposition=filename%3DSA-10-Plate_1-B11_qctable_6641635.133615914_helix.txt&response-content-type=text%2Fplain&Signature=rHKiXTrGHNw6pqhgfDJ%2BGx9gW1E%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/7519e669e11f4ccd88b9a9890066a708/BAM/SA-10-Plate_1-B11_6641635.133615914_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964752&response-content-disposition=filename%3DSA-10-Plate_1-B11_6641635.133615914_helix.cram&response-content-type=application%2Foctet-stream&Signature=n%2FPnBYmebXxx9gcemgaUTMDr44M%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "SA-10-Plate_1-B11"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/6a2027339f1d4fb68225a98900139e3d/QC/SA-17-Plate_1-A12_qctable-by-region_6641635.133034844_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964752&response-content-disposition=filename%3DSA-17-Plate_1-A12_qctable-by-region_6641635.133034844_helix.txt&response-content-type=text%2Fplain&Signature=kdgHezt8b81GRyo1sQlqjHeJbjU%3D"
+            },
+            "AppSessionId": "133034844",
+            "AnalysisId": "AN-6",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/6a2027339f1d4fb68225a98900139e3d/BAM/SA-17-Plate_1-A12_6641635.133034844_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964752&response-content-disposition=filename%3DSA-17-Plate_1-A12_6641635.133034844_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=yu5w5jCWJEaN2yYX7Y%2FzGYuXY%2FQ%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/6a2027339f1d4fb68225a98900139e3d/QC/SA-17-Plate_1-A12_qctable_6641635.133034844_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964752&response-content-disposition=filename%3DSA-17-Plate_1-A12_qctable_6641635.133034844_helix.txt&response-content-type=text%2Fplain&Signature=BHeQw88%2Bc0jW6FQCvzfxi6IdVTs%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/6a2027339f1d4fb68225a98900139e3d/BAM/SA-17-Plate_1-A12_6641635.133034844_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964752&response-content-disposition=filename%3DSA-17-Plate_1-A12_6641635.133034844_helix.cram&response-content-type=application%2Foctet-stream&Signature=tdcpCk2TInszPDfKgfxzyVgXiC4%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "SA-17-Plate_1-A12"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/06099d68d1ec4998bccaa9890052eece/QC/SA-02-Plate_1-B10_qctable-by-region_6641635.133615918_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964753&response-content-disposition=filename%3DSA-02-Plate_1-B10_qctable-by-region_6641635.133615918_helix.txt&response-content-type=text%2Fplain&Signature=LFLiEH14dbVQFUxdDZIA%2BtJUVTc%3D"
+            },
+            "AppSessionId": "133615918",
+            "AnalysisId": "AN-7",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/06099d68d1ec4998bccaa9890052eece/BAM/SA-02-Plate_1-B10_6641635.133615918_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964753&response-content-disposition=filename%3DSA-02-Plate_1-B10_6641635.133615918_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=b5v1DtBLJsW8gdC1AtdAF8PyY%2Bo%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/06099d68d1ec4998bccaa9890052eece/QC/SA-02-Plate_1-B10_qctable_6641635.133615918_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964753&response-content-disposition=filename%3DSA-02-Plate_1-B10_qctable_6641635.133615918_helix.txt&response-content-type=text%2Fplain&Signature=xLnI%2BJMt%2BRj5P%2Fe%2BiQvRITZF54k%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/06099d68d1ec4998bccaa9890052eece/BAM/SA-02-Plate_1-B10_6641635.133615918_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964753&response-content-disposition=filename%3DSA-02-Plate_1-B10_6641635.133615918_helix.cram&response-content-type=application%2Foctet-stream&Signature=BZBQyzF%2BtdMuO3zdg2JAYSEWtkM%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "SA-02-Plate_1-B10"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/b8ee245bf2284793b728a98900363239/QC/SA-01-Plate_1-A10_qctable-by-region_6641635.133376867_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964753&response-content-disposition=filename%3DSA-01-Plate_1-A10_qctable-by-region_6641635.133376867_helix.txt&response-content-type=text%2Fplain&Signature=fkDAkEN8DlHYr4zpYlz9iSdnbb0%3D"
+            },
+            "AppSessionId": "133376867",
+            "AnalysisId": "AN-8",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/b8ee245bf2284793b728a98900363239/BAM/SA-01-Plate_1-A10_6641635.133376867_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964753&response-content-disposition=filename%3DSA-01-Plate_1-A10_6641635.133376867_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=Nc4eS9eeQO7UT3P7ttOLr1qZ638%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/b8ee245bf2284793b728a98900363239/QC/SA-01-Plate_1-A10_qctable_6641635.133376867_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964754&response-content-disposition=filename%3DSA-01-Plate_1-A10_qctable_6641635.133376867_helix.txt&response-content-type=text%2Fplain&Signature=wh9D2HfiOLOUNX%2BlvJiIV%2BScXok%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/b8ee245bf2284793b728a98900363239/BAM/SA-01-Plate_1-A10_6641635.133376867_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964753&response-content-disposition=filename%3DSA-01-Plate_1-A10_6641635.133376867_helix.cram&response-content-type=application%2Foctet-stream&Signature=H%2FG1ZOjapIg0befPfNCZMDViu4o%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "SA-01-Plate_1-A10"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/ea4b605874874955af9aa9890028d483/QC/SA-53-Plate_1-F02_qctable-by-region_6641635.133376859_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964754&response-content-disposition=filename%3DSA-53-Plate_1-F02_qctable-by-region_6641635.133376859_helix.txt&response-content-type=text%2Fplain&Signature=M9oBcZR8T43ItwE9aAicVeVOboQ%3D"
+            },
+            "AppSessionId": "133376859",
+            "AnalysisId": "AN-9",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/ea4b605874874955af9aa9890028d483/BAM/SA-53-Plate_1-F02_6641635.133376859_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964754&response-content-disposition=filename%3DSA-53-Plate_1-F02_6641635.133376859_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=fC63nmYN4eGrh80HB6z4f%2FlISe0%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/ea4b605874874955af9aa9890028d483/QC/SA-53-Plate_1-F02_qctable_6641635.133376859_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964754&response-content-disposition=filename%3DSA-53-Plate_1-F02_qctable_6641635.133376859_helix.txt&response-content-type=text%2Fplain&Signature=Ivc25W9H7UxHjDfllcQcHOpPerA%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/ea4b605874874955af9aa9890028d483/BAM/SA-53-Plate_1-F02_6641635.133376859_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964754&response-content-disposition=filename%3DSA-53-Plate_1-F02_6641635.133376859_helix.cram&response-content-type=application%2Foctet-stream&Signature=6R3onZbVmFLNGWrj3Kt611cF68Y%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "SA-53-Plate_1-F02"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/6dfc7195a7f04967b970a989005725e9/QC/SA-60-Plate_1-C03_qctable-by-region_6641635.133052688_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964755&response-content-disposition=filename%3DSA-60-Plate_1-C03_qctable-by-region_6641635.133052688_helix.txt&response-content-type=text%2Fplain&Signature=yirXknF%2Bx0uARw9rSv53UwEvErI%3D"
+            },
+            "AppSessionId": "133052688",
+            "AnalysisId": "AN-10",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/6dfc7195a7f04967b970a989005725e9/BAM/SA-60-Plate_1-C03_6641635.133052688_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964755&response-content-disposition=filename%3DSA-60-Plate_1-C03_6641635.133052688_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=peWr%2FiQGmWSmSswwnjvITh7p5SY%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/6dfc7195a7f04967b970a989005725e9/QC/SA-60-Plate_1-C03_qctable_6641635.133052688_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964755&response-content-disposition=filename%3DSA-60-Plate_1-C03_qctable_6641635.133052688_helix.txt&response-content-type=text%2Fplain&Signature=W5I%2FG8fRYjT0aBx1JHIrNIaIqU0%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/6dfc7195a7f04967b970a989005725e9/BAM/SA-60-Plate_1-C03_6641635.133052688_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964755&response-content-disposition=filename%3DSA-60-Plate_1-C03_6641635.133052688_helix.cram&response-content-type=application%2Foctet-stream&Signature=wL%2BMsLuw6WNYP7kolCGwahU2LIk%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "SA-60-Plate_1-C03"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/c617d5bf037c44d09fbba98900140deb/QC/SA-54-Plate_1-B02_qctable-by-region_6641635.133615911_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964755&response-content-disposition=filename%3DSA-54-Plate_1-B02_qctable-by-region_6641635.133615911_helix.txt&response-content-type=text%2Fplain&Signature=HJrnZ1TxLWwFlSzDRyAd94fMt%2FY%3D"
+            },
+            "AppSessionId": "133615911",
+            "AnalysisId": "AN-11",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/c617d5bf037c44d09fbba98900140deb/BAM/SA-54-Plate_1-B02_6641635.133615911_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964755&response-content-disposition=filename%3DSA-54-Plate_1-B02_6641635.133615911_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=w1lNgW%2FQ%2B%2BjbCoaIR6i3Ymvantc%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/c617d5bf037c44d09fbba98900140deb/QC/SA-54-Plate_1-B02_qctable_6641635.133615911_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964755&response-content-disposition=filename%3DSA-54-Plate_1-B02_qctable_6641635.133615911_helix.txt&response-content-type=text%2Fplain&Signature=zwhpHQWe1OpdKALHBbKnPS5GOBs%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/c617d5bf037c44d09fbba98900140deb/BAM/SA-54-Plate_1-B02_6641635.133615911_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964755&response-content-disposition=filename%3DSA-54-Plate_1-B02_6641635.133615911_helix.cram&response-content-type=application%2Foctet-stream&Signature=weS%2F2%2BlRDaRkJxhraQh2c7cAF2Q%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "SA-54-Plate_1-B02"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/8da87e826b6044929120a9890034b00c/QC/SA-20-Plate_1-D12_qctable-by-region_6641635.133615935_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964756&response-content-disposition=filename%3DSA-20-Plate_1-D12_qctable-by-region_6641635.133615935_helix.txt&response-content-type=text%2Fplain&Signature=XeZzGi3xrCm0c%2BVD8Eg%2B92r3UCk%3D"
+            },
+            "AppSessionId": "133615935",
+            "AnalysisId": "AN-12",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/8da87e826b6044929120a9890034b00c/BAM/SA-20-Plate_1-D12_6641635.133615935_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964756&response-content-disposition=filename%3DSA-20-Plate_1-D12_6641635.133615935_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=iqbW%2FBbgwlnNCn1JDRT%2BICmcV%2Bg%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/8da87e826b6044929120a9890034b00c/QC/SA-20-Plate_1-D12_qctable_6641635.133615935_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964756&response-content-disposition=filename%3DSA-20-Plate_1-D12_qctable_6641635.133615935_helix.txt&response-content-type=text%2Fplain&Signature=n9F2%2BOum%2By9h1PeEl2niJrHOktk%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/8da87e826b6044929120a9890034b00c/BAM/SA-20-Plate_1-D12_6641635.133615935_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964756&response-content-disposition=filename%3DSA-20-Plate_1-D12_6641635.133615935_helix.cram&response-content-type=application%2Foctet-stream&Signature=ftIyxTAGhpPeqeMlWfcBIMPem2A%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "SA-20-Plate_1-D12"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/db94a3611c2a4708989ea98900626d9a/QC/SA-19-Plate_1-C04_qctable-by-region_6641635.133376868_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964756&response-content-disposition=filename%3DSA-19-Plate_1-C04_qctable-by-region_6641635.133376868_helix.txt&response-content-type=text%2Fplain&Signature=rbW4XCe4Yr2r7uJzjenJQ3tctnw%3D"
+            },
+            "AppSessionId": "133376868",
+            "AnalysisId": "AN-13",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/db94a3611c2a4708989ea98900626d9a/BAM/SA-19-Plate_1-C04_6641635.133376868_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964756&response-content-disposition=filename%3DSA-19-Plate_1-C04_6641635.133376868_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=BmdNCQ519haoxxR1piMtFoDga%2Bw%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/db94a3611c2a4708989ea98900626d9a/QC/SA-19-Plate_1-C04_qctable_6641635.133376868_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964756&response-content-disposition=filename%3DSA-19-Plate_1-C04_qctable_6641635.133376868_helix.txt&response-content-type=text%2Fplain&Signature=FaejnQnpZd4QqeYLkUOW7W3eWWY%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/db94a3611c2a4708989ea98900626d9a/BAM/SA-19-Plate_1-C04_6641635.133376868_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964756&response-content-disposition=filename%3DSA-19-Plate_1-C04_6641635.133376868_helix.cram&response-content-type=application%2Foctet-stream&Signature=6HBpAr7Vy8zl%2FRKOXKtpelmGWxc%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "SA-19-Plate_1-C04"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/0865359ce9f44b3d82b1a98900551a6f/QC/SA-03-Plate_1-C10_qctable-by-region_6641635.132799619_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964757&response-content-disposition=filename%3DSA-03-Plate_1-C10_qctable-by-region_6641635.132799619_helix.txt&response-content-type=text%2Fplain&Signature=lre%2Fx441yx2eIwGENcIdoC%2FeF60%3D"
+            },
+            "AppSessionId": "132799619",
+            "AnalysisId": "AN-14",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/0865359ce9f44b3d82b1a98900551a6f/BAM/SA-03-Plate_1-C10_6641635.132799619_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964757&response-content-disposition=filename%3DSA-03-Plate_1-C10_6641635.132799619_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=XBHbhy7w9lz4LigPpx6sAQvoT%2F8%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/0865359ce9f44b3d82b1a98900551a6f/QC/SA-03-Plate_1-C10_qctable_6641635.132799619_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964757&response-content-disposition=filename%3DSA-03-Plate_1-C10_qctable_6641635.132799619_helix.txt&response-content-type=text%2Fplain&Signature=kNXKhZ%2FUe%2BPEL6joS7EfvRgXI%2Bo%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/0865359ce9f44b3d82b1a98900551a6f/BAM/SA-03-Plate_1-C10_6641635.132799619_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964757&response-content-disposition=filename%3DSA-03-Plate_1-C10_6641635.132799619_helix.cram&response-content-type=application%2Foctet-stream&Signature=e8e8wnexUdl5bnI3JRCxtxpMiZg%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "SA-03-Plate_1-C10"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/930f31a49ebf4cfe9198a9890014c5a3/QC/SA-18-Plate_1-B05_qctable-by-region_6641635.133615931_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964757&response-content-disposition=filename%3DSA-18-Plate_1-B05_qctable-by-region_6641635.133615931_helix.txt&response-content-type=text%2Fplain&Signature=aACO3%2B0OcK1%2BkaIGGcJYZZHO5wY%3D"
+            },
+            "AppSessionId": "133615931",
+            "AnalysisId": "AN-15",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/930f31a49ebf4cfe9198a9890014c5a3/BAM/SA-18-Plate_1-B05_6641635.133615931_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964757&response-content-disposition=filename%3DSA-18-Plate_1-B05_6641635.133615931_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=d6oJPnSfxz9u5jmoKwcH%2F38vVVk%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/930f31a49ebf4cfe9198a9890014c5a3/QC/SA-18-Plate_1-B05_qctable_6641635.133615931_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964757&response-content-disposition=filename%3DSA-18-Plate_1-B05_qctable_6641635.133615931_helix.txt&response-content-type=text%2Fplain&Signature=gdl45QTo2e57IKl93LOw9DQZwig%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/930f31a49ebf4cfe9198a9890014c5a3/BAM/SA-18-Plate_1-B05_6641635.133615931_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964757&response-content-disposition=filename%3DSA-18-Plate_1-B05_6641635.133615931_helix.cram&response-content-type=application%2Foctet-stream&Signature=v4niYtION1cPA1h4pgivrQY%2BDEM%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "SA-18-Plate_1-B05"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/56be4713af3f48a18e1fa989000ef37c/QC/SA-18-Plate_1-B04_qctable-by-region_6641635.133052685_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964758&response-content-disposition=filename%3DSA-18-Plate_1-B04_qctable-by-region_6641635.133052685_helix.txt&response-content-type=text%2Fplain&Signature=LOTj%2BiTU3FvjWE5XfmbkOr%2FIHuI%3D"
+            },
+            "AppSessionId": "133052685",
+            "AnalysisId": "AN-16",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/56be4713af3f48a18e1fa989000ef37c/BAM/SA-18-Plate_1-B04_6641635.133052685_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964758&response-content-disposition=filename%3DSA-18-Plate_1-B04_6641635.133052685_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=hhN4w3zaHhDZgBFwjbKP4lZakvM%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/56be4713af3f48a18e1fa989000ef37c/QC/SA-18-Plate_1-B04_qctable_6641635.133052685_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964758&response-content-disposition=filename%3DSA-18-Plate_1-B04_qctable_6641635.133052685_helix.txt&response-content-type=text%2Fplain&Signature=NdoLro5L1aWYqRb8%2FG1fF0MBRbE%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/56be4713af3f48a18e1fa989000ef37c/BAM/SA-18-Plate_1-B04_6641635.133052685_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964757&response-content-disposition=filename%3DSA-18-Plate_1-B04_6641635.133052685_helix.cram&response-content-type=application%2Foctet-stream&Signature=ujST89IhSTB3PgTboxr%2Fzuf1fuE%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "SA-18-Plate_1-B04"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/9b59221319da450eb2dca98900292930/QC/SA-57-Plate_1-E02_qctable-by-region_6641635.133683783_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964758&response-content-disposition=filename%3DSA-57-Plate_1-E02_qctable-by-region_6641635.133683783_helix.txt&response-content-type=text%2Fplain&Signature=wiNnA3sAPje%2Bj9nuUL%2FMSV9lTa0%3D"
+            },
+            "AppSessionId": "133683783",
+            "AnalysisId": "AN-17",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/9b59221319da450eb2dca98900292930/BAM/SA-57-Plate_1-E02_6641635.133683783_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964758&response-content-disposition=filename%3DSA-57-Plate_1-E02_6641635.133683783_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=lV4o%2FwkdU0rGphBrVfGACCMA0PA%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/9b59221319da450eb2dca98900292930/QC/SA-57-Plate_1-E02_qctable_6641635.133683783_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964758&response-content-disposition=filename%3DSA-57-Plate_1-E02_qctable_6641635.133683783_helix.txt&response-content-type=text%2Fplain&Signature=pkSMBS30XeWbJxjUD02VfRKtCX8%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/9b59221319da450eb2dca98900292930/BAM/SA-57-Plate_1-E02_6641635.133683783_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964758&response-content-disposition=filename%3DSA-57-Plate_1-E02_6641635.133683783_helix.cram&response-content-type=application%2Foctet-stream&Signature=E5c9YmlCZRYOYD6o%2B6azBdpew%2Fs%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "SA-57-Plate_1-E02"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/dc0e05445cd64de9a209a9890011ec54/QC/CL-69-Plate_1-B01_qctable-by-region_6641635.133052682_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964759&response-content-disposition=filename%3DCL-69-Plate_1-B01_qctable-by-region_6641635.133052682_helix.txt&response-content-type=text%2Fplain&Signature=D7LeyAAk0ncMXUBVYVPXjuNjaP8%3D"
+            },
+            "AppSessionId": "133052682",
+            "AnalysisId": "AN-18",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/dc0e05445cd64de9a209a9890011ec54/BAM/CL-69-Plate_1-B01_6641635.133052682_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964759&response-content-disposition=filename%3DCL-69-Plate_1-B01_6641635.133052682_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=Dr1KnPBWn9Z2otNrkmrCtRoinj0%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/dc0e05445cd64de9a209a9890011ec54/QC/CL-69-Plate_1-B01_qctable_6641635.133052682_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964759&response-content-disposition=filename%3DCL-69-Plate_1-B01_qctable_6641635.133052682_helix.txt&response-content-type=text%2Fplain&Signature=k1sSEqxVd5yEw2hX3oZYfXIF%2FbQ%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/dc0e05445cd64de9a209a9890011ec54/BAM/CL-69-Plate_1-B01_6641635.133052682_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964759&response-content-disposition=filename%3DCL-69-Plate_1-B01_6641635.133052682_helix.cram&response-content-type=application%2Foctet-stream&Signature=joTN3FXpc%2Bd3pKDWMJjgc2XtGGY%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "CL-69-Plate_1-B01"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/6938dcea6ec9447797cba9890039ddd0/QC/SA-61-Plate_1-D03_qctable-by-region_6641635.132964762_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964759&response-content-disposition=filename%3DSA-61-Plate_1-D03_qctable-by-region_6641635.132964762_helix.txt&response-content-type=text%2Fplain&Signature=avtP19yS8OIa1VHAjrEL%2B%2Frwyqc%3D"
+            },
+            "AppSessionId": "132964762",
+            "AnalysisId": "AN-19",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/6938dcea6ec9447797cba9890039ddd0/BAM/SA-61-Plate_1-D03_6641635.132964762_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964759&response-content-disposition=filename%3DSA-61-Plate_1-D03_6641635.132964762_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=xXHba30zSo%2BUdsif7PVfqcPXpKA%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/6938dcea6ec9447797cba9890039ddd0/QC/SA-61-Plate_1-D03_qctable_6641635.132964762_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964759&response-content-disposition=filename%3DSA-61-Plate_1-D03_qctable_6641635.132964762_helix.txt&response-content-type=text%2Fplain&Signature=8ymiPB04B8WCUbD4vzNIckf%2BUWY%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/6938dcea6ec9447797cba9890039ddd0/BAM/SA-61-Plate_1-D03_6641635.132964762_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964759&response-content-disposition=filename%3DSA-61-Plate_1-D03_6641635.132964762_helix.cram&response-content-type=application%2Foctet-stream&Signature=AfWgaAk09CsKfZqjx4%2FTvBlOF04%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "SA-61-Plate_1-D03"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/9df370fa4bfd425fb951a989004aead6/QC/CL-42-Plate_1-B09_qctable-by-region_6641635.132964735_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964760&response-content-disposition=filename%3DCL-42-Plate_1-B09_qctable-by-region_6641635.132964735_helix.txt&response-content-type=text%2Fplain&Signature=56WS77yDTFWGK4Pe%2FEFFlkxTR7Y%3D"
+            },
+            "AppSessionId": "132964735",
+            "AnalysisId": "AN-20",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/9df370fa4bfd425fb951a989004aead6/BAM/CL-42-Plate_1-B09_6641635.132964735_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964760&response-content-disposition=filename%3DCL-42-Plate_1-B09_6641635.132964735_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=gGFtjaFJBgrMBr2cQB7pByV%2FJU0%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/9df370fa4bfd425fb951a989004aead6/QC/CL-42-Plate_1-B09_qctable_6641635.132964735_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964760&response-content-disposition=filename%3DCL-42-Plate_1-B09_qctable_6641635.132964735_helix.txt&response-content-type=text%2Fplain&Signature=jrfdOE2ZPxBN11pzQZ8CU2%2FdpyY%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/9df370fa4bfd425fb951a989004aead6/BAM/CL-42-Plate_1-B09_6641635.132964735_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964760&response-content-disposition=filename%3DCL-42-Plate_1-B09_6641635.132964735_helix.cram&response-content-type=application%2Foctet-stream&Signature=vUfMP1ss4NtqX5Oco677xFs8wRE%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "CL-42-Plate_1-B09"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/e8bbbaaf86d44c64a8faa98900670ca6/QC/SA-56-Plate_1-D02_qctable-by-region_6641635.133052706_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964760&response-content-disposition=filename%3DSA-56-Plate_1-D02_qctable-by-region_6641635.133052706_helix.txt&response-content-type=text%2Fplain&Signature=bzXVm%2FnrxqgBcedFsKUoEq7tdkE%3D"
+            },
+            "AppSessionId": "133052706",
+            "AnalysisId": "AN-21",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/e8bbbaaf86d44c64a8faa98900670ca6/BAM/SA-56-Plate_1-D02_6641635.133052706_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964760&response-content-disposition=filename%3DSA-56-Plate_1-D02_6641635.133052706_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=b1OrymMPXbavo5iYQ9e87OsUl1A%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/e8bbbaaf86d44c64a8faa98900670ca6/QC/SA-56-Plate_1-D02_qctable_6641635.133052706_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964761&response-content-disposition=filename%3DSA-56-Plate_1-D02_qctable_6641635.133052706_helix.txt&response-content-type=text%2Fplain&Signature=Hbj4l1PXYbpw29XWmWPVlqT9jvQ%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/e8bbbaaf86d44c64a8faa98900670ca6/BAM/SA-56-Plate_1-D02_6641635.133052706_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964760&response-content-disposition=filename%3DSA-56-Plate_1-D02_6641635.133052706_helix.cram&response-content-type=application%2Foctet-stream&Signature=A5EFv0et2uMp7NYi3uG4oMuirLU%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "SA-56-Plate_1-D02"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/09bd608389b94f8da40ea98900683c1f/QC/SA-09-Plate_1-A11_qctable-by-region_6641635.133052697_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964761&response-content-disposition=filename%3DSA-09-Plate_1-A11_qctable-by-region_6641635.133052697_helix.txt&response-content-type=text%2Fplain&Signature=LUylooHOE8UwBQU0bPIUqoBQM0c%3D"
+            },
+            "AppSessionId": "133052697",
+            "AnalysisId": "AN-22",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/09bd608389b94f8da40ea98900683c1f/BAM/SA-09-Plate_1-A11_6641635.133052697_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964761&response-content-disposition=filename%3DSA-09-Plate_1-A11_6641635.133052697_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=UvUBH6mi1Sq1AYL8ObJeEak20%2FQ%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/09bd608389b94f8da40ea98900683c1f/QC/SA-09-Plate_1-A11_qctable_6641635.133052697_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964761&response-content-disposition=filename%3DSA-09-Plate_1-A11_qctable_6641635.133052697_helix.txt&response-content-type=text%2Fplain&Signature=nNbTmpBaA8LANDe99eeGhIYFDws%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/09bd608389b94f8da40ea98900683c1f/BAM/SA-09-Plate_1-A11_6641635.133052697_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964761&response-content-disposition=filename%3DSA-09-Plate_1-A11_6641635.133052697_helix.cram&response-content-type=application%2Foctet-stream&Signature=EpMAb3ZqC5mGb%2Fp17thashy3sbA%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "SA-09-Plate_1-A11"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/0d0c1613fcfc482c8630a9880186a9c3/QC/CL-13-Plate_1-E06_qctable-by-region_6641635.132632476_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964761&response-content-disposition=filename%3DCL-13-Plate_1-E06_qctable-by-region_6641635.132632476_helix.txt&response-content-type=text%2Fplain&Signature=RFvwUnJnPA8yN1K4cdsIAGunX8M%3D"
+            },
+            "AppSessionId": "132632476",
+            "AnalysisId": "AN-23",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/0d0c1613fcfc482c8630a9880186a9c3/BAM/CL-13-Plate_1-E06_6641635.132632476_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964761&response-content-disposition=filename%3DCL-13-Plate_1-E06_6641635.132632476_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=rJonr0Do6A7Vt2jxVObPw%2BAz00I%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/0d0c1613fcfc482c8630a9880186a9c3/QC/CL-13-Plate_1-E06_qctable_6641635.132632476_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964762&response-content-disposition=filename%3DCL-13-Plate_1-E06_qctable_6641635.132632476_helix.txt&response-content-type=text%2Fplain&Signature=jfLgcpafISPmbcWKsaseSLpMUlA%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/0d0c1613fcfc482c8630a9880186a9c3/BAM/CL-13-Plate_1-E06_6641635.132632476_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964761&response-content-disposition=filename%3DCL-13-Plate_1-E06_6641635.132632476_helix.cram&response-content-type=application%2Foctet-stream&Signature=OEL8FCZLlzTaXXkaIpmh05F8c%2F8%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "CL-13-Plate_1-E06"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/2bed69a201374a15a858a98900177005/QC/CAP-1-Plate_1-D07_qctable-by-region_6641635.133645808_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964762&response-content-disposition=filename%3DCAP-1-Plate_1-D07_qctable-by-region_6641635.133645808_helix.txt&response-content-type=text%2Fplain&Signature=zu5Jkumz4urz88w6vCIPovcv%2B4s%3D"
+            },
+            "AppSessionId": "133645808",
+            "AnalysisId": "AN-24",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/2bed69a201374a15a858a98900177005/BAM/CAP-1-Plate_1-D07_6641635.133645808_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964762&response-content-disposition=filename%3DCAP-1-Plate_1-D07_6641635.133645808_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=vrkOQgzc1jAD%2BbDzVITitn9mWRg%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/2bed69a201374a15a858a98900177005/QC/CAP-1-Plate_1-D07_qctable_6641635.133645808_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964762&response-content-disposition=filename%3DCAP-1-Plate_1-D07_qctable_6641635.133645808_helix.txt&response-content-type=text%2Fplain&Signature=v5TKRREH4XNEfNDGTMOVDNkJD4Y%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/2bed69a201374a15a858a98900177005/BAM/CAP-1-Plate_1-D07_6641635.133645808_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964762&response-content-disposition=filename%3DCAP-1-Plate_1-D07_6641635.133645808_helix.cram&response-content-type=application%2Foctet-stream&Signature=8px1nyyFquv8ZeMrYAkT3GyocPc%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "CAP-1-Plate_1-D07"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/d3cd8faea7614bf68408a98900556810/QC/CL-10-Plate_1-B06_qctable-by-region_6641635.133615928_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964762&response-content-disposition=filename%3DCL-10-Plate_1-B06_qctable-by-region_6641635.133615928_helix.txt&response-content-type=text%2Fplain&Signature=4AGJYBwvYlpBpMTrb5JffxZ%2Fzfg%3D"
+            },
+            "AppSessionId": "133615928",
+            "AnalysisId": "AN-25",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/d3cd8faea7614bf68408a98900556810/BAM/CL-10-Plate_1-B06_6641635.133615928_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964762&response-content-disposition=filename%3DCL-10-Plate_1-B06_6641635.133615928_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=9o13pio%2BTI15%2BEpf%2FTMCjbf23jI%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/d3cd8faea7614bf68408a98900556810/QC/CL-10-Plate_1-B06_qctable_6641635.133615928_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964762&response-content-disposition=filename%3DCL-10-Plate_1-B06_qctable_6641635.133615928_helix.txt&response-content-type=text%2Fplain&Signature=HqGnU%2BeA%2FIxG5rgqxp8tnpxsx08%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/d3cd8faea7614bf68408a98900556810/BAM/CL-10-Plate_1-B06_6641635.133615928_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964762&response-content-disposition=filename%3DCL-10-Plate_1-B06_6641635.133615928_helix.cram&response-content-type=application%2Foctet-stream&Signature=u5Iuy9EuukK5%2B32oU%2B7SNj3xTTo%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "CL-10-Plate_1-B06"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/d2c4628f95cb4f669111a989001c5a15/QC/CL-45-Plate_1-E09_qctable-by-region_6641635.133052692_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964763&response-content-disposition=filename%3DCL-45-Plate_1-E09_qctable-by-region_6641635.133052692_helix.txt&response-content-type=text%2Fplain&Signature=WM%2BdfbRuOcQVg8fjpyPpaVpTXo0%3D"
+            },
+            "AppSessionId": "133052692",
+            "AnalysisId": "AN-26",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/d2c4628f95cb4f669111a989001c5a15/BAM/CL-45-Plate_1-E09_6641635.133052692_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964763&response-content-disposition=filename%3DCL-45-Plate_1-E09_6641635.133052692_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=UJrdDN3aXm7uP5hozknXUnnl9pE%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/d2c4628f95cb4f669111a989001c5a15/QC/CL-45-Plate_1-E09_qctable_6641635.133052692_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964763&response-content-disposition=filename%3DCL-45-Plate_1-E09_qctable_6641635.133052692_helix.txt&response-content-type=text%2Fplain&Signature=cBCmpBjVfPFxTxxbUce655r2Vv4%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/d2c4628f95cb4f669111a989001c5a15/BAM/CL-45-Plate_1-E09_6641635.133052692_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964763&response-content-disposition=filename%3DCL-45-Plate_1-E09_6641635.133052692_helix.cram&response-content-type=application%2Foctet-stream&Signature=hDgENMBh9oAzeWRURNbxfvBylDM%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "CL-45-Plate_1-E09"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/c35ff72b05c04e68b4f3a9890037f552/QC/CAP-1-Plate_1-B07_qctable-by-region_6641635.132799629_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964763&response-content-disposition=filename%3DCAP-1-Plate_1-B07_qctable-by-region_6641635.132799629_helix.txt&response-content-type=text%2Fplain&Signature=LdF6YDtadxrrlwyhy3UFUOiXEC8%3D"
+            },
+            "AppSessionId": "132799629",
+            "AnalysisId": "AN-27",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/c35ff72b05c04e68b4f3a9890037f552/BAM/CAP-1-Plate_1-B07_6641635.132799629_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964763&response-content-disposition=filename%3DCAP-1-Plate_1-B07_6641635.132799629_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=kkfHBpBMNvqSeyX5Xz8YuYwGdFA%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/c35ff72b05c04e68b4f3a9890037f552/QC/CAP-1-Plate_1-B07_qctable_6641635.132799629_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964763&response-content-disposition=filename%3DCAP-1-Plate_1-B07_qctable_6641635.132799629_helix.txt&response-content-type=text%2Fplain&Signature=jr%2BoanBG5OM82IkmWr4U%2BuUa3g8%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/c35ff72b05c04e68b4f3a9890037f552/BAM/CAP-1-Plate_1-B07_6641635.132799629_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964763&response-content-disposition=filename%3DCAP-1-Plate_1-B07_6641635.132799629_helix.cram&response-content-type=application%2Foctet-stream&Signature=HRFk11UZTpbuzNKgzywOfc%2FMvk0%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "CAP-1-Plate_1-B07"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/366cbf5a4d4b4fbabefda9890001a180/QC/NA12878-CL-01-Plate_1-A01_qctable-by-region_6641635.133376831_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964764&response-content-disposition=filename%3DNA12878-CL-01-Plate_1-A01_qctable-by-region_6641635.133376831_helix.txt&response-content-type=text%2Fplain&Signature=QgjEhKcw1wdTOBVf95YJknoRPIQ%3D"
+            },
+            "AppSessionId": "133376831",
+            "AnalysisId": "AN-28",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/366cbf5a4d4b4fbabefda9890001a180/BAM/NA12878-CL-01-Plate_1-A01_6641635.133376831_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964764&response-content-disposition=filename%3DNA12878-CL-01-Plate_1-A01_6641635.133376831_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=ICkOcTu8F04OANJR9For2ZqR%2Btg%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/366cbf5a4d4b4fbabefda9890001a180/QC/NA12878-CL-01-Plate_1-A01_qctable_6641635.133376831_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964764&response-content-disposition=filename%3DNA12878-CL-01-Plate_1-A01_qctable_6641635.133376831_helix.txt&response-content-type=text%2Fplain&Signature=CCmaJ6DiGyPFhNZracOKjEa%2F5io%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/366cbf5a4d4b4fbabefda9890001a180/BAM/NA12878-CL-01-Plate_1-A01_6641635.133376831_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964764&response-content-disposition=filename%3DNA12878-CL-01-Plate_1-A01_6641635.133376831_helix.cram&response-content-type=application%2Foctet-stream&Signature=ig6qJUWk2HenFor48xpicrJztB0%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "NA12878-CL-01-Plate_1-A01"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/bcee65462c8040268533a989003a3602/QC/SA-06-Plate_1-F10_qctable-by-region_6641635.133052704_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964764&response-content-disposition=filename%3DSA-06-Plate_1-F10_qctable-by-region_6641635.133052704_helix.txt&response-content-type=text%2Fplain&Signature=r4y24iVxrRL6R7yj68EIZ%2FcuwJg%3D"
+            },
+            "AppSessionId": "133052704",
+            "AnalysisId": "AN-29",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/bcee65462c8040268533a989003a3602/BAM/SA-06-Plate_1-F10_6641635.133052704_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964764&response-content-disposition=filename%3DSA-06-Plate_1-F10_6641635.133052704_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=HyzKQBJ1596LQuhbbRcGHy58WyE%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/bcee65462c8040268533a989003a3602/QC/SA-06-Plate_1-F10_qctable_6641635.133052704_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964764&response-content-disposition=filename%3DSA-06-Plate_1-F10_qctable_6641635.133052704_helix.txt&response-content-type=text%2Fplain&Signature=6ws7KlmRR0SXIk9PLOUJNDLuJHk%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/bcee65462c8040268533a989003a3602/BAM/SA-06-Plate_1-F10_6641635.133052704_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964764&response-content-disposition=filename%3DSA-06-Plate_1-F10_6641635.133052704_helix.cram&response-content-type=application%2Foctet-stream&Signature=8l6CFjSZbXapzEW%2B7ddvlW%2BJVPY%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "SA-06-Plate_1-F10"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/ef259841b9cc4502b387a989002144c7/QC/SA-14-Plate_1-F11_qctable-by-region_6641635.133376842_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964765&response-content-disposition=filename%3DSA-14-Plate_1-F11_qctable-by-region_6641635.133376842_helix.txt&response-content-type=text%2Fplain&Signature=Mff4oV3JqIM18fLhVQhK0VFNP%2F0%3D"
+            },
+            "AppSessionId": "133376842",
+            "AnalysisId": "AN-30",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/ef259841b9cc4502b387a989002144c7/BAM/SA-14-Plate_1-F11_6641635.133376842_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964765&response-content-disposition=filename%3DSA-14-Plate_1-F11_6641635.133376842_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=If8v1Hz1Nux5epA3UTxSlZAp4Og%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/ef259841b9cc4502b387a989002144c7/QC/SA-14-Plate_1-F11_qctable_6641635.133376842_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964765&response-content-disposition=filename%3DSA-14-Plate_1-F11_qctable_6641635.133376842_helix.txt&response-content-type=text%2Fplain&Signature=TzB%2FI4jwWrhydbJslJ5AZS5mMiY%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/ef259841b9cc4502b387a989002144c7/BAM/SA-14-Plate_1-F11_6641635.133376842_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964765&response-content-disposition=filename%3DSA-14-Plate_1-F11_6641635.133376842_helix.cram&response-content-type=application%2Foctet-stream&Signature=TfEEbl0wqNUDxKyX%2BMQ5R6X3Qww%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "SA-14-Plate_1-F11"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/bcb7bd83440444c88aaba989005e0d5e/QC/SA-19-Plate_1-C05_qctable-by-region_6641635.133944861_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964765&response-content-disposition=filename%3DSA-19-Plate_1-C05_qctable-by-region_6641635.133944861_helix.txt&response-content-type=text%2Fplain&Signature=SskAO9Grh4rNpvRI79%2FG31xaEbQ%3D"
+            },
+            "AppSessionId": "133944861",
+            "AnalysisId": "AN-31",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/bcb7bd83440444c88aaba989005e0d5e/BAM/SA-19-Plate_1-C05_6641635.133944861_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964765&response-content-disposition=filename%3DSA-19-Plate_1-C05_6641635.133944861_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=La6SpmDgUIPNATW2PGFhzDackJg%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/bcb7bd83440444c88aaba989005e0d5e/QC/SA-19-Plate_1-C05_qctable_6641635.133944861_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964765&response-content-disposition=filename%3DSA-19-Plate_1-C05_qctable_6641635.133944861_helix.txt&response-content-type=text%2Fplain&Signature=owsbwrqHEGE0L73p%2Bnp869rYlp4%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/bcb7bd83440444c88aaba989005e0d5e/BAM/SA-19-Plate_1-C05_6641635.133944861_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964765&response-content-disposition=filename%3DSA-19-Plate_1-C05_6641635.133944861_helix.cram&response-content-type=application%2Foctet-stream&Signature=Z0xPt%2FHlhaObwmE3GqGKrKFO8MY%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "SA-19-Plate_1-C05"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/53d5854ee2a445acbe60a98900621afe/QC/SA-59-Plate_1-B03_qctable-by-region_6641635.133052690_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964766&response-content-disposition=filename%3DSA-59-Plate_1-B03_qctable-by-region_6641635.133052690_helix.txt&response-content-type=text%2Fplain&Signature=X22DMnr0%2FYkoMrtFKI949riRI%2Fs%3D"
+            },
+            "AppSessionId": "133052690",
+            "AnalysisId": "AN-32",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/53d5854ee2a445acbe60a98900621afe/BAM/SA-59-Plate_1-B03_6641635.133052690_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964766&response-content-disposition=filename%3DSA-59-Plate_1-B03_6641635.133052690_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=fOX9AAJ11hwiEwohJswmUwibABk%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/53d5854ee2a445acbe60a98900621afe/QC/SA-59-Plate_1-B03_qctable_6641635.133052690_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964766&response-content-disposition=filename%3DSA-59-Plate_1-B03_qctable_6641635.133052690_helix.txt&response-content-type=text%2Fplain&Signature=SBvHrlJ79BSLQPH4L8ehMbS61zc%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/53d5854ee2a445acbe60a98900621afe/BAM/SA-59-Plate_1-B03_6641635.133052690_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964766&response-content-disposition=filename%3DSA-59-Plate_1-B03_6641635.133052690_helix.cram&response-content-type=application%2Foctet-stream&Signature=9%2FizLb9ZA16%2B3Uqm4iODExJx7Yw%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "SA-59-Plate_1-B03"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/7038c06143274457bce8a989001d66c9/QC/SA-13-Plate_1-E11_qctable-by-region_6641635.133376849_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964766&response-content-disposition=filename%3DSA-13-Plate_1-E11_qctable-by-region_6641635.133376849_helix.txt&response-content-type=text%2Fplain&Signature=q7ezCdULHp26b3mtKqCYKgX85MQ%3D"
+            },
+            "AppSessionId": "133376849",
+            "AnalysisId": "AN-33",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/7038c06143274457bce8a989001d66c9/BAM/SA-13-Plate_1-E11_6641635.133376849_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964766&response-content-disposition=filename%3DSA-13-Plate_1-E11_6641635.133376849_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=m9gxGuy%2FFQxfMa2ZvLlnqAROqvE%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/7038c06143274457bce8a989001d66c9/QC/SA-13-Plate_1-E11_qctable_6641635.133376849_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964766&response-content-disposition=filename%3DSA-13-Plate_1-E11_qctable_6641635.133376849_helix.txt&response-content-type=text%2Fplain&Signature=Q%2BXMrHNDfoVuSCjjXLETXpqpf8o%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/7038c06143274457bce8a989001d66c9/BAM/SA-13-Plate_1-E11_6641635.133376849_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964766&response-content-disposition=filename%3DSA-13-Plate_1-E11_6641635.133376849_helix.cram&response-content-type=application%2Foctet-stream&Signature=EywvNdGSMCOOu8VbE2AWOhHY%2FFE%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "SA-13-Plate_1-E11"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/2f6dd148f8e2407e9020a9890036361c/QC/SA-04-Plate_1-D10_qctable-by-region_6641635.132964759_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964767&response-content-disposition=filename%3DSA-04-Plate_1-D10_qctable-by-region_6641635.132964759_helix.txt&response-content-type=text%2Fplain&Signature=1aTn7QkeTN4XSAyblhuVen%2Fiy5w%3D"
+            },
+            "AppSessionId": "132964759",
+            "AnalysisId": "AN-34",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/2f6dd148f8e2407e9020a9890036361c/BAM/SA-04-Plate_1-D10_6641635.132964759_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964767&response-content-disposition=filename%3DSA-04-Plate_1-D10_6641635.132964759_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=yoAvBVjPIoSKP0IeyiLnl1bpoT4%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/2f6dd148f8e2407e9020a9890036361c/QC/SA-04-Plate_1-D10_qctable_6641635.132964759_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964767&response-content-disposition=filename%3DSA-04-Plate_1-D10_qctable_6641635.132964759_helix.txt&response-content-type=text%2Fplain&Signature=CtXnE3LGdlblE%2FcIFKNPeiZskVo%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/2f6dd148f8e2407e9020a9890036361c/BAM/SA-04-Plate_1-D10_6641635.132964759_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964767&response-content-disposition=filename%3DSA-04-Plate_1-D10_6641635.132964759_helix.cram&response-content-type=application%2Foctet-stream&Signature=MptEb4ZqOeeEFbLuxoMKaWfdImc%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "SA-04-Plate_1-D10"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/7d3a2d12ffb341359c2ea9890055add6/QC/SA-12-Plate_1-D11_qctable-by-region_6641635.132964741_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964767&response-content-disposition=filename%3DSA-12-Plate_1-D11_qctable-by-region_6641635.132964741_helix.txt&response-content-type=text%2Fplain&Signature=ZCnnPxN9TYMojNruaWZDI9klI1U%3D"
+            },
+            "AppSessionId": "132964741",
+            "AnalysisId": "AN-35",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/7d3a2d12ffb341359c2ea9890055add6/BAM/SA-12-Plate_1-D11_6641635.132964741_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964767&response-content-disposition=filename%3DSA-12-Plate_1-D11_6641635.132964741_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=8jqRTjdC68OXVDZhG3zy9Ujy7eI%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/7d3a2d12ffb341359c2ea9890055add6/QC/SA-12-Plate_1-D11_qctable_6641635.132964741_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964767&response-content-disposition=filename%3DSA-12-Plate_1-D11_qctable_6641635.132964741_helix.txt&response-content-type=text%2Fplain&Signature=GOOZdLiuI%2Fp6vk909hKM2BaqeL0%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/7d3a2d12ffb341359c2ea9890055add6/BAM/SA-12-Plate_1-D11_6641635.132964741_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964767&response-content-disposition=filename%3DSA-12-Plate_1-D11_6641635.132964741_helix.cram&response-content-type=application%2Foctet-stream&Signature=gQE4ClR9IuHGcDiTIt%2Bt23ruIWo%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "SA-12-Plate_1-D11"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/0332af8371e14fee9160a989003c8def/QC/Input-B-35-Plate_1-E08_qctable-by-region_6641635.133159722_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964768&response-content-disposition=filename%3DInput-B-35-Plate_1-E08_qctable-by-region_6641635.133159722_helix.txt&response-content-type=text%2Fplain&Signature=ti4F8lP7H6ZEtRVxzjFDBiC6V%2Bw%3D"
+            },
+            "AppSessionId": "133159722",
+            "AnalysisId": "AN-36",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/0332af8371e14fee9160a989003c8def/BAM/Input-B-35-Plate_1-E08_6641635.133159722_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964768&response-content-disposition=filename%3DInput-B-35-Plate_1-E08_6641635.133159722_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=sAIPw9RZislPYKEZkDknP50w2PU%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/0332af8371e14fee9160a989003c8def/QC/Input-B-35-Plate_1-E08_qctable_6641635.133159722_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964768&response-content-disposition=filename%3DInput-B-35-Plate_1-E08_qctable_6641635.133159722_helix.txt&response-content-type=text%2Fplain&Signature=0igQcWQxe%2BHooxrzgDqnDWN15Nw%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/0332af8371e14fee9160a989003c8def/BAM/Input-B-35-Plate_1-E08_6641635.133159722_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964768&response-content-disposition=filename%3DInput-B-35-Plate_1-E08_6641635.133159722_helix.cram&response-content-type=application%2Foctet-stream&Signature=08PFsOhkBvPAthGJVB81ANK9CQQ%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "Input-B-35-Plate_1-E08"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/b5ac1c2a34844489b331a989006ea1e0/QC/SA-58-Plate_1-F03_qctable-by-region_6641635.133159767_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964769&response-content-disposition=filename%3DSA-58-Plate_1-F03_qctable-by-region_6641635.133159767_helix.txt&response-content-type=text%2Fplain&Signature=s0FgKpsPWGGzFRHT5uc%2FckAdEdU%3D"
+            },
+            "AppSessionId": "133159767",
+            "AnalysisId": "AN-37",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/b5ac1c2a34844489b331a989006ea1e0/BAM/SA-58-Plate_1-F03_6641635.133159767_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964769&response-content-disposition=filename%3DSA-58-Plate_1-F03_6641635.133159767_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=UdJC7IaHr9x%2Fu9HZPEpkAyvs19U%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/b5ac1c2a34844489b331a989006ea1e0/QC/SA-58-Plate_1-F03_qctable_6641635.133159767_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964769&response-content-disposition=filename%3DSA-58-Plate_1-F03_qctable_6641635.133159767_helix.txt&response-content-type=text%2Fplain&Signature=mITeD3xKWnJsqyZe0zWAvjtPqEs%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/b5ac1c2a34844489b331a989006ea1e0/BAM/SA-58-Plate_1-F03_6641635.133159767_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964769&response-content-disposition=filename%3DSA-58-Plate_1-F03_6641635.133159767_helix.cram&response-content-type=application%2Foctet-stream&Signature=n4LJFxtNNf8UxN3kmC30AskJA3M%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "SA-58-Plate_1-F03"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/ea467c353172446f892ea98801889bb6/QC/CL-68-Plate_1-F01_qctable-by-region_6641635.133159728_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964770&response-content-disposition=filename%3DCL-68-Plate_1-F01_qctable-by-region_6641635.133159728_helix.txt&response-content-type=text%2Fplain&Signature=egKcxjwcG6LWiwG4oxShFgRtyKk%3D"
+            },
+            "AppSessionId": "133159728",
+            "AnalysisId": "AN-38",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/ea467c353172446f892ea98801889bb6/BAM/CL-68-Plate_1-F01_6641635.133159728_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964770&response-content-disposition=filename%3DCL-68-Plate_1-F01_6641635.133159728_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=1cI2SNQVIlfzCEzbKNLVmcfiP44%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/ea467c353172446f892ea98801889bb6/QC/CL-68-Plate_1-F01_qctable_6641635.133159728_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964770&response-content-disposition=filename%3DCL-68-Plate_1-F01_qctable_6641635.133159728_helix.txt&response-content-type=text%2Fplain&Signature=q98qdDfGfkYeotXjA4kc2J8zz7U%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/ea467c353172446f892ea98801889bb6/BAM/CL-68-Plate_1-F01_6641635.133159728_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964770&response-content-disposition=filename%3DCL-68-Plate_1-F01_6641635.133159728_helix.cram&response-content-type=application%2Foctet-stream&Signature=Hsfeozewh4HaJTJupAr0wfxDkPo%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "CL-68-Plate_1-F01"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/9720456fcd514023a08fa98900361509/QC/SA-22-Plate_1-F12_qctable-by-region_6641635.133376861_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964770&response-content-disposition=filename%3DSA-22-Plate_1-F12_qctable-by-region_6641635.133376861_helix.txt&response-content-type=text%2Fplain&Signature=adxO8W2ZcEn1r%2BjksiqwLXrF8vY%3D"
+            },
+            "AppSessionId": "133376861",
+            "AnalysisId": "AN-39",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/9720456fcd514023a08fa98900361509/BAM/SA-22-Plate_1-F12_6641635.133376861_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964770&response-content-disposition=filename%3DSA-22-Plate_1-F12_6641635.133376861_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=Gk6mDxTyE7bMXYwetkE7bGZXg6s%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/9720456fcd514023a08fa98900361509/QC/SA-22-Plate_1-F12_qctable_6641635.133376861_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964770&response-content-disposition=filename%3DSA-22-Plate_1-F12_qctable_6641635.133376861_helix.txt&response-content-type=text%2Fplain&Signature=Q4i5Ov293fd3dbMT%2FiG1Ezol8B4%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/9720456fcd514023a08fa98900361509/BAM/SA-22-Plate_1-F12_6641635.133376861_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964770&response-content-disposition=filename%3DSA-22-Plate_1-F12_6641635.133376861_helix.cram&response-content-type=application%2Foctet-stream&Signature=%2Biep0f9VqrYRZzlnrPfpw6c4LWs%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "SA-22-Plate_1-F12"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/16000ddc75864dad9890a9890018260f/QC/CL-41-Plate_1-A09_qctable-by-region_6641635.133946824_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964771&response-content-disposition=filename%3DCL-41-Plate_1-A09_qctable-by-region_6641635.133946824_helix.txt&response-content-type=text%2Fplain&Signature=6xpqTxU%2BaBzRSsbczek13qevzLE%3D"
+            },
+            "AppSessionId": "133946824",
+            "AnalysisId": "AN-40",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/16000ddc75864dad9890a9890018260f/BAM/CL-41-Plate_1-A09_6641635.133946824_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964771&response-content-disposition=filename%3DCL-41-Plate_1-A09_6641635.133946824_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=IZTKBDG1MCI3XVQNCMVPL%2Bfu1UA%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/16000ddc75864dad9890a9890018260f/QC/CL-41-Plate_1-A09_qctable_6641635.133946824_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964771&response-content-disposition=filename%3DCL-41-Plate_1-A09_qctable_6641635.133946824_helix.txt&response-content-type=text%2Fplain&Signature=og5e5Sd8nJzKvKF7sk2ygN%2BkQk4%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/16000ddc75864dad9890a9890018260f/BAM/CL-41-Plate_1-A09_6641635.133946824_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964771&response-content-disposition=filename%3DCL-41-Plate_1-A09_6641635.133946824_helix.cram&response-content-type=application%2Foctet-stream&Signature=UDDcwXiH31VAQ6I41NaLIGiSA%2FM%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "CL-41-Plate_1-A09"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/513d30c9589f4addbfcfa989001edfd3/QC/CL-12-Plate_1-D06_qctable-by-region_6641635.133716628_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964771&response-content-disposition=filename%3DCL-12-Plate_1-D06_qctable-by-region_6641635.133716628_helix.txt&response-content-type=text%2Fplain&Signature=MQQ3Vxjne2YKBue%2FSc5bdvZO01A%3D"
+            },
+            "AppSessionId": "133716628",
+            "AnalysisId": "AN-41",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/513d30c9589f4addbfcfa989001edfd3/BAM/CL-12-Plate_1-D06_6641635.133716628_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964771&response-content-disposition=filename%3DCL-12-Plate_1-D06_6641635.133716628_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=597jysoqsVdO3gCMOe55%2BywWy28%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/513d30c9589f4addbfcfa989001edfd3/QC/CL-12-Plate_1-D06_qctable_6641635.133716628_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964771&response-content-disposition=filename%3DCL-12-Plate_1-D06_qctable_6641635.133716628_helix.txt&response-content-type=text%2Fplain&Signature=ZxMg6UayboVpcAUQ1hVpHWhHgnk%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/513d30c9589f4addbfcfa989001edfd3/BAM/CL-12-Plate_1-D06_6641635.133716628_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964771&response-content-disposition=filename%3DCL-12-Plate_1-D06_6641635.133716628_helix.cram&response-content-type=application%2Foctet-stream&Signature=OUHXVGtUY9YsY4dtnb%2F9h4Zx%2B%2BI%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "CL-12-Plate_1-D06"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/06060397f873413baa73a98801890923/QC/CAP-2-Plate_1-E07_qctable-by-region_6641635.133615891_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964772&response-content-disposition=filename%3DCAP-2-Plate_1-E07_qctable-by-region_6641635.133615891_helix.txt&response-content-type=text%2Fplain&Signature=SHLd0as0%2Fu%2FxAicf4L6wq%2BXwcSU%3D"
+            },
+            "AppSessionId": "133615891",
+            "AnalysisId": "AN-42",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/06060397f873413baa73a98801890923/BAM/CAP-2-Plate_1-E07_6641635.133615891_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964772&response-content-disposition=filename%3DCAP-2-Plate_1-E07_6641635.133615891_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=Z183LflkRY%2BMpj9hcq%2FaM4BUx%2Bw%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/06060397f873413baa73a98801890923/QC/CAP-2-Plate_1-E07_qctable_6641635.133615891_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964772&response-content-disposition=filename%3DCAP-2-Plate_1-E07_qctable_6641635.133615891_helix.txt&response-content-type=text%2Fplain&Signature=ShvogfnzhvyEPSzoIPphMzSf9qs%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/06060397f873413baa73a98801890923/BAM/CAP-2-Plate_1-E07_6641635.133615891_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964772&response-content-disposition=filename%3DCAP-2-Plate_1-E07_6641635.133615891_helix.cram&response-content-type=application%2Foctet-stream&Signature=%2FikRuM0LRkHyLfCyHQyqIp4VHso%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "CAP-2-Plate_1-E07"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/8be7a05d615d49b0ae65a989005dc8a8/QC/SA-19-Plate_1-C12_qctable-by-region_6641635.133946841_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964772&response-content-disposition=filename%3DSA-19-Plate_1-C12_qctable-by-region_6641635.133946841_helix.txt&response-content-type=text%2Fplain&Signature=F9AFDveIGGwNEf%2BNJO4C9NDoXcg%3D"
+            },
+            "AppSessionId": "133946841",
+            "AnalysisId": "AN-43",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/8be7a05d615d49b0ae65a989005dc8a8/BAM/SA-19-Plate_1-C12_6641635.133946841_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964772&response-content-disposition=filename%3DSA-19-Plate_1-C12_6641635.133946841_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=Lzj421v5JJk63qvpE2UKJzD3zqA%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/8be7a05d615d49b0ae65a989005dc8a8/QC/SA-19-Plate_1-C12_qctable_6641635.133946841_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964772&response-content-disposition=filename%3DSA-19-Plate_1-C12_qctable_6641635.133946841_helix.txt&response-content-type=text%2Fplain&Signature=zCNzSLNyXIS9dvBenApIcGDBp6k%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/8be7a05d615d49b0ae65a989005dc8a8/BAM/SA-19-Plate_1-C12_6641635.133946841_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964772&response-content-disposition=filename%3DSA-19-Plate_1-C12_6641635.133946841_helix.cram&response-content-type=application%2Foctet-stream&Signature=CYSMmDfyO0cGzcfZbDq8e3BOjCU%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "SA-19-Plate_1-C12"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/f0e8063e865e4d0db2e6a9890050f5f7/QC/SA-17-Plate_1-A05_qctable-by-region_6641635.133159745_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964773&response-content-disposition=filename%3DSA-17-Plate_1-A05_qctable-by-region_6641635.133159745_helix.txt&response-content-type=text%2Fplain&Signature=yB3Iz4VzFQ9%2FicLsKLOHdy0YJm0%3D"
+            },
+            "AppSessionId": "133159745",
+            "AnalysisId": "AN-44",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/f0e8063e865e4d0db2e6a9890050f5f7/BAM/SA-17-Plate_1-A05_6641635.133159745_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964773&response-content-disposition=filename%3DSA-17-Plate_1-A05_6641635.133159745_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=vPj%2F0YvKrIW%2Fgi1BRME%2FKHd8Ax4%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/f0e8063e865e4d0db2e6a9890050f5f7/QC/SA-17-Plate_1-A05_qctable_6641635.133159745_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964773&response-content-disposition=filename%3DSA-17-Plate_1-A05_qctable_6641635.133159745_helix.txt&response-content-type=text%2Fplain&Signature=O4zScr8pyPmLm2ta6SyA1v02TkU%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/f0e8063e865e4d0db2e6a9890050f5f7/BAM/SA-17-Plate_1-A05_6641635.133159745_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964773&response-content-disposition=filename%3DSA-17-Plate_1-A05_6641635.133159745_helix.cram&response-content-type=application%2Foctet-stream&Signature=MqI6MbnaM%2BnFDjBpmr1sUkl0BGs%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "SA-17-Plate_1-A05"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/7c7e991c4a5c45b7835da98900381a7f/QC/CL-14-Plate_1-F06_qctable-by-region_6641635.133729732_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964773&response-content-disposition=filename%3DCL-14-Plate_1-F06_qctable-by-region_6641635.133729732_helix.txt&response-content-type=text%2Fplain&Signature=ak0CgyaZt7qd3yL1276tYIKroBk%3D"
+            },
+            "AppSessionId": "133729732",
+            "AnalysisId": "AN-45",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/7c7e991c4a5c45b7835da98900381a7f/BAM/CL-14-Plate_1-F06_6641635.133729732_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964773&response-content-disposition=filename%3DCL-14-Plate_1-F06_6641635.133729732_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=%2BJVvpfoRUY1IeIRsx3vAZ1fDnx8%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/7c7e991c4a5c45b7835da98900381a7f/QC/CL-14-Plate_1-F06_qctable_6641635.133729732_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964773&response-content-disposition=filename%3DCL-14-Plate_1-F06_qctable_6641635.133729732_helix.txt&response-content-type=text%2Fplain&Signature=LRQ2MhxsHLHhwiZN5gmY2GognaE%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/7c7e991c4a5c45b7835da98900381a7f/BAM/CL-14-Plate_1-F06_6641635.133729732_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964773&response-content-disposition=filename%3DCL-14-Plate_1-F06_6641635.133729732_helix.cram&response-content-type=application%2Foctet-stream&Signature=yuKu9oF8UcfNdl0nT5L4ZQbndGE%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "CL-14-Plate_1-F06"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/958acb95322d43e3a38ca9890068600f/QC/SA-62-Plate_1-E03_qctable-by-region_6641635.132799627_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964774&response-content-disposition=filename%3DSA-62-Plate_1-E03_qctable-by-region_6641635.132799627_helix.txt&response-content-type=text%2Fplain&Signature=25I3FpVSw4oEnUPp2QAgSubCoUw%3D"
+            },
+            "AppSessionId": "132799627",
+            "AnalysisId": "AN-46",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/958acb95322d43e3a38ca9890068600f/BAM/SA-62-Plate_1-E03_6641635.132799627_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964774&response-content-disposition=filename%3DSA-62-Plate_1-E03_6641635.132799627_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=dB8FTjTwe3nNfLfaTAKDdGmWHbU%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/958acb95322d43e3a38ca9890068600f/QC/SA-62-Plate_1-E03_qctable_6641635.132799627_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964774&response-content-disposition=filename%3DSA-62-Plate_1-E03_qctable_6641635.132799627_helix.txt&response-content-type=text%2Fplain&Signature=eKL2D3ik9fOopah9uzxQKuUdsDo%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/958acb95322d43e3a38ca9890068600f/BAM/SA-62-Plate_1-E03_6641635.132799627_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964774&response-content-disposition=filename%3DSA-62-Plate_1-E03_6641635.132799627_helix.cram&response-content-type=application%2Foctet-stream&Signature=W2%2FQxEysNDYM2uKdo34RuZOYZ3U%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "SA-62-Plate_1-E03"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/4172e44f95c349b7af80a9890066c96f/QC/SA-05-Plate_1-E10_qctable-by-region_6641635.133944877_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964774&response-content-disposition=filename%3DSA-05-Plate_1-E10_qctable-by-region_6641635.133944877_helix.txt&response-content-type=text%2Fplain&Signature=1n%2BFSXsijKZN4JZpXwrJtzE0yW8%3D"
+            },
+            "AppSessionId": "133944877",
+            "AnalysisId": "AN-47",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/4172e44f95c349b7af80a9890066c96f/BAM/SA-05-Plate_1-E10_6641635.133944877_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964774&response-content-disposition=filename%3DSA-05-Plate_1-E10_6641635.133944877_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=b5Yw648z8tTwQBPbuhnN9B4%2Bplo%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/4172e44f95c349b7af80a9890066c96f/QC/SA-05-Plate_1-E10_qctable_6641635.133944877_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964774&response-content-disposition=filename%3DSA-05-Plate_1-E10_qctable_6641635.133944877_helix.txt&response-content-type=text%2Fplain&Signature=lZFJGJ0Yi0U710z5qRc3gE4sScs%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/4172e44f95c349b7af80a9890066c96f/BAM/SA-05-Plate_1-E10_6641635.133944877_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964774&response-content-disposition=filename%3DSA-05-Plate_1-E10_6641635.133944877_helix.cram&response-content-type=application%2Foctet-stream&Signature=OOldyy2rn%2FjJaZT0hQAxLGEKJm4%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "SA-05-Plate_1-E10"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/c98c9540527d4f5b82d6a988018b7603/QC/SA-11-Plate_1-C11_qctable-by-region_6641635.133034836_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964775&response-content-disposition=filename%3DSA-11-Plate_1-C11_qctable-by-region_6641635.133034836_helix.txt&response-content-type=text%2Fplain&Signature=NXY9ZlCu8ukj0or4y5Cw%2Fhg1S7Q%3D"
+            },
+            "AppSessionId": "133034836",
+            "AnalysisId": "AN-48",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/c98c9540527d4f5b82d6a988018b7603/BAM/SA-11-Plate_1-C11_6641635.133034836_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964775&response-content-disposition=filename%3DSA-11-Plate_1-C11_6641635.133034836_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=zPyMGmrvsa%2FyZUq%2B7mVA44LSiIY%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/c98c9540527d4f5b82d6a988018b7603/QC/SA-11-Plate_1-C11_qctable_6641635.133034836_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964775&response-content-disposition=filename%3DSA-11-Plate_1-C11_qctable_6641635.133034836_helix.txt&response-content-type=text%2Fplain&Signature=dHYrehLfuPIdWyNUgX%2BEpcPzYts%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/c98c9540527d4f5b82d6a988018b7603/BAM/SA-11-Plate_1-C11_6641635.133034836_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964775&response-content-disposition=filename%3DSA-11-Plate_1-C11_6641635.133034836_helix.cram&response-content-type=application%2Foctet-stream&Signature=C%2FKC43s01w5rzNEDJOOl3ujMpB8%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "SA-11-Plate_1-C11"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/b90daacd9bc64395a5b7a98900664cd7/QC/CL-65-Plate_1-F04_qctable-by-region_6641635.133944869_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964775&response-content-disposition=filename%3DCL-65-Plate_1-F04_qctable-by-region_6641635.133944869_helix.txt&response-content-type=text%2Fplain&Signature=h4Td55%2BxoRFcZIhA%2F4ifz7vJxTA%3D"
+            },
+            "AppSessionId": "133944869",
+            "AnalysisId": "AN-49",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/b90daacd9bc64395a5b7a98900664cd7/BAM/CL-65-Plate_1-F04_6641635.133944869_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964775&response-content-disposition=filename%3DCL-65-Plate_1-F04_6641635.133944869_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=XWcbji4jbqYuoqh9hnxlk7d%2BDfI%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/b90daacd9bc64395a5b7a98900664cd7/QC/CL-65-Plate_1-F04_qctable_6641635.133944869_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964775&response-content-disposition=filename%3DCL-65-Plate_1-F04_qctable_6641635.133944869_helix.txt&response-content-type=text%2Fplain&Signature=O3w67J11VdcUqFwb5iN5%2Bcgb5ZU%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/b90daacd9bc64395a5b7a98900664cd7/BAM/CL-65-Plate_1-F04_6641635.133944869_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964775&response-content-disposition=filename%3DCL-65-Plate_1-F04_6641635.133944869_helix.cram&response-content-type=application%2Foctet-stream&Signature=mfgrT2NXUKRviNrKeh1M%2FAMC4c0%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "CL-65-Plate_1-F04"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/1a02a2ff74a24a0a8cf9a9890027e3de/QC/CAP-1-Plate_1-C07_qctable-by-region_6641635.133376847_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964776&response-content-disposition=filename%3DCAP-1-Plate_1-C07_qctable-by-region_6641635.133376847_helix.txt&response-content-type=text%2Fplain&Signature=TrWngEPCJouuCm0ab4DV0D2QjzM%3D"
+            },
+            "AppSessionId": "133376847",
+            "AnalysisId": "AN-50",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/1a02a2ff74a24a0a8cf9a9890027e3de/BAM/CAP-1-Plate_1-C07_6641635.133376847_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964776&response-content-disposition=filename%3DCAP-1-Plate_1-C07_6641635.133376847_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=ql3VH%2FRCPYENlX%2Bvz5MapkysIRU%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/1a02a2ff74a24a0a8cf9a9890027e3de/QC/CAP-1-Plate_1-C07_qctable_6641635.133376847_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964776&response-content-disposition=filename%3DCAP-1-Plate_1-C07_qctable_6641635.133376847_helix.txt&response-content-type=text%2Fplain&Signature=DBsRX1l%2FaytWBNMPvL78ZN0ks4A%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/1a02a2ff74a24a0a8cf9a9890027e3de/BAM/CAP-1-Plate_1-C07_6641635.133376847_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964776&response-content-disposition=filename%3DCAP-1-Plate_1-C07_6641635.133376847_helix.cram&response-content-type=application%2Foctet-stream&Signature=YLvPD1L1gPxi4zz3Su2FCj9MLqQ%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "CAP-1-Plate_1-C07"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/d36d5ce72a8045979edfa9890022778e/QC/CL-53-Plate_1-E05_qctable-by-region_6641635.132799610_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964776&response-content-disposition=filename%3DCL-53-Plate_1-E05_qctable-by-region_6641635.132799610_helix.txt&response-content-type=text%2Fplain&Signature=FUjXf0D2jtQV6Y0UOK3aJNIEv2c%3D"
+            },
+            "AppSessionId": "132799610",
+            "AnalysisId": "AN-51",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/d36d5ce72a8045979edfa9890022778e/BAM/CL-53-Plate_1-E05_6641635.132799610_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964776&response-content-disposition=filename%3DCL-53-Plate_1-E05_6641635.132799610_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=hUYlmjZ%2FZUUu1i46k3T6lFpzHBA%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/d36d5ce72a8045979edfa9890022778e/QC/CL-53-Plate_1-E05_qctable_6641635.132799610_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964776&response-content-disposition=filename%3DCL-53-Plate_1-E05_qctable_6641635.132799610_helix.txt&response-content-type=text%2Fplain&Signature=mSuAaztQA%2FwFCLLCckWDYeJFsi8%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/d36d5ce72a8045979edfa9890022778e/BAM/CL-53-Plate_1-E05_6641635.132799610_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964776&response-content-disposition=filename%3DCL-53-Plate_1-E05_6641635.132799610_helix.cram&response-content-type=application%2Foctet-stream&Signature=9fA%2FftKM7NgJ5Dycmgylq6%2Biwok%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "CL-53-Plate_1-E05"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/13730cd8ca0c47439acda98900236794/QC/Input-B-35-Plate_1-D08_qctable-by-region_6641635.133159760_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964777&response-content-disposition=filename%3DInput-B-35-Plate_1-D08_qctable-by-region_6641635.133159760_helix.txt&response-content-type=text%2Fplain&Signature=YHlG%2Bc8O0NWpxtyisx0x9gmwTl8%3D"
+            },
+            "AppSessionId": "133159760",
+            "AnalysisId": "AN-52",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/13730cd8ca0c47439acda98900236794/BAM/Input-B-35-Plate_1-D08_6641635.133159760_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964777&response-content-disposition=filename%3DInput-B-35-Plate_1-D08_6641635.133159760_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=WbuN20Ziq1ZmOuUG96F133g8T4o%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/13730cd8ca0c47439acda98900236794/QC/Input-B-35-Plate_1-D08_qctable_6641635.133159760_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964777&response-content-disposition=filename%3DInput-B-35-Plate_1-D08_qctable_6641635.133159760_helix.txt&response-content-type=text%2Fplain&Signature=faiDIZFB9DSpkBbvSXpJSBTBs30%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/13730cd8ca0c47439acda98900236794/BAM/Input-B-35-Plate_1-D08_6641635.133159760_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964777&response-content-disposition=filename%3DInput-B-35-Plate_1-D08_6641635.133159760_helix.cram&response-content-type=application%2Foctet-stream&Signature=Ax4fNDZ2CvTy5%2FgpqK%2BnkPlRG2k%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "Input-B-35-Plate_1-D08"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/eb34b40a89dc456f9402a98900574a49/QC/CL-52-Plate_1-D05_qctable-by-region_6641635.133052679_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964777&response-content-disposition=filename%3DCL-52-Plate_1-D05_qctable-by-region_6641635.133052679_helix.txt&response-content-type=text%2Fplain&Signature=LOC9JkgfF5w%2FxYAa6A9MyEjKLxo%3D"
+            },
+            "AppSessionId": "133052679",
+            "AnalysisId": "AN-53",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/eb34b40a89dc456f9402a98900574a49/BAM/CL-52-Plate_1-D05_6641635.133052679_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964777&response-content-disposition=filename%3DCL-52-Plate_1-D05_6641635.133052679_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=eDgdwGXB1eW3ErLZAR3ik7ZLtwc%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/eb34b40a89dc456f9402a98900574a49/QC/CL-52-Plate_1-D05_qctable_6641635.133052679_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964777&response-content-disposition=filename%3DCL-52-Plate_1-D05_qctable_6641635.133052679_helix.txt&response-content-type=text%2Fplain&Signature=cN%2B6XbIWZMYF7R8xH4xeX2KfbH4%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/eb34b40a89dc456f9402a98900574a49/BAM/CL-52-Plate_1-D05_6641635.133052679_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964777&response-content-disposition=filename%3DCL-52-Plate_1-D05_6641635.133052679_helix.cram&response-content-type=application%2Foctet-stream&Signature=8MsEgZuLuSb1zJD1UB7k5qN0l1I%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "CL-52-Plate_1-D05"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/f689d834882041b1bd41a989000758ea/QC/CL-72-Plate_1-E01_qctable-by-region_6641635.132799595_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964778&response-content-disposition=filename%3DCL-72-Plate_1-E01_qctable-by-region_6641635.132799595_helix.txt&response-content-type=text%2Fplain&Signature=QTOZBNkFq7hp9UzxrQ7BxOJw2ig%3D"
+            },
+            "AppSessionId": "132799595",
+            "AnalysisId": "AN-54",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/f689d834882041b1bd41a989000758ea/BAM/CL-72-Plate_1-E01_6641635.132799595_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964778&response-content-disposition=filename%3DCL-72-Plate_1-E01_6641635.132799595_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=RZnHg8dRejd0QDrftEdwNF1uNQo%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/f689d834882041b1bd41a989000758ea/QC/CL-72-Plate_1-E01_qctable_6641635.132799595_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964778&response-content-disposition=filename%3DCL-72-Plate_1-E01_qctable_6641635.132799595_helix.txt&response-content-type=text%2Fplain&Signature=5hH0aa1mmTU6EDzpl%2FUJqP39KO4%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/f689d834882041b1bd41a989000758ea/BAM/CL-72-Plate_1-E01_6641635.132799595_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964778&response-content-disposition=filename%3DCL-72-Plate_1-E01_6641635.132799595_helix.cram&response-content-type=application%2Foctet-stream&Signature=SPmiK4fEB2JjISbql6cbfr%2Bz830%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "CL-72-Plate_1-E01"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/f28df86a4ca3496f8361a98900013d0c/QC/CL-43-Plate_1-C09_qctable-by-region_6641635.133683744_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964778&response-content-disposition=filename%3DCL-43-Plate_1-C09_qctable-by-region_6641635.133683744_helix.txt&response-content-type=text%2Fplain&Signature=Psejh0DzrV%2FJujafuJPMObcbSG4%3D"
+            },
+            "AppSessionId": "133683744",
+            "AnalysisId": "AN-55",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/f28df86a4ca3496f8361a98900013d0c/BAM/CL-43-Plate_1-C09_6641635.133683744_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964778&response-content-disposition=filename%3DCL-43-Plate_1-C09_6641635.133683744_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=LfzAsFRB2oUaJEzAFaYVbAd9ClI%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/f28df86a4ca3496f8361a98900013d0c/QC/CL-43-Plate_1-C09_qctable_6641635.133683744_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964778&response-content-disposition=filename%3DCL-43-Plate_1-C09_qctable_6641635.133683744_helix.txt&response-content-type=text%2Fplain&Signature=wQkCZb5pKfwAWM8nm8khMSXrQJM%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/f28df86a4ca3496f8361a98900013d0c/BAM/CL-43-Plate_1-C09_6641635.133683744_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964778&response-content-disposition=filename%3DCL-43-Plate_1-C09_6641635.133683744_helix.cram&response-content-type=application%2Foctet-stream&Signature=RLhVV1QaSlcyPr4TOsEpVwlucBw%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "CL-43-Plate_1-C09"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/20d8093bc1404f70b600a9880185bce5/QC/CL-64-Plate_1-E04_qctable-by-region_6641635.133159708_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964779&response-content-disposition=filename%3DCL-64-Plate_1-E04_qctable-by-region_6641635.133159708_helix.txt&response-content-type=text%2Fplain&Signature=Mi0WIGEB6JmB65NCfECWRxASV6c%3D"
+            },
+            "AppSessionId": "133159708",
+            "AnalysisId": "AN-56",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/20d8093bc1404f70b600a9880185bce5/BAM/CL-64-Plate_1-E04_6641635.133159708_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964779&response-content-disposition=filename%3DCL-64-Plate_1-E04_6641635.133159708_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=eSuUdymdw2SPA8n3zE2%2FSNFuBZU%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/20d8093bc1404f70b600a9880185bce5/QC/CL-64-Plate_1-E04_qctable_6641635.133159708_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964779&response-content-disposition=filename%3DCL-64-Plate_1-E04_qctable_6641635.133159708_helix.txt&response-content-type=text%2Fplain&Signature=7EondpzECKXDAM46bj3lhBlHm9c%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/20d8093bc1404f70b600a9880185bce5/BAM/CL-64-Plate_1-E04_6641635.133159708_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964779&response-content-disposition=filename%3DCL-64-Plate_1-E04_6641635.133159708_helix.cram&response-content-type=application%2Foctet-stream&Signature=gN3PkQdph6NDJNg2kPquVJG%2BC4k%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "CL-64-Plate_1-E04"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/ca8f0548f1bb4af7a7b0a988018a2344/QC/CL-71-Plate_1-D01_qctable-by-region_6641635.133034823_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964779&response-content-disposition=filename%3DCL-71-Plate_1-D01_qctable-by-region_6641635.133034823_helix.txt&response-content-type=text%2Fplain&Signature=W7PiltI1mvkrg58P%2FfCG9xVynjY%3D"
+            },
+            "AppSessionId": "133034823",
+            "AnalysisId": "AN-57",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/ca8f0548f1bb4af7a7b0a988018a2344/BAM/CL-71-Plate_1-D01_6641635.133034823_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964779&response-content-disposition=filename%3DCL-71-Plate_1-D01_6641635.133034823_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=YXThgGbIN7FvxqhLtxGvK0aWC3c%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/ca8f0548f1bb4af7a7b0a988018a2344/QC/CL-71-Plate_1-D01_qctable_6641635.133034823_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964779&response-content-disposition=filename%3DCL-71-Plate_1-D01_qctable_6641635.133034823_helix.txt&response-content-type=text%2Fplain&Signature=CLzshl9J7t2OZ375IwnZIpplW7A%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/ca8f0548f1bb4af7a7b0a988018a2344/BAM/CL-71-Plate_1-D01_6641635.133034823_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964779&response-content-disposition=filename%3DCL-71-Plate_1-D01_6641635.133034823_helix.cram&response-content-type=application%2Foctet-stream&Signature=uaF6JCB1Fo0kJb6xmDPPO%2FT2k8E%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "CL-71-Plate_1-D01"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/154955427eb44926b475a988018adbc2/QC/CL-09-Plate_1-A06_qctable-by-region_6641635.133944844_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964780&response-content-disposition=filename%3DCL-09-Plate_1-A06_qctable-by-region_6641635.133944844_helix.txt&response-content-type=text%2Fplain&Signature=KE4hQNVwD5WWY6s4dKoMHCHANMc%3D"
+            },
+            "AppSessionId": "133944844",
+            "AnalysisId": "AN-58",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/154955427eb44926b475a988018adbc2/BAM/CL-09-Plate_1-A06_6641635.133944844_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964780&response-content-disposition=filename%3DCL-09-Plate_1-A06_6641635.133944844_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=XoJUtx9aXdGVTtWHJcz1PS%2FJgJY%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/154955427eb44926b475a988018adbc2/QC/CL-09-Plate_1-A06_qctable_6641635.133944844_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964780&response-content-disposition=filename%3DCL-09-Plate_1-A06_qctable_6641635.133944844_helix.txt&response-content-type=text%2Fplain&Signature=i8g46oci%2FHSI%2BCMap9gm%2BV5l84I%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/154955427eb44926b475a988018adbc2/BAM/CL-09-Plate_1-A06_6641635.133944844_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964780&response-content-disposition=filename%3DCL-09-Plate_1-A06_6641635.133944844_helix.cram&response-content-type=application%2Foctet-stream&Signature=bz4XM6ojv9BjfQ1KXCfjSFX5vDg%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "CL-09-Plate_1-A06"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/55dbd078abb64aab808ca988018b6b7a/QC/NA12878-CL-01-Plate_1-A02_qctable-by-region_6641635.133615893_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964780&response-content-disposition=filename%3DNA12878-CL-01-Plate_1-A02_qctable-by-region_6641635.133615893_helix.txt&response-content-type=text%2Fplain&Signature=kDKKri%2FeczwJyw1FVcRkh6IIWD8%3D"
+            },
+            "AppSessionId": "133615893",
+            "AnalysisId": "AN-59",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/55dbd078abb64aab808ca988018b6b7a/BAM/NA12878-CL-01-Plate_1-A02_6641635.133615893_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964780&response-content-disposition=filename%3DNA12878-CL-01-Plate_1-A02_6641635.133615893_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=46Df4i80K%2Fp7PafKW265ZyLJ03k%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/55dbd078abb64aab808ca988018b6b7a/QC/NA12878-CL-01-Plate_1-A02_qctable_6641635.133615893_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964780&response-content-disposition=filename%3DNA12878-CL-01-Plate_1-A02_qctable_6641635.133615893_helix.txt&response-content-type=text%2Fplain&Signature=V35T3TeD%2FfDlDsNWWLEjeTpJtxc%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/55dbd078abb64aab808ca988018b6b7a/BAM/NA12878-CL-01-Plate_1-A02_6641635.133615893_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964780&response-content-disposition=filename%3DNA12878-CL-01-Plate_1-A02_6641635.133615893_helix.cram&response-content-type=application%2Foctet-stream&Signature=2FuFUMYAyFipKYu8S4wheXfaAQo%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "NA12878-CL-01-Plate_1-A02"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/11d62dcef7104604b28da9890042ce72/QC/CL-63-Plate_1-D04_qctable-by-region_6641635.133034838_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964781&response-content-disposition=filename%3DCL-63-Plate_1-D04_qctable-by-region_6641635.133034838_helix.txt&response-content-type=text%2Fplain&Signature=XAygJ73i5GtYQ0p91QawltLsYpg%3D"
+            },
+            "AppSessionId": "133034838",
+            "AnalysisId": "AN-60",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/11d62dcef7104604b28da9890042ce72/BAM/CL-63-Plate_1-D04_6641635.133034838_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964781&response-content-disposition=filename%3DCL-63-Plate_1-D04_6641635.133034838_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=yeDtkarjm%2FS0IkMdx61veh3lniM%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/11d62dcef7104604b28da9890042ce72/QC/CL-63-Plate_1-D04_qctable_6641635.133034838_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964781&response-content-disposition=filename%3DCL-63-Plate_1-D04_qctable_6641635.133034838_helix.txt&response-content-type=text%2Fplain&Signature=33MQA6rvgAkv6gwnCZUbt%2Brh5us%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/11d62dcef7104604b28da9890042ce72/BAM/CL-63-Plate_1-D04_6641635.133034838_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964781&response-content-disposition=filename%3DCL-63-Plate_1-D04_6641635.133034838_helix.cram&response-content-type=application%2Foctet-stream&Signature=yNujQFVZi8X5EPVBDXSO8RSt3l4%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "CL-63-Plate_1-D04"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/d134b05b5ac74bf7a724a989005d4cbc/QC/SA-21-Plate_1-E12_qctable-by-region_6641635.133615927_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964781&response-content-disposition=filename%3DSA-21-Plate_1-E12_qctable-by-region_6641635.133615927_helix.txt&response-content-type=text%2Fplain&Signature=QTsM57K2BXn6spqp58VNQciqzxc%3D"
+            },
+            "AppSessionId": "133615927",
+            "AnalysisId": "AN-61",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/d134b05b5ac74bf7a724a989005d4cbc/BAM/SA-21-Plate_1-E12_6641635.133615927_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964781&response-content-disposition=filename%3DSA-21-Plate_1-E12_6641635.133615927_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=UagxBalf3xjF42prwSKE5SVKMNw%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/d134b05b5ac74bf7a724a989005d4cbc/QC/SA-21-Plate_1-E12_qctable_6641635.133615927_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964781&response-content-disposition=filename%3DSA-21-Plate_1-E12_qctable_6641635.133615927_helix.txt&response-content-type=text%2Fplain&Signature=PHP6CKwfWvK12HtO6MBU%2BJKu0iE%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/d134b05b5ac74bf7a724a989005d4cbc/BAM/SA-21-Plate_1-E12_6641635.133615927_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964781&response-content-disposition=filename%3DSA-21-Plate_1-E12_6641635.133615927_helix.cram&response-content-type=application%2Foctet-stream&Signature=I%2BOrIMAn4crQdv1XsENppg4c1pg%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "SA-21-Plate_1-E12"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/2337fcd39159421c87d6a989005c5a7d/QC/CL-44-Plate_1-D09_qctable-by-region_6641635.133034846_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964782&response-content-disposition=filename%3DCL-44-Plate_1-D09_qctable-by-region_6641635.133034846_helix.txt&response-content-type=text%2Fplain&Signature=dBkqsm0xNGZshTOP%2FtO4JL%2FekGc%3D"
+            },
+            "AppSessionId": "133034846",
+            "AnalysisId": "AN-62",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/2337fcd39159421c87d6a989005c5a7d/BAM/CL-44-Plate_1-D09_6641635.133034846_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964782&response-content-disposition=filename%3DCL-44-Plate_1-D09_6641635.133034846_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=a2E1BTJGL2zvwcpPhV6sCDllLaE%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/2337fcd39159421c87d6a989005c5a7d/QC/CL-44-Plate_1-D09_qctable_6641635.133034846_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964782&response-content-disposition=filename%3DCL-44-Plate_1-D09_qctable_6641635.133034846_helix.txt&response-content-type=text%2Fplain&Signature=EpRy6WdEMeuFsGOLXJAO4RgHDzQ%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/2337fcd39159421c87d6a989005c5a7d/BAM/CL-44-Plate_1-D09_6641635.133034846_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964782&response-content-disposition=filename%3DCL-44-Plate_1-D09_6641635.133034846_helix.cram&response-content-type=application%2Foctet-stream&Signature=bvsyVq7OMgTZFlob%2BPSIJe93xvE%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "CL-44-Plate_1-D09"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/b7fe85f0ace34ef2b87ca989005e55b0/QC/CL-32-Plate_1-A07_qctable-by-region_6641635.132799604_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964782&response-content-disposition=filename%3DCL-32-Plate_1-A07_qctable-by-region_6641635.132799604_helix.txt&response-content-type=text%2Fplain&Signature=J%2BuFJOQoLlgXCF88a6jJUucJeMo%3D"
+            },
+            "AppSessionId": "132799604",
+            "AnalysisId": "AN-63",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/b7fe85f0ace34ef2b87ca989005e55b0/BAM/CL-32-Plate_1-A07_6641635.132799604_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964782&response-content-disposition=filename%3DCL-32-Plate_1-A07_6641635.132799604_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=dz9K8rD20YvY6qZHShZJ9I2luSw%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/b7fe85f0ace34ef2b87ca989005e55b0/QC/CL-32-Plate_1-A07_qctable_6641635.132799604_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964782&response-content-disposition=filename%3DCL-32-Plate_1-A07_qctable_6641635.132799604_helix.txt&response-content-type=text%2Fplain&Signature=GJB9s6wEnVuzyQ9Q5GUxhr%2FHCCo%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/b7fe85f0ace34ef2b87ca989005e55b0/BAM/CL-32-Plate_1-A07_6641635.132799604_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964782&response-content-disposition=filename%3DCL-32-Plate_1-A07_6641635.132799604_helix.cram&response-content-type=application%2Foctet-stream&Signature=t26vnWyuJqw0Tmk0xkmOWbl%2FOtk%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "CL-32-Plate_1-A07"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/1a29be5aeb64473bb26aa989004dd92a/QC/CL-46-Plate_1-F09_qctable-by-region_6641635.133159727_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964783&response-content-disposition=filename%3DCL-46-Plate_1-F09_qctable-by-region_6641635.133159727_helix.txt&response-content-type=text%2Fplain&Signature=5p3jZ9PNiHy%2Bfy0fhX7CIuuRH6A%3D"
+            },
+            "AppSessionId": "133159727",
+            "AnalysisId": "AN-64",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/1a29be5aeb64473bb26aa989004dd92a/BAM/CL-46-Plate_1-F09_6641635.133159727_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964783&response-content-disposition=filename%3DCL-46-Plate_1-F09_6641635.133159727_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=vQPJ7WKLMANBU9lPeCfUNTn106k%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/1a29be5aeb64473bb26aa989004dd92a/QC/CL-46-Plate_1-F09_qctable_6641635.133159727_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964783&response-content-disposition=filename%3DCL-46-Plate_1-F09_qctable_6641635.133159727_helix.txt&response-content-type=text%2Fplain&Signature=yENj55ofk2GQmcTUzmpvY3lWOlY%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/1a29be5aeb64473bb26aa989004dd92a/BAM/CL-46-Plate_1-F09_6641635.133159727_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964783&response-content-disposition=filename%3DCL-46-Plate_1-F09_6641635.133159727_helix.cram&response-content-type=application%2Foctet-stream&Signature=cwWZ2b5ebYxEzygu2e9FrYFID1I%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "CL-46-Plate_1-F09"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/9324a872575f4e4b84fda98900500db6/QC/CL-54-Plate_1-F05_qctable-by-region_6641635.132799587_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964783&response-content-disposition=filename%3DCL-54-Plate_1-F05_qctable-by-region_6641635.132799587_helix.txt&response-content-type=text%2Fplain&Signature=qShrea2uFRKJ3FESFqatY24LxEo%3D"
+            },
+            "AppSessionId": "132799587",
+            "AnalysisId": "AN-65",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/9324a872575f4e4b84fda98900500db6/BAM/CL-54-Plate_1-F05_6641635.132799587_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964783&response-content-disposition=filename%3DCL-54-Plate_1-F05_6641635.132799587_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=ywuVHwsQHAfYv3qMGdeXuLS%2F0cY%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/9324a872575f4e4b84fda98900500db6/QC/CL-54-Plate_1-F05_qctable_6641635.132799587_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964783&response-content-disposition=filename%3DCL-54-Plate_1-F05_qctable_6641635.132799587_helix.txt&response-content-type=text%2Fplain&Signature=qvjAI1FgXCQ2b7peVxdq%2Fgfuv74%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/9324a872575f4e4b84fda98900500db6/BAM/CL-54-Plate_1-F05_6641635.132799587_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964783&response-content-disposition=filename%3DCL-54-Plate_1-F05_6641635.132799587_helix.cram&response-content-type=application%2Foctet-stream&Signature=H%2BDNHhVy4M0FdekinCiTX6nUIss%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "CL-54-Plate_1-F05"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/a8d267f981c8420e87cba98900011f6c/QC/CAP-2-Plate_1-F07_qctable-by-region_6641635.133946829_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964784&response-content-disposition=filename%3DCAP-2-Plate_1-F07_qctable-by-region_6641635.133946829_helix.txt&response-content-type=text%2Fplain&Signature=Tq%2BTvAmd72J4NDdREclpPhHGjxY%3D"
+            },
+            "AppSessionId": "133946829",
+            "AnalysisId": "AN-66",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/a8d267f981c8420e87cba98900011f6c/BAM/CAP-2-Plate_1-F07_6641635.133946829_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964784&response-content-disposition=filename%3DCAP-2-Plate_1-F07_6641635.133946829_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=FE3FCQBXeSIsg64AGy6dUc5GShA%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/a8d267f981c8420e87cba98900011f6c/QC/CAP-2-Plate_1-F07_qctable_6641635.133946829_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964784&response-content-disposition=filename%3DCAP-2-Plate_1-F07_qctable_6641635.133946829_helix.txt&response-content-type=text%2Fplain&Signature=hqhM58I3Ap4OV00aSrZb5gNF24Q%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/a8d267f981c8420e87cba98900011f6c/BAM/CAP-2-Plate_1-F07_6641635.133946829_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964784&response-content-disposition=filename%3DCAP-2-Plate_1-F07_6641635.133946829_helix.cram&response-content-type=application%2Foctet-stream&Signature=2QPzxYVTVgpq4Fv%2FK%2Be4Y%2BslE5g%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "CAP-2-Plate_1-F07"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/ad9ef12459324b1e9008a98900219d8b/QC/CL-70-Plate_1-C01_qctable-by-region_6641635.132799622_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964784&response-content-disposition=filename%3DCL-70-Plate_1-C01_qctable-by-region_6641635.132799622_helix.txt&response-content-type=text%2Fplain&Signature=wBPnP1dsfHxLw8p%2BIGIJQhBwBm0%3D"
+            },
+            "AppSessionId": "132799622",
+            "AnalysisId": "AN-67",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/ad9ef12459324b1e9008a98900219d8b/BAM/CL-70-Plate_1-C01_6641635.132799622_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964784&response-content-disposition=filename%3DCL-70-Plate_1-C01_6641635.132799622_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=l5aB0xyNs1US%2BtetTX4i5MK%2F%2Bgs%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/ad9ef12459324b1e9008a98900219d8b/QC/CL-70-Plate_1-C01_qctable_6641635.132799622_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964784&response-content-disposition=filename%3DCL-70-Plate_1-C01_qctable_6641635.132799622_helix.txt&response-content-type=text%2Fplain&Signature=fHFYJSub4WkWqbEsBWLM1RxZku8%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/ad9ef12459324b1e9008a98900219d8b/BAM/CL-70-Plate_1-C01_6641635.132799622_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964784&response-content-disposition=filename%3DCL-70-Plate_1-C01_6641635.132799622_helix.cram&response-content-type=application%2Foctet-stream&Signature=8gzneKj7AGlVem3UaiISChiu4ss%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "CL-70-Plate_1-C01"
+        },
+        {
+            "CompletionStatus": "Complete",
+            "AssayVersion": "v2",
+            "SampleQcTableByRegion": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/a46ae43b05074603a6e2a9890040a135/QC/CL-11-Plate_1-C06_qctable-by-region_6641635.132632483_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964785&response-content-disposition=filename%3DCL-11-Plate_1-C06_qctable-by-region_6641635.132632483_helix.txt&response-content-type=text%2Fplain&Signature=dHLdq0iFScgVc%2FRZZ%2BbUdGk96WM%3D"
+            },
+            "AppSessionId": "132632483",
+            "AnalysisId": "AN-68",
+            "Bai": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/a46ae43b05074603a6e2a9890040a135/BAM/CL-11-Plate_1-C06_6641635.132632483_helix.cram.crai?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964785&response-content-disposition=filename%3DCL-11-Plate_1-C06_6641635.132632483_helix.cram.crai&response-content-type=application%2Foctet-stream&Signature=2A4BXPOT8%2FywEcY2i51aOPVDFm4%3D"
+            },
+            "SampleQc": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/a46ae43b05074603a6e2a9890040a135/QC/CL-11-Plate_1-C06_qctable_6641635.132632483_helix.txt?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964785&response-content-disposition=filename%3DCL-11-Plate_1-C06_qctable_6641635.132632483_helix.txt&response-content-type=text%2Fplain&Signature=tAxgoWv0uXGU8yHtOoWhTj4fT7w%3D"
+            },
+            "Bam": {
+                "Path": "https://basespace-data-east.s3-external-1.amazonaws.com/a46ae43b05074603a6e2a9890040a135/BAM/CL-11-Plate_1-C06_6641635.132632483_helix.cram?AWSAccessKeyId=AKIAJDDQ4YS66YLYB52Q&Expires=1557964785&response-content-disposition=filename%3DCL-11-Plate_1-C06_6641635.132632483_helix.cram&response-content-type=application%2Foctet-stream&Signature=il9zaiVcPsjq8YEIqO%2Ftl7LHqRk%3D"
+            },
+            "Bcf": {
+                "Path": ""
+            },
+            "BcfIndex": {
+                "Path": ""
+            },
+            "SampleId": "CL-11-Plate_1-C06"
+        }
+    ],
+    "Batch": {
+        "BatchId": "test_ev2val_sp1",
+        "FlowcellId": "test_flowcell"
+    }
+}

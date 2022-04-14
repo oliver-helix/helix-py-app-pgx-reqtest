@@ -1,0 +1,36 @@
+{
+    "callSetId": "NA12878-EV3-EXP29a-A08-1a-A04_194492330",
+    "pgxVersion": "2.1.0",
+    "pgxQc": "PASS",
+    "analysisStatus": "Complete",
+    "pgxReadCountQc": "PASS",
+    "results": {
+        "starAlleles": [
+            {
+                "gene": "CYP2D6",
+                "noCandidates": "False",
+                "filter": [
+                    "PASS"
+                ],
+                "geneQc": "PASS"
+            },
+            {
+                "gene": "CYP4F2",
+                "noCandidates": "False",
+                "filter": [
+                    "PASS"
+                ],
+                "geneQc": "PASS"
+            }
+        ],
+        "variantGenotypes": [
+            {
+                "gene": "VKORC1",
+                "filter": [
+                    "PASS"
+                ],
+                "geneQc": "PASS"
+            }
+        ]
+    }
+}

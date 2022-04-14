@@ -1,0 +1,350 @@
+{
+    "Batch": {
+        "batchId": "test_ev2val_sp1",
+        "pgxVersion": "1.2.0",
+        "batch_qc_json": "s3_dir/test_ev2val_sp1_batch_qc.json",
+        "output_path": "s3_dir"
+    },
+    "Analyses": [
+        {
+            "analysis_id": "AN-27",
+            "partner_json": "s3_dir/samples/CAP-1-Plate_1-B07_132799629_output.json",
+            "qc_json": "s3_dir/samples/CAP-1-Plate_1-B07_132799629_qc.json"
+        },
+        {
+            "analysis_id": "AN-50",
+            "partner_json": "s3_dir/samples/CAP-1-Plate_1-C07_133376847_output.json",
+            "qc_json": "s3_dir/samples/CAP-1-Plate_1-C07_133376847_qc.json"
+        },
+        {
+            "analysis_id": "AN-24",
+            "partner_json": "s3_dir/samples/CAP-1-Plate_1-D07_133645808_output.json",
+            "qc_json": "s3_dir/samples/CAP-1-Plate_1-D07_133645808_qc.json"
+        },
+        {
+            "analysis_id": "AN-42",
+            "partner_json": "s3_dir/samples/CAP-2-Plate_1-E07_133615891_output.json",
+            "qc_json": "s3_dir/samples/CAP-2-Plate_1-E07_133615891_qc.json"
+        },
+        {
+            "analysis_id": "AN-66",
+            "partner_json": "s3_dir/samples/CAP-2-Plate_1-F07_133946829_output.json",
+            "qc_json": "s3_dir/samples/CAP-2-Plate_1-F07_133946829_qc.json"
+        },
+        {
+            "analysis_id": "AN-58",
+            "partner_json": "s3_dir/samples/CL-09-Plate_1-A06_133944844_output.json",
+            "qc_json": "s3_dir/samples/CL-09-Plate_1-A06_133944844_qc.json"
+        },
+        {
+            "analysis_id": "AN-25",
+            "partner_json": "s3_dir/samples/CL-10-Plate_1-B06_133615928_output.json",
+            "qc_json": "s3_dir/samples/CL-10-Plate_1-B06_133615928_qc.json"
+        },
+        {
+            "analysis_id": "AN-68",
+            "partner_json": "s3_dir/samples/CL-11-Plate_1-C06_132632483_output.json",
+            "qc_json": "s3_dir/samples/CL-11-Plate_1-C06_132632483_qc.json"
+        },
+        {
+            "analysis_id": "AN-41",
+            "partner_json": "s3_dir/samples/CL-12-Plate_1-D06_133716628_output.json",
+            "qc_json": "s3_dir/samples/CL-12-Plate_1-D06_133716628_qc.json"
+        },
+        {
+            "analysis_id": "AN-23",
+            "partner_json": "s3_dir/samples/CL-13-Plate_1-E06_132632476_output.json",
+            "qc_json": "s3_dir/samples/CL-13-Plate_1-E06_132632476_qc.json"
+        },
+        {
+            "analysis_id": "AN-45",
+            "partner_json": "s3_dir/samples/CL-14-Plate_1-F06_133729732_output.json",
+            "qc_json": "s3_dir/samples/CL-14-Plate_1-F06_133729732_qc.json"
+        },
+        {
+            "analysis_id": "AN-63",
+            "partner_json": "s3_dir/samples/CL-32-Plate_1-A07_132799604_output.json",
+            "qc_json": "s3_dir/samples/CL-32-Plate_1-A07_132799604_qc.json"
+        },
+        {
+            "analysis_id": "AN-40",
+            "partner_json": "s3_dir/samples/CL-41-Plate_1-A09_133946824_output.json",
+            "qc_json": "s3_dir/samples/CL-41-Plate_1-A09_133946824_qc.json"
+        },
+        {
+            "analysis_id": "AN-20",
+            "partner_json": "s3_dir/samples/CL-42-Plate_1-B09_132964735_output.json",
+            "qc_json": "s3_dir/samples/CL-42-Plate_1-B09_132964735_qc.json"
+        },
+        {
+            "analysis_id": "AN-55",
+            "partner_json": "s3_dir/samples/CL-43-Plate_1-C09_133683744_output.json",
+            "qc_json": "s3_dir/samples/CL-43-Plate_1-C09_133683744_qc.json"
+        },
+        {
+            "analysis_id": "AN-62",
+            "partner_json": "s3_dir/samples/CL-44-Plate_1-D09_133034846_output.json",
+            "qc_json": "s3_dir/samples/CL-44-Plate_1-D09_133034846_qc.json"
+        },
+        {
+            "analysis_id": "AN-26",
+            "partner_json": "s3_dir/samples/CL-45-Plate_1-E09_133052692_output.json",
+            "qc_json": "s3_dir/samples/CL-45-Plate_1-E09_133052692_qc.json"
+        },
+        {
+            "analysis_id": "AN-64",
+            "partner_json": "s3_dir/samples/CL-46-Plate_1-F09_133159727_output.json",
+            "qc_json": "s3_dir/samples/CL-46-Plate_1-F09_133159727_qc.json"
+        },
+        {
+            "analysis_id": "AN-53",
+            "partner_json": "s3_dir/samples/CL-52-Plate_1-D05_133052679_output.json",
+            "qc_json": "s3_dir/samples/CL-52-Plate_1-D05_133052679_qc.json"
+        },
+        {
+            "analysis_id": "AN-51",
+            "partner_json": "s3_dir/samples/CL-53-Plate_1-E05_132799610_output.json",
+            "qc_json": "s3_dir/samples/CL-53-Plate_1-E05_132799610_qc.json"
+        },
+        {
+            "analysis_id": "AN-65",
+            "partner_json": "s3_dir/samples/CL-54-Plate_1-F05_132799587_output.json",
+            "qc_json": "s3_dir/samples/CL-54-Plate_1-F05_132799587_qc.json"
+        },
+        {
+            "analysis_id": "AN-60",
+            "partner_json": "s3_dir/samples/CL-63-Plate_1-D04_133034838_output.json",
+            "qc_json": "s3_dir/samples/CL-63-Plate_1-D04_133034838_qc.json"
+        },
+        {
+            "analysis_id": "AN-56",
+            "partner_json": "s3_dir/samples/CL-64-Plate_1-E04_133159708_output.json",
+            "qc_json": "s3_dir/samples/CL-64-Plate_1-E04_133159708_qc.json"
+        },
+        {
+            "analysis_id": "AN-49",
+            "partner_json": "s3_dir/samples/CL-65-Plate_1-F04_133944869_output.json",
+            "qc_json": "s3_dir/samples/CL-65-Plate_1-F04_133944869_qc.json"
+        },
+        {
+            "analysis_id": "AN-38",
+            "partner_json": "s3_dir/samples/CL-68-Plate_1-F01_133159728_output.json",
+            "qc_json": "s3_dir/samples/CL-68-Plate_1-F01_133159728_qc.json"
+        },
+        {
+            "analysis_id": "AN-18",
+            "partner_json": "s3_dir/samples/CL-69-Plate_1-B01_133052682_output.json",
+            "qc_json": "s3_dir/samples/CL-69-Plate_1-B01_133052682_qc.json"
+        },
+        {
+            "analysis_id": "AN-67",
+            "partner_json": "s3_dir/samples/CL-70-Plate_1-C01_132799622_output.json",
+            "qc_json": "s3_dir/samples/CL-70-Plate_1-C01_132799622_qc.json"
+        },
+        {
+            "analysis_id": "AN-57",
+            "partner_json": "s3_dir/samples/CL-71-Plate_1-D01_133034823_output.json",
+            "qc_json": "s3_dir/samples/CL-71-Plate_1-D01_133034823_qc.json"
+        },
+        {
+            "analysis_id": "AN-54",
+            "partner_json": "s3_dir/samples/CL-72-Plate_1-E01_132799595_output.json",
+            "qc_json": "s3_dir/samples/CL-72-Plate_1-E01_132799595_qc.json"
+        },
+        {
+            "analysis_id": "AN-52",
+            "partner_json": "s3_dir/samples/Input-B-35-Plate_1-D08_133159760_output.json",
+            "qc_json": "s3_dir/samples/Input-B-35-Plate_1-D08_133159760_qc.json"
+        },
+        {
+            "analysis_id": "AN-36",
+            "partner_json": "s3_dir/samples/Input-B-35-Plate_1-E08_133159722_output.json",
+            "qc_json": "s3_dir/samples/Input-B-35-Plate_1-E08_133159722_qc.json"
+        },
+        {
+            "analysis_id": "AN-28",
+            "partner_json": "s3_dir/samples/NA12878-CL-01-Plate_1-A01_133376831_output.json",
+            "qc_json": "s3_dir/samples/NA12878-CL-01-Plate_1-A01_133376831_qc.json"
+        },
+        {
+            "analysis_id": "AN-59",
+            "partner_json": "s3_dir/samples/NA12878-CL-01-Plate_1-A02_133615893_output.json",
+            "qc_json": "s3_dir/samples/NA12878-CL-01-Plate_1-A02_133615893_qc.json"
+        },
+        {
+            "analysis_id": "AN-1",
+            "partner_json": "s3_dir/samples/NA12878-CL-01-Plate_1-A03_132964731_output.json",
+            "qc_json": "s3_dir/samples/NA12878-CL-01-Plate_1-A03_132964731_qc.json"
+        },
+        {
+            "analysis_id": "AN-8",
+            "partner_json": "s3_dir/samples/SA-01-Plate_1-A10_133376867_output.json",
+            "qc_json": "s3_dir/samples/SA-01-Plate_1-A10_133376867_qc.json"
+        },
+        {
+            "analysis_id": "AN-7",
+            "partner_json": "s3_dir/samples/SA-02-Plate_1-B10_133615918_output.json",
+            "qc_json": "s3_dir/samples/SA-02-Plate_1-B10_133615918_qc.json"
+        },
+        {
+            "analysis_id": "AN-14",
+            "partner_json": "s3_dir/samples/SA-03-Plate_1-C10_132799619_output.json",
+            "qc_json": "s3_dir/samples/SA-03-Plate_1-C10_132799619_qc.json"
+        },
+        {
+            "analysis_id": "AN-34",
+            "partner_json": "s3_dir/samples/SA-04-Plate_1-D10_132964759_output.json",
+            "qc_json": "s3_dir/samples/SA-04-Plate_1-D10_132964759_qc.json"
+        },
+        {
+            "analysis_id": "AN-47",
+            "partner_json": "s3_dir/samples/SA-05-Plate_1-E10_133944877_output.json",
+            "qc_json": "s3_dir/samples/SA-05-Plate_1-E10_133944877_qc.json"
+        },
+        {
+            "analysis_id": "AN-29",
+            "partner_json": "s3_dir/samples/SA-06-Plate_1-F10_133052704_output.json",
+            "qc_json": "s3_dir/samples/SA-06-Plate_1-F10_133052704_qc.json"
+        },
+        {
+            "analysis_id": "AN-22",
+            "partner_json": "s3_dir/samples/SA-09-Plate_1-A11_133052697_output.json",
+            "qc_json": "s3_dir/samples/SA-09-Plate_1-A11_133052697_qc.json"
+        },
+        {
+            "analysis_id": "AN-5",
+            "partner_json": "s3_dir/samples/SA-10-Plate_1-B11_133615914_output.json",
+            "qc_json": "s3_dir/samples/SA-10-Plate_1-B11_133615914_qc.json"
+        },
+        {
+            "analysis_id": "AN-48",
+            "partner_json": "s3_dir/samples/SA-11-Plate_1-C11_133034836_output.json",
+            "qc_json": "s3_dir/samples/SA-11-Plate_1-C11_133034836_qc.json"
+        },
+        {
+            "analysis_id": "AN-35",
+            "partner_json": "s3_dir/samples/SA-12-Plate_1-D11_132964741_output.json",
+            "qc_json": "s3_dir/samples/SA-12-Plate_1-D11_132964741_qc.json"
+        },
+        {
+            "analysis_id": "AN-33",
+            "partner_json": "s3_dir/samples/SA-13-Plate_1-E11_133376849_output.json",
+            "qc_json": "s3_dir/samples/SA-13-Plate_1-E11_133376849_qc.json"
+        },
+        {
+            "analysis_id": "AN-30",
+            "partner_json": "s3_dir/samples/SA-14-Plate_1-F11_133376842_output.json",
+            "qc_json": "s3_dir/samples/SA-14-Plate_1-F11_133376842_qc.json"
+        },
+        {
+            "analysis_id": "AN-2",
+            "partner_json": "s3_dir/samples/SA-17-Plate_1-A04_133645816_output.json",
+            "qc_json": "s3_dir/samples/SA-17-Plate_1-A04_133645816_qc.json"
+        },
+        {
+            "analysis_id": "AN-44",
+            "partner_json": "s3_dir/samples/SA-17-Plate_1-A05_133159745_output.json",
+            "qc_json": "s3_dir/samples/SA-17-Plate_1-A05_133159745_qc.json"
+        },
+        {
+            "analysis_id": "AN-6",
+            "partner_json": "s3_dir/samples/SA-17-Plate_1-A12_133034844_output.json",
+            "qc_json": "s3_dir/samples/SA-17-Plate_1-A12_133034844_qc.json"
+        },
+        {
+            "analysis_id": "AN-16",
+            "partner_json": "s3_dir/samples/SA-18-Plate_1-B04_133052685_output.json",
+            "qc_json": "s3_dir/samples/SA-18-Plate_1-B04_133052685_qc.json"
+        },
+        {
+            "analysis_id": "AN-15",
+            "partner_json": "s3_dir/samples/SA-18-Plate_1-B05_133615931_output.json",
+            "qc_json": "s3_dir/samples/SA-18-Plate_1-B05_133615931_qc.json"
+        },
+        {
+            "analysis_id": "AN-4",
+            "partner_json": "s3_dir/samples/SA-18-Plate_1-B12_132964737_output.json",
+            "qc_json": "s3_dir/samples/SA-18-Plate_1-B12_132964737_qc.json"
+        },
+        {
+            "analysis_id": "AN-13",
+            "partner_json": "s3_dir/samples/SA-19-Plate_1-C04_133376868_output.json",
+            "qc_json": "s3_dir/samples/SA-19-Plate_1-C04_133376868_qc.json"
+        },
+        {
+            "analysis_id": "AN-31",
+            "partner_json": "s3_dir/samples/SA-19-Plate_1-C05_133944861_output.json",
+            "qc_json": "s3_dir/samples/SA-19-Plate_1-C05_133944861_qc.json"
+        },
+        {
+            "analysis_id": "AN-43",
+            "partner_json": "s3_dir/samples/SA-19-Plate_1-C12_133946841_output.json",
+            "qc_json": "s3_dir/samples/SA-19-Plate_1-C12_133946841_qc.json"
+        },
+        {
+            "analysis_id": "AN-12",
+            "partner_json": "s3_dir/samples/SA-20-Plate_1-D12_133615935_output.json",
+            "qc_json": "s3_dir/samples/SA-20-Plate_1-D12_133615935_qc.json"
+        },
+        {
+            "analysis_id": "AN-61",
+            "partner_json": "s3_dir/samples/SA-21-Plate_1-E12_133615927_output.json",
+            "qc_json": "s3_dir/samples/SA-21-Plate_1-E12_133615927_qc.json"
+        },
+        {
+            "analysis_id": "AN-39",
+            "partner_json": "s3_dir/samples/SA-22-Plate_1-F12_133376861_output.json",
+            "qc_json": "s3_dir/samples/SA-22-Plate_1-F12_133376861_qc.json"
+        },
+        {
+            "analysis_id": "AN-9",
+            "partner_json": "s3_dir/samples/SA-53-Plate_1-F02_133376859_output.json",
+            "qc_json": "s3_dir/samples/SA-53-Plate_1-F02_133376859_qc.json"
+        },
+        {
+            "analysis_id": "AN-11",
+            "partner_json": "s3_dir/samples/SA-54-Plate_1-B02_133615911_output.json",
+            "qc_json": "s3_dir/samples/SA-54-Plate_1-B02_133615911_qc.json"
+        },
+        {
+            "analysis_id": "AN-3",
+            "partner_json": "s3_dir/samples/SA-55-Plate_1-C02_133615932_output.json",
+            "qc_json": "s3_dir/samples/SA-55-Plate_1-C02_133615932_qc.json"
+        },
+        {
+            "analysis_id": "AN-21",
+            "partner_json": "s3_dir/samples/SA-56-Plate_1-D02_133052706_output.json",
+            "qc_json": "s3_dir/samples/SA-56-Plate_1-D02_133052706_qc.json"
+        },
+        {
+            "analysis_id": "AN-17",
+            "partner_json": "s3_dir/samples/SA-57-Plate_1-E02_133683783_output.json",
+            "qc_json": "s3_dir/samples/SA-57-Plate_1-E02_133683783_qc.json"
+        },
+        {
+            "analysis_id": "AN-37",
+            "partner_json": "s3_dir/samples/SA-58-Plate_1-F03_133159767_output.json",
+            "qc_json": "s3_dir/samples/SA-58-Plate_1-F03_133159767_qc.json"
+        },
+        {
+            "analysis_id": "AN-32",
+            "partner_json": "s3_dir/samples/SA-59-Plate_1-B03_133052690_output.json",
+            "qc_json": "s3_dir/samples/SA-59-Plate_1-B03_133052690_qc.json"
+        },
+        {
+            "analysis_id": "AN-10",
+            "partner_json": "s3_dir/samples/SA-60-Plate_1-C03_133052688_output.json",
+            "qc_json": "s3_dir/samples/SA-60-Plate_1-C03_133052688_qc.json"
+        },
+        {
+            "analysis_id": "AN-19",
+            "partner_json": "s3_dir/samples/SA-61-Plate_1-D03_132964762_output.json",
+            "qc_json": "s3_dir/samples/SA-61-Plate_1-D03_132964762_qc.json"
+        },
+        {
+            "analysis_id": "AN-46",
+            "partner_json": "s3_dir/samples/SA-62-Plate_1-E03_132799627_output.json",
+            "qc_json": "s3_dir/samples/SA-62-Plate_1-E03_132799627_qc.json"
+        }
+    ]
+}
