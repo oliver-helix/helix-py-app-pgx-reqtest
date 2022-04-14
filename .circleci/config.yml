@@ -2,41 +2,149 @@
 # See: https://circleci.com/docs/2.0/configuration-reference
 version: 2.1
 
+helix-conf:
+  - &aws-region us-east-1
+  - &aws-default-output json
+  - &ecr-repo ${CIRCLE_PROJECT_REPONAME} # circle ci env var for repo name
+
+# Use a package of configuration called an orb, see https://circleci.com/docs/2.0/orb-intro/
 orbs:
-  node: circleci/node@4.7.0
+  aws-cli: circleci/aws-cli@2.0.0
+  aws-assume-role: holdaraffle/aws-assume-role@0.0.10
+
+executors:
+  default:
+    docker:
+      - image: circleci/python:3.5.7
+        environment:
+          AWS_DEFAULT_REGION: *aws-region
+          AWS_DEFAULT_OUTPUT: *aws-default-output
+          PGX_DOCKER_TAG: 4.0.4
 
 # Define a job to be invoked later in a workflow.
 # See: https://circleci.com/docs/2.0/configuration-reference/#jobs
 jobs:
-  say-hello:
-    # Specify the execution environment. You can specify an image from Dockerhub or use one of our Convenience Images from CircleCI's Developer Hub.
-    # See: https://circleci.com/docs/2.0/configuration-reference/#docker-machine-macos-windows-executor
-    docker:
-      - image: cimg/base:stable
-    # Add steps to the job
-    # See: https://circleci.com/docs/2.0/configuration-reference/#steps
+  build-image-and-test:
+    description: Builds the Docker image and runs pytest.
+    executor: default
     steps:
-      - checkout
+      - attach_workspace:
+          at: /tmp/workspace
+
+      # Running orbs
+      - aws-cli/setup
+      - setup_remote_docker
+      - aws-assume-role/assume_role:
+          profile_name: ${ENVIRONMENT} # from context: ci
+          account: ${AWS_ACCOUNT_ID} # from context: ci
+          role: ${ASSUME_AWS_PROFILE} # from context: ci
+
+      - run: &ecr_login
+          name: AWS ECR Login
+          command: |
+            aws ecr get-login-password --region ${AWS_DEFAULT_REGION} --profile ${ENVIRONMENT} | \
+            docker login --username AWS --password-stdin ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com
+
+      - checkout:
+          path: /tmp/src
+
       - run:
-          name: "Say hello"
-          command: "echo Hello, World!"
-  build:
-    executor: 
-      name: node/default
-      tag: '10.4'
-    steps:
-      - checkout
-      - node/with-cache:
+          name: Build Docker Image
+          command: |
+            set -x
+            cd /tmp/src
+            docker-compose build --build-arg ${PGX_DOCKER_TAG}
+
+      - run:
+          name: Run pytest
+          # /pgx-verification defined as WORKDIR in Dockerfile
+          command: |
+            docker run ${CIRCLE_PROJECT_REPONAME} sh -c \
+            "cd /pgx-verification && pytest"
+
+      - run:
+            name: Run integration_test.sh
+            command: |
+              docker run ${CIRCLE_PROJECT_REPONAME} sh -c \
+              "cd /pgx-verification && bash integration_test.sh"
+
+      - when:
+          condition:
+            or:
+            - equal: [main, << pipeline.git.branch >>]
+            - << pipeline.git.tag >>
           steps:
-            - run: npm-install
-      - run: npm-run-test
+            - run:
+                name: Save Docker image to file
+                command: |
+                  docker save -o /tmp/workspace/image.tar ${CIRCLE_PROJECT_REPONAME}:latest
 
+            - persist_to_workspace:
+                root: /tmp/workspace
+                paths:
+                  - image.tar
 
+  push-image:
+    description: Pushes Docker image.
+    executor: default
+    steps:
+      - attach_workspace:
+          at: /tmp/workspace
+
+      # Running orbs
+      - aws-cli/setup
+      - setup_remote_docker
+
+      - aws-assume-role/assume_role:
+          profile_name: ${ENVIRONMENT}
+          account: ${AWS_ACCOUNT_ID}
+          role: ${ASSUME_AWS_PROFILE}
+
+      - run:
+          <<: *ecr_login
+
+      - run:
+          name: "Push image from local file"
+          command: |
+            set -x
+            export AWS_ECR_ACCOUNT_URL=${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com
+            if [[ -z "${CIRCLE_TAG}" ]]
+            then
+              echo "No tag found, using SHA: ${CIRCLE_SHA1}"
+              versioned_docker_tag="${AWS_ECR_ACCOUNT_URL}/${CIRCLE_PROJECT_REPONAME}:${CIRCLE_SHA1}"
+            else
+              echo "Using git tag: ${CIRCLE_TAG}"
+              versioned_docker_tag="${AWS_ECR_ACCOUNT_URL}/${CIRCLE_PROJECT_REPONAME}:${CIRCLE_TAG}"
+            fi
+            latest_docker_tag="${AWS_ECR_ACCOUNT_URL}/${CIRCLE_PROJECT_REPONAME}:latest"
+            echo -e "Docker image will be tagged:\n${versioned_docker_tag}\n${latest_docker_tag}"
+            docker load --input /tmp/workspace/image.tar
+            docker tag ${CIRCLE_PROJECT_REPONAME}:latest ${versioned_docker_tag}
+            docker tag ${CIRCLE_PROJECT_REPONAME}:latest ${latest_docker_tag}
+            aws ecr describe-repositories --repository-names ${CIRCLE_PROJECT_REPONAME} || aws ecr create-repository --repository-name ${CIRCLE_PROJECT_REPONAME}
+            docker push ${versioned_docker_tag}
+            docker push ${latest_docker_tag}
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
-  say-hello-workflow:
+  build:
     jobs:
-      - say-hello
-      - build
+      - build-image-and-test:
+          filters:
+            tags:
+              only: /.*/
+          name: "Build Image and Test"
+          context:
+            - ci
+      - push-image:
+          filters:
+            branches:
+              only: main
+            tags:
+              only: /.*/
+          name: "Push Image"
+          context:
+            - ci
+          requires:
+            - "Build Image and Test"
