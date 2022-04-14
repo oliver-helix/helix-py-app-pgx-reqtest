@@ -53,7 +53,7 @@ jobs:
           command: |
             set -x
             cd /tmp/src
-            docker-compose build --build-arg ${PGX_DOCKER_TAG}
+            docker-compose build --build-arg PGX_DOCKER_TAG=${PGX_DOCKER_TAG}
 
       - run:
           name: Run pytest
