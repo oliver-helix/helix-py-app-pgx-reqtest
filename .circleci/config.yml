@@ -5,7 +5,7 @@ version: 2.1
 helix-conf:
   - &aws-region us-east-1
   - &aws-default-output json
-  - &ecr-repo ${CIRCLE_PROJECT_REPONAME} # circle ci env var for repo name
+  - &ecr-repo ${CIRCLE_PROJECT_REPONAME} # circle ci env-var for repo name
 
 # Use a package of configuration called an orb, see https://circleci.com/docs/2.0/orb-intro/
 orbs:
@@ -42,6 +42,8 @@ jobs:
       - run: &ecr_login
           name: AWS ECR Login
           command: |
+            echo ${ENVIRONMENT} > /tmp/weeee.txt
+            cat /tmp/weeee.txt
             aws ecr get-login-password --region ${AWS_DEFAULT_REGION} --profile ${ENVIRONMENT} | \
             docker login --username AWS --password-stdin ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com
 
