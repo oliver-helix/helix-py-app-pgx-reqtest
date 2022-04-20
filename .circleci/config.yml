@@ -42,8 +42,7 @@ jobs:
       - run: &ecr_login
           name: AWS ECR Login
           command: |
-            echo ${ENVIRONMENT} > /tmp/weeee.txt
-            cat /tmp/weeee.txt
+            cat ~/.aws/config
             aws ecr get-login-password --region ${AWS_DEFAULT_REGION} --profile ${ENVIRONMENT} | \
             docker login --username AWS --password-stdin ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com
 
