@@ -5,6 +5,8 @@ services:
         build:
             context: .
             dockerfile: Dockerfile
+            args:
+              PGX_DOCKER_TAG: 4.0.4
         volumes:
             - $HOME/.aws/:/root/.aws/:ro
         image: helix-py-app-pgx-reqtest:latest
