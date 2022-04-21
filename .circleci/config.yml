@@ -5,7 +5,7 @@ version: 2.1
 helix-conf:
   - &aws-region us-east-1
   - &aws-default-output json
-  - &ecr-repo ${CIRCLE_PROJECT_REPONAME} # circle ci env-var for repo name
+  - &ecr-repo ${CIRCLE_PROJECT_REPONAME} # circleci env-var for repo name
 
 # Use a package of configuration called an orb, see https://circleci.com/docs/2.0/orb-intro/
 orbs:
@@ -34,16 +34,15 @@ jobs:
       # Running orbs
       - aws-cli/setup
       - setup_remote_docker
-      - aws-assume-role/assume_role:
-          profile_name: ${ENVIRONMENT} # from context: ci
+      - aws-assume-role/assume_role: &assume_role
+          profile_name: ${ASSUME_AWS_PROFILE} # from context: ci
           account: ${AWS_ACCOUNT_ID} # from context: ci
-          role: ${ASSUME_AWS_PROFILE} # from context: ci
+          # role: ${ASSUME_AWS_PROFILE} # from context: ci
 
       - run: &ecr_login
           name: AWS ECR Login
           command: |
-            cat ~/.aws/config
-            aws ecr get-login-password --region ${AWS_DEFAULT_REGION} --profile ${ENVIRONMENT} | \
+            aws ecr get-login-password --region ${AWS_DEFAULT_REGION} --profile ${ASSUME_AWS_PROFILE} | \
             docker login --username AWS --password-stdin ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com
 
       - checkout:
@@ -97,9 +96,7 @@ jobs:
       - setup_remote_docker
 
       - aws-assume-role/assume_role:
-          profile_name: ${ENVIRONMENT}
-          account: ${AWS_ACCOUNT_ID}
-          role: ${ASSUME_AWS_PROFILE}
+          <<: *assume_role
 
       - run:
           <<: *ecr_login
@@ -137,7 +134,7 @@ workflows:
               only: /.*/
           name: "Build Image and Test"
           context:
-            - ci
+            - basic
       - push-image:
           filters:
             branches:
@@ -146,6 +143,6 @@ workflows:
               only: /.*/
           name: "Push Image"
           context:
-            - ci
+            - basic
           requires:
             - "Build Image and Test"
