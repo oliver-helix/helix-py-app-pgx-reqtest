@@ -10,7 +10,7 @@ ENV TZ=America/Los_Angeles
 COPY . .
 
 RUN pip3 install --upgrade pip && \
-    pip3 install -r requirements.txt && \
+    # pip3 install -r requirements.txt && \
     pip3 install awscli --upgrade
 
 # Override the pgx lambda entrypoint to allow for interactive shell
