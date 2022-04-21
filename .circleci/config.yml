@@ -37,7 +37,7 @@ jobs:
       - aws-assume-role/assume_role: &assume_role
           profile_name: ${ASSUME_AWS_PROFILE} # from context: ci
           account: ${AWS_ACCOUNT_ID} # from context: ci
-          # role: ${ASSUME_AWS_PROFILE} # from context: ci
+          role: ${ASSUME_AWS_PROFILE} # from context: ci
 
       - run: &ecr_login
           name: AWS ECR Login
