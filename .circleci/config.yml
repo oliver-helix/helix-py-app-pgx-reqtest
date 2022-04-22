@@ -54,12 +54,12 @@ jobs:
             cd /tmp/src
             docker-compose build
 
-      - run:
-          name: Run pytest
-          # /pgx-verification defined as WORKDIR in Dockerfile
-          command: |
-            docker run ${CIRCLE_PROJECT_REPONAME} sh -c \
-            "cd /pgx-verification && pytest"
+      # - run:
+      #     name: Run pytest
+      #     # /pgx-verification defined as WORKDIR in Dockerfile
+      #     command: |
+      #       docker run ${CIRCLE_PROJECT_REPONAME} sh -c \
+      #       "cd /pgx-verification && pytest"
 
       - run:
             name: Run integration_test.sh
