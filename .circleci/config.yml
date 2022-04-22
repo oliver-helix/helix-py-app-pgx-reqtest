@@ -130,7 +130,6 @@ workflows:
           requires: 
             - Build
             - Test
-            - Save
       - test:
           name: Test
           context: basic
