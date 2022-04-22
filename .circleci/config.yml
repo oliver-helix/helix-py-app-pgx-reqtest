@@ -45,7 +45,6 @@ jobs:
           name: Build Docker Image
           command: |
             set -x
-            cd /tmp/src
             docker-compose build
 
   push-image:
