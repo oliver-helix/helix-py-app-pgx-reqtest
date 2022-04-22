@@ -23,125 +23,158 @@ executors:
 # Define a job to be invoked later in a workflow.
 # See: https://circleci.com/docs/2.0/configuration-reference/#jobs
 jobs:
-  build-image-and-test:
-    description: Builds the Docker image and runs pytest.
+  build:
+    description: Builds the Docker image
     executor: default
     steps:
-      - attach_workspace:
-          at: /tmp/workspace
+      - checkout: &tmp_checkout
+        path: /tmp/src
 
-      # Running orbs
-      - aws-cli/setup
-      - setup_remote_docker
+      - attach_workspace: &tmp_workspace
+        at: /tmp/workspace
+
+      # # Running orbs
+      # - aws-cli/setup
+      # - setup_remote_docker
+
       - aws-assume-role/assume_role: &assume_role
-          profile_name: ${ASSUME_AWS_PROFILE} # from context: ci
-          account: ${AWS_ACCOUNT_ID} # from context: ci
-          role: ${ASSUME_AWS_PROFILE} # from context: ci
+        profile_name: ${ASSUME_AWS_PROFILE} # from context: ci
+        account: ${AWS_ACCOUNT_ID} # from context: ci
+        role: ${ASSUME_AWS_PROFILE} # from context: ci
 
       - run: &ecr_login
-          name: AWS ECR Login
-          command: |
-            aws ecr get-login-password --region ${AWS_DEFAULT_REGION} --profile ${ASSUME_AWS_PROFILE} | \
-            docker login --username AWS --password-stdin ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com
+        name: AWS ECR Login
+        command: |
+          aws ecr get-login-password --region ${AWS_DEFAULT_REGION} --profile ${ASSUME_AWS_PROFILE} | \
+          docker login --username AWS --password-stdin ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com
 
+      - run:
+        name: Build Docker Image
+        command: |
+          set -x
+          cd /tmp/src
+          docker-compose build
+
+  test:
+    description: Run pytest and integration test.
+    executor: default
+    steps:
+      - run:
+        name: Run pytest
+        # /pgx-verification defined as WORKDIR in Dockerfile
+        command: |
+          docker run ${CIRCLE_PROJECT_REPONAME} sh -c \
+          "cd /pgx-verification && pytest"
+
+      - run:
+        name: Run integration_test.sh
+        command: |
+          docker run ${CIRCLE_PROJECT_REPONAME} sh -c \
+          "cd /pgx-verification && bash integration_test.sh"
+
+  save-image-to-file:
+   description: Save docker image to file.
+    executor: default
+    steps:
       - checkout:
-          path: /tmp/src
+        <<: *tmp_checkout
 
-      - run:
-          name: Build Docker Image
-          command: |
-            set -x
-            cd /tmp/src
-            docker-compose build
-
-      # - run:
-      #     name: Run pytest
-      #     # /pgx-verification defined as WORKDIR in Dockerfile
-      #     command: |
-      #       docker run ${CIRCLE_PROJECT_REPONAME} sh -c \
-      #       "cd /pgx-verification && pytest"
-
-      - run:
-            name: Run integration_test.sh
-            command: |
-              docker run ${CIRCLE_PROJECT_REPONAME} sh -c \
-              "cd /pgx-verification && bash integration_test.sh"
+      - attach_workspace:
+        <<: *tmp_workspace
 
       - when:
-          condition:
-            or:
-            - equal: [main, << pipeline.git.branch >>]
-            - << pipeline.git.tag >>
-          steps:
-            - run:
-                name: Save Docker image to file
-                command: |
-                  docker save -o /tmp/workspace/image.tar ${CIRCLE_PROJECT_REPONAME}:latest
+        condition:
+          or:
+          - equal: [main, << pipeline.git.branch >>]
+          - << pipeline.git.tag >>
+        steps:
+          - run:
+              name: Save Docker image to file
+              command: |
+                docker save -o /tmp/workspace/image.tar ${CIRCLE_PROJECT_REPONAME}:latest
 
-            - persist_to_workspace:
-                root: /tmp/workspace
-                paths:
-                  - image.tar
+          - persist_to_workspace:
+              root: /tmp/workspace
+              paths:
+                - image.tar
 
   push-image:
     description: Pushes Docker image.
     executor: default
     steps:
+      - checkout:
+        <<: *tmp_checkout
+    
       - attach_workspace:
-          at: /tmp/workspace
-
-      # Running orbs
-      - aws-cli/setup
-      - setup_remote_docker
+        <<: *tmp_workspace
 
       - aws-assume-role/assume_role:
-          <<: *assume_role
+        <<: *assume_role
+
+      # # Running orbs
+      # - aws-cli/setup
+      # - setup_remote_docker
 
       - run:
-          <<: *ecr_login
+        <<: *ecr_login
 
       - run:
-          name: "Push image from local file"
-          command: |
-            set -x
-            export AWS_ECR_ACCOUNT_URL=${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com
-            if [[ -z "${CIRCLE_TAG}" ]]
-            then
-              echo "No tag found, using SHA: ${CIRCLE_SHA1}"
-              versioned_docker_tag="${AWS_ECR_ACCOUNT_URL}/${CIRCLE_PROJECT_REPONAME}:${CIRCLE_SHA1}"
-            else
-              echo "Using git tag: ${CIRCLE_TAG}"
-              versioned_docker_tag="${AWS_ECR_ACCOUNT_URL}/${CIRCLE_PROJECT_REPONAME}:${CIRCLE_TAG}"
-            fi
-            latest_docker_tag="${AWS_ECR_ACCOUNT_URL}/${CIRCLE_PROJECT_REPONAME}:latest"
-            echo -e "Docker image will be tagged:\n${versioned_docker_tag}\n${latest_docker_tag}"
-            docker load --input /tmp/workspace/image.tar
-            docker tag ${CIRCLE_PROJECT_REPONAME}:latest ${versioned_docker_tag}
-            docker tag ${CIRCLE_PROJECT_REPONAME}:latest ${latest_docker_tag}
-            aws ecr describe-repositories --repository-names ${CIRCLE_PROJECT_REPONAME} || aws ecr create-repository --repository-name ${CIRCLE_PROJECT_REPONAME}
-            docker push ${versioned_docker_tag}
-            docker push ${latest_docker_tag}
+        name: "Push image from local file"
+        command: |
+          set -x
+          export AWS_ECR_ACCOUNT_URL=${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com
+          if [[ -z "${CIRCLE_TAG}" ]]
+          then
+            echo "No tag found, using SHA: ${CIRCLE_SHA1}"
+            versioned_docker_tag="${AWS_ECR_ACCOUNT_URL}/${CIRCLE_PROJECT_REPONAME}:${CIRCLE_SHA1}"
+          else
+            echo "Using git tag: ${CIRCLE_TAG}"
+            versioned_docker_tag="${AWS_ECR_ACCOUNT_URL}/${CIRCLE_PROJECT_REPONAME}:${CIRCLE_TAG}"
+          fi
+          latest_docker_tag="${AWS_ECR_ACCOUNT_URL}/${CIRCLE_PROJECT_REPONAME}:latest"
+          echo -e "Docker image will be tagged:\n${versioned_docker_tag}\n${latest_docker_tag}"
+          docker load --input /tmp/workspace/image.tar
+          docker tag ${CIRCLE_PROJECT_REPONAME}:latest ${versioned_docker_tag}
+          docker tag ${CIRCLE_PROJECT_REPONAME}:latest ${latest_docker_tag}
+          aws ecr describe-repositories --repository-names ${CIRCLE_PROJECT_REPONAME} || aws ecr create-repository --repository-name ${CIRCLE_PROJECT_REPONAME}
+          docker push ${versioned_docker_tag}
+          docker push ${latest_docker_tag}
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
-  build:
+  main:
     jobs:
-      - build-image-and-test:
-          filters:
-            tags:
-              only: /.*/
-          name: "Build Image and Test"
-          context:
-            - basic
+      - build:
+        name: Build
+        context: basic
+        filters: &tag-only
+          tags:
+            only: /.*/
+      - test:
+        name: Test
+        context: basic
+        filters:
+          <<: *tag-only
+        requires:
+          - Build
+      - save-image-to-file:
+        name: Save
+        context: basic
+        filters:
+          <<: *tag-only
+        requires:
+          - Build
+          - Test
       - push-image:
-          filters:
-            branches:
-              only: main
-            tags:
-              only: /.*/
-          name: "Push Image"
-          context:
-            - basic
-          requires:
-            - "Build Image and Test"
+        name: Push
+        context: basic
+        filters:
+          <<: *tag-only
+          branches:
+            only: main
+        context: basic
+        requires: 
+          - Build
+          - Test
+          - Save
