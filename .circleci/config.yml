@@ -64,7 +64,8 @@ jobs:
       - run:
           name: Save Image to File
           command: |
-            docker save ${DOCKER_TAG} > /tmp/workspace/${DOCKER_TAG}.tar 
+            cd /tmp/workspace
+            docker save ${DOCKER_TAG} | gzip > ${DOCKER_TAG}.tar.gz
         
       # # currently not working :-(
       # - run:
