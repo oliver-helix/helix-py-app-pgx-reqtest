@@ -28,11 +28,16 @@ jobs:
       #     account: ${AWS_ACCOUNT_ID} 
       #     role: ${ASSUME_AWS_PROFILE}
 
+      # - run: &ecr_login
+      #     name: AWS ECR Login
+      #     command: |
+      #       aws ecr get-login-password --region ${AWS_DEFAULT_REGION} --profile ${ASSUME_AWS_PROFILE} | \
+      #       docker login --username AWS --password-stdin ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com
+
       - run: &ecr_login
           name: AWS ECR Login
           command: |
-            aws ecr get-login-password --region ${AWS_DEFAULT_REGION} --profile ${ASSUME_AWS_PROFILE} | \
-            docker login --username AWS --password-stdin ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com
+            eval $(aws ecr get-login --region ${AWS_DEFAULT_REGION} --no-include-email)
 
       - run:
           name: Create and Save Environment Variables
