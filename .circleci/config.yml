@@ -123,8 +123,8 @@ workflows:
       - build-and-push:
           name: Build and Push
           context: basic
-          filters:
-            tags: &tag-only
+          filters: &tag-only
+            tags: 
               only: /.*/
             # branches:
             #   only: main
