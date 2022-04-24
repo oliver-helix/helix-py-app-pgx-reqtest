@@ -11,9 +11,6 @@ executors:
   default:
     docker:
       - image: circleci/python:3.5.7
-        environment:
-          AWS_DEFAULT_REGION: us-east-1
-          AWS_DEFAULT_OUTPUT: json
 
 # Define a job to be invoked later in a workflow. See: https://circleci.com/docs/2.0/configuration-reference/#jobs
 jobs:
@@ -67,7 +64,7 @@ jobs:
             <<: *ecr_login
 
         - run:
-            name: "Push image from local file"
+            name: Push image from local file
             command: |
               set -x
               export AWS_ECR_ACCOUNT_URL=${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com
@@ -119,20 +116,20 @@ workflows:
           filters: &tag-only
             tags:
               only: /.*/
+      # - test:
+      #     name: Test
+      #     context: basic
+      #     filters:
+      #       <<: *tag-only
+      #     requires:
+      #       - Build
+      #       - Push
       - push-image:
           name: Push
           context: basic
           filters:
             <<: *tag-only
-            branches:
-              only: main
+            # branches:
+            #   only: main
           requires: 
-            - Build
-            - Test
-      - test:
-          name: Test
-          context: basic
-          filters:
-            <<: *tag-only
-          requires:
             - Build
