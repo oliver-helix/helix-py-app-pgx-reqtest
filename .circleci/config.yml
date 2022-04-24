@@ -69,37 +69,38 @@ jobs:
             docker tag ${DOCKER_TAG_BASE} ${DOCKER_TAG}
             docker tag ${DOCKER_TAG} ${DOCKER_TAG_LATEST}
 
-      - persist_to_workspace:
-          root: /tmp/workspace
-          paths:
-            - bashvars
+  #     - persist_to_workspace:
+  #         root: /tmp/workspace
+  #         paths:
+  #           - bashvars
 
-  push-image:
-      description: Pushes Docker image.
-      executor: default
-      steps:
-        - checkout
-        - setup_remote_docker
+  # push:
+  #     description: Pushes Docker image.
+  #     executor: default
+  #     steps:
+  #       - checkout
+  #       - setup_remote_docker
       
-        - attach_workspace:
-            <<: *tmp_workspace
+  #       - attach_workspace:
+  #           <<: *tmp_workspace
 
-        - aws-assume-role/assume_role:
-            <<: *assume_role
+  #       - aws-assume-role/assume_role:
+  #           <<: *assume_role
 
-        # # Running orbs
-        # - aws-cli/setup
+  #       # # Running orbs
+  #       # - aws-cli/setup
 
-        - run:
-            <<: *ecr_login
+  #       - run:
+  #           <<: *ecr_login
 
-        - run:
-            <<: *load_env_vars
+  #       - run:
+  #           <<: *load_env_vars
 
         - run:
             name: Push Docker Image to AWS ECR
             command: |
               set -x
+              echo $(docker images)
               docker push ${DOCKER_TAG}
               docker push ${DOCKER_TAG_LATEST}
 
@@ -142,12 +143,12 @@ workflows:
       #     requires:
       #       - Build
       #       - Push
-      - push-image:
-          name: Push
-          context: basic
-          filters:
-            <<: *tag-only
-            # branches:
-            #   only: main
-          requires: 
-            - Build
+      # - push:
+      #     name: Push
+      #     context: basic
+      #     filters:
+      #       <<: *tag-only
+      #       # branches:
+      #       #   only: main
+      #     requires: 
+      #       - Build
