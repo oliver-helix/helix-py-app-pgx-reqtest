@@ -45,9 +45,9 @@ jobs:
               echo "export DOCKER_TAG_LATEST=${AWS_ECR_ENDPOINT}/${CIRCLE_PROJECT_REPONAME}:latest"
             } >> /tmp/workspace/bashvars
 
-      - run:
+      - run: &load_env_vars 
           name: Load Environment Variables
-          command: &load_env_vars |
+          command: |
             cat /tmp/workspace/bashvars
             cat /tmp/workspace/bashvars >> ${BASH_ENV}
 
@@ -66,6 +66,11 @@ jobs:
             docker build --build-arg PGX_DOCKER_TAG=4.0.4 -t ${DOCKER_TAG_BASE} .
             docker tag ${DOCKER_TAG_BASE} ${DOCKER_TAG}
             docker tag ${DOCKER_TAG} ${DOCKER_TAG_LATEST}
+
+      - persist_to_workspace:
+          root: /tmp/workspace
+          paths:
+            - bashvars
 
   push-image:
       description: Pushes Docker image.
@@ -87,7 +92,8 @@ jobs:
             <<: *ecr_login
 
         - run:
-            <<: *setup-env-vars
+            <<: *load_env_vars
+
         - run:
             name: Push Docker Image to AWS ECR
             command: |
