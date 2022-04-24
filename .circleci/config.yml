@@ -22,11 +22,11 @@ jobs:
       - attach_workspace: &tmp_workspace
           at: /tmp/workspace
 
-      # - aws-assume-role/assume_role: &assume_role
-      #     # environment variables from context: basic
-      #     profile_name: ${ASSUME_AWS_PROFILE} 
-      #     account: ${AWS_ACCOUNT_ID} 
-      #     role: ${ASSUME_AWS_PROFILE}
+      - aws-assume-role/assume_role: &assume_role
+          # environment variables from context: basic
+          profile_name: ${ASSUME_AWS_PROFILE} 
+          account: ${AWS_ACCOUNT_ID} 
+          role: ${ASSUME_AWS_PROFILE}
 
       # - run: &ecr_login
       #     name: AWS ECR Login
