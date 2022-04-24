@@ -75,34 +75,34 @@ jobs:
   #           - bashvars
 
   # push:
-  #     description: Pushes Docker image.
-  #     executor: default
-  #     steps:
-  #       - checkout
-  #       - setup_remote_docker
-      
-  #       - attach_workspace:
-  #           <<: *tmp_workspace
+  #   description: Pushes Docker image.
+  #   executor: default
+  #   steps:
+  #     - checkout
+  #     - setup_remote_docker
+    
+  #     - attach_workspace:
+  #         <<: *tmp_workspace
 
-  #       - aws-assume-role/assume_role:
-  #           <<: *assume_role
+  #     - aws-assume-role/assume_role:
+  #         <<: *assume_role
 
-  #       # # Running orbs
-  #       # - aws-cli/setup
+  #     # # Running orbs
+  #     # - aws-cli/setup
 
-  #       - run:
-  #           <<: *ecr_login
+  #     - run:
+  #         <<: *ecr_login
 
-  #       - run:
-  #           <<: *load_env_vars
+  #     - run:
+  #         <<: *load_env_vars
 
-        - run:
-            name: Push Docker Image to AWS ECR
-            command: |
-              set -x
-              echo $(docker images)
-              docker push ${DOCKER_TAG}
-              docker push ${DOCKER_TAG_LATEST}
+      - run:
+          name: Push Docker Image to AWS ECR
+          command: |
+            set -x
+            echo $(docker images)
+            docker push ${DOCKER_TAG}
+            docker push ${DOCKER_TAG_LATEST}
 
   test:
     description: Run pytest and integration test.
