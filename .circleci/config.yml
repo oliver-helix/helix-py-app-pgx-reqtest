@@ -92,6 +92,9 @@ jobs:
           <<: *tmp_workspace
 
       - run:
+          <<: *assume_role
+
+      - run:
           <<: *ecr_login
       
       - run:
@@ -102,12 +105,12 @@ jobs:
           command: |
             docker load --input /tmp/workspace/image.tar.gz
 
-      - run:
-          name: Run pytest
-          # /pgx-verification defined as WORKDIR in Dockerfile
-          command: |
-            docker run ${DOCKER_TAG} sh -c \
-            "cd /pgx-verification && pytest"
+      # - run:
+      #     name: Run pytest
+      #     # /pgx-verification defined as WORKDIR in Dockerfile
+      #     command: |
+      #       docker run ${DOCKER_TAG} sh -c \
+      #       "cd /pgx-verification && pytest"
 
       - run:
           name: Run integration_test.sh
