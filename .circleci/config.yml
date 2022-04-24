@@ -64,8 +64,7 @@ jobs:
       - run:
           name: Save Image to File
           command: |
-            cd /tmp/workspace
-            docker save ${DOCKER_TAG} | gzip > ${DOCKER_TAG}.tar.gz
+            docker save ${DOCKER_TAG} | gzip > /tmp/workspace/image.tar.gz
         
       # # currently not working :-(
       # - run:
@@ -80,7 +79,7 @@ jobs:
           root: /tmp/workspace
           paths:
             - bashvars
-            - ${DOCKER_TAG}.tar.gz
+            - image.tar.gz
 
   test:
     description: Run pytest and integration test.
@@ -101,7 +100,7 @@ jobs:
       - run:
           name: Load image from file
           command: |
-            docker load --input /tmp/workspace/${DOCKER_TAG}.tar.gz
+            docker load --input /tmp/workspace/image.tar.gz
 
       - run:
           name: Run pytest
