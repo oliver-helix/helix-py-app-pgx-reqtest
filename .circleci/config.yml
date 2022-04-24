@@ -47,9 +47,9 @@ jobs:
           command: |
             {
               echo "export AWS_ECR_ENDPOINT=820411415250.dkr.ecr.us-east-1.amazonaws.com"
-              echo "export DOCKER_TAG_BASE=${AWS_ECR_ENDPOINT}/${CIRCLE_PROJECT_REPONAME}"
-              echo "export DOCKER_TAG=${DOCKER_TAG_BASE}:${CIRCLE_SHA1}"
-              echo "export DOCKER_TAG_LATEST=${DOCKER_TAG_BASE}:latest"
+              echo "export DOCKER_TAG_BASE=$AWS_ECR_ENDPOINT/${CIRCLE_PROJECT_REPONAME}"
+              echo "export DOCKER_TAG=$DOCKER_TAG_BASE:${CIRCLE_SHA1}"
+              echo "export DOCKER_TAG_LATEST=$DOCKER_TAG_BASE:latest"
             } >> /tmp/workspace/bashvars
 
       - run:
