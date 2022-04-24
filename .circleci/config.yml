@@ -8,7 +8,7 @@ orbs:
 executors:
   default:
     docker:
-      - image: circleci/python:3.5.7
+      - image: cimg/python:3.5.7
 
 # Define a job to be invoked later in a workflow. See: https://circleci.com/docs/2.0/configuration-reference/#jobs
 jobs:
@@ -28,16 +28,11 @@ jobs:
           account: ${AWS_ACCOUNT_ID} 
           role: ${ASSUME_AWS_PROFILE}
 
-      # - run: &ecr_login
-      #     name: AWS ECR Login
-      #     command: |
-      #       aws ecr get-login-password --region ${AWS_DEFAULT_REGION} --profile ${ASSUME_AWS_PROFILE} | \
-      #       docker login --username AWS --password-stdin ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com
-
       - run: &ecr_login
           name: AWS ECR Login
           command: |
-            eval $(aws ecr get-login --region ${AWS_DEFAULT_REGION} --no-include-email)
+            aws ecr get-login-password --region ${AWS_DEFAULT_REGION} --profile ${ASSUME_AWS_PROFILE} | \
+            docker login --username AWS --password-stdin ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com
 
       - run:
           name: Create and Save Environment Variables
@@ -65,19 +60,26 @@ jobs:
             docker build --build-arg PGX_DOCKER_TAG=4.0.4 -t ${DOCKER_TAG_BASE} .
             docker tag ${DOCKER_TAG_BASE} ${DOCKER_TAG}
             docker tag ${DOCKER_TAG} ${DOCKER_TAG_LATEST}
-        
+
       - run:
-          name: Push Docker Image to AWS ECR
+          name: Save Image to File
           command: |
-            set -x
-            echo $(docker images)
-            docker push ${DOCKER_TAG}
-            docker push ${DOCKER_TAG_LATEST}
+            docker save ${DOCKER_TAG} | gzip > /tmp/workspace/${DOCKER_TAG}.tar.gz
+        
+      # # currently not working :-(
+      # - run:
+      #     name: Push Docker Image to AWS ECR
+      #     command: |
+      #       set -x
+      #       echo $(docker images)
+      #       docker push ${DOCKER_TAG}
+      #       docker push ${DOCKER_TAG_LATEST}
 
       - persist_to_workspace:
           root: /tmp/workspace
           paths:
             - bashvars
+            - ${DOCKER_TAG}.tar.gz
 
   test:
     description: Run pytest and integration test.
@@ -96,16 +98,21 @@ jobs:
           <<: *load_env_vars
 
       - run:
+          name: Load image from file
+          command: |
+            docker load --input /tmp/workspace/${DOCKER_TAG}.tar.gz
+
+      - run:
           name: Run pytest
           # /pgx-verification defined as WORKDIR in Dockerfile
           command: |
-            docker run ${CIRCLE_PROJECT_REPONAME} sh -c \
+            docker run ${DOCKER_TAG} sh -c \
             "cd /pgx-verification && pytest"
 
       - run:
           name: Run integration_test.sh
           command: |
-            docker run ${CIRCLE_PROJECT_REPONAME} sh -c \
+            docker run ${DOCKER_TAG} sh -c \
             "cd /pgx-verification && bash integration_test.sh"
 
 # Invoke jobs via workflows
@@ -117,15 +124,14 @@ workflows:
           name: Build and Push
           context: basic
           filters:
-            tags:
+            tags: &tag-only
               only: /.*/
             # branches:
             #   only: main
-      # - test:
-      #     name: Test
-      #     context: basic
-      #     filters:
-      #       <<: *tag-only
-      #     requires:
-      #       - Build
-      #       - Push
+      - test:
+          name: Test
+          context: basic
+          filters:
+            <<: *tag-only
+          requires:
+            - build-and-push
