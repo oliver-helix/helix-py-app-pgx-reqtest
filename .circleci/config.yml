@@ -34,22 +34,15 @@ jobs:
             aws ecr get-login-password --region ${AWS_DEFAULT_REGION} --profile ${ASSUME_AWS_PROFILE} | \
             docker login --username AWS --password-stdin ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com
 
-      - run: &setup-env-vars
-          name: Setup Environment Variables
+      - run:
+          name: Create and Save Environment Variables
           command: |
             export AWS_ECR_ENDPOINT=820411415250.dkr.ecr.us-east-1.amazonaws.com
-            export DOCKER_TAG_BASE=${AWS_ECR_ENDPOINT}/${CIRCLE_PROJECT_REPONAME}
-            export DOCKER_TAG=${DOCKER_TAG_BASE}:${CIRCLE_SHA1}
-            export DOCKER_TAG_LATEST=${DOCKER_TAG_BASE}:latest
 
-      - run:
-          name: Infer and Save Persisted Environment Variables
-          command: |
             {
-              echo "export AWS_ECR_ENDPOINT=820411415250.dkr.ecr.us-east-1.amazonaws.com"
-              echo "export DOCKER_TAG_BASE=$AWS_ECR_ENDPOINT/${CIRCLE_PROJECT_REPONAME}"
-              echo "export DOCKER_TAG=$DOCKER_TAG_BASE:${CIRCLE_SHA1}"
-              echo "export DOCKER_TAG_LATEST=$DOCKER_TAG_BASE:latest"
+              echo "export AWS_ECR_ENDPOINT=${AWS_ECR_ENDPOINT}"
+              echo "export DOCKER_TAG=${AWS_ECR_ENDPOINT}/${CIRCLE_PROJECT_REPONAME}:${CIRCLE_SHA1}"
+              echo "export DOCKER_TAG_LATEST=${AWS_ECR_ENDPOINT}/${CIRCLE_PROJECT_REPONAME}:latest"
             } >> /tmp/workspace/bashvars
 
       - run:
