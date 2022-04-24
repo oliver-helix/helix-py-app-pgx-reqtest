@@ -134,4 +134,4 @@ workflows:
           filters:
             <<: *tag-only
           requires:
-            - build-and-push
+            - Build and Push
