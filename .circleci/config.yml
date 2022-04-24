@@ -11,13 +11,15 @@ executors:
     docker:
       - image: circleci/python:3.5.7
           environment:
-            DOCKER_TAG_BASE: 820411415250.dkr.ecr.us-east-1.amazonaws.com/${CIRCLE_PROJECT_REPONAME}
-            DOCKER_TAG: ${DOCKER_TAG_BASE}:${CIRCLE_SHA1}
-            DOCKER_TAG_LATEST: ${DOCKER_TAG_BASE}:latest
+            AWS_ECR_ENDPOINT: 820411415250.dkr.ecr.us-east-1.amazonaws.com
 
 # Define a job to be invoked later in a workflow. See: https://circleci.com/docs/2.0/configuration-reference/#jobs
 jobs:
   build:
+    environment:
+      DOCKER_TAG_BASE: ${AWS_ECR_ENDPOINT}/${CIRCLE_PROJECT_REPONAME}
+      DOCKER_TAG: ${DOCKER_TAG_BASE}:${CIRCLE_SHA1}
+      DOCKER_TAG_LATEST: ${DOCKER_TAG_BASE}:latest
     description: Builds the Docker image
     executor: default
     steps:
@@ -47,6 +49,10 @@ jobs:
             docker tag ${DOCKER_TAG} ${DOCKER_TAG_LATEST}
 
   push-image:
+      environment:
+        DOCKER_TAG_BASE: ${AWS_ECR_ENDPOINT}/${CIRCLE_PROJECT_REPONAME}
+        DOCKER_TAG: ${DOCKER_TAG_BASE}:${CIRCLE_SHA1}
+        DOCKER_TAG_LATEST: ${DOCKER_TAG_BASE}:latest
       description: Pushes Docker image.
       executor: default
       steps:
