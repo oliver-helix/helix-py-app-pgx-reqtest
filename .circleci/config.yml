@@ -1,4 +1,3 @@
-# Use the latest 2.1 version of CircleCI pipeline process engine.
 # See: https://circleci.com/docs/2.0/configuration-reference
 version: 2.1
 
@@ -11,6 +10,10 @@ executors:
   default:
     docker:
       - image: circleci/python:3.5.7
+          environment:
+            DOCKER_TAG_BASE: "$820411415250.dkr.ecr.us-east-1.amazonaws.com/${CIRCLE_PROJECT_REPONAME}"
+            DOCKER_TAG: "${DOCKER_TAG_BASE}:${CIRCLE_SHA1}"
+            DOCKER_TAG_LATEST: "${DOCKER_TAG_BASE}:latest"
 
 # Define a job to be invoked later in a workflow. See: https://circleci.com/docs/2.0/configuration-reference/#jobs
 jobs:
@@ -23,9 +26,6 @@ jobs:
   
       - attach_workspace: &tmp_workspace
           at: /tmp/workspace
-
-      # # Running orbs
-      # - aws-cli/setup
       
       - aws-assume-role/assume_role: &assume_role
           profile_name: ${ASSUME_AWS_PROFILE} # from context: ci
@@ -42,7 +42,9 @@ jobs:
           name: Build Docker Image
           command: |
             set -x
-            docker-compose build
+            docker build --build-arg PGX_DOCKER_TAG=4.0.4 -t ${DOCKER_TAG_BASE} .
+            docker tag ${DOCKER_TAG_BASE} ${DOCKER_TAG}
+            docker tag ${DOCKER_TAG} ${DOCKER_TAG_LATEST}
 
   push-image:
       description: Pushes Docker image.
@@ -63,27 +65,12 @@ jobs:
         - run:
             <<: *ecr_login
 
-        - run:
-            name: Push image from local file
-            command: |
-              set -x
-              export AWS_ECR_ACCOUNT_URL=${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com
-              if [[ -z "${CIRCLE_TAG}" ]]
-              then
-                echo "No tag found, using SHA: ${CIRCLE_SHA1}"
-                versioned_docker_tag="${AWS_ECR_ACCOUNT_URL}/${CIRCLE_PROJECT_REPONAME}:${CIRCLE_SHA1}"
-              else
-                echo "Using git tag: ${CIRCLE_TAG}"
-                versioned_docker_tag="${AWS_ECR_ACCOUNT_URL}/${CIRCLE_PROJECT_REPONAME}:${CIRCLE_TAG}"
-              fi
-              latest_docker_tag="${AWS_ECR_ACCOUNT_URL}/${CIRCLE_PROJECT_REPONAME}:latest"
-              echo -e "Docker image will be tagged:\n${versioned_docker_tag}\n${latest_docker_tag}"
-              docker load --input /tmp/workspace/image.tar
-              docker tag ${CIRCLE_PROJECT_REPONAME}:latest ${versioned_docker_tag}
-              docker tag ${CIRCLE_PROJECT_REPONAME}:latest ${latest_docker_tag}
-              aws ecr describe-repositories --repository-names ${CIRCLE_PROJECT_REPONAME} || aws ecr create-repository --repository-name ${CIRCLE_PROJECT_REPONAME}
-              docker push ${versioned_docker_tag}
-              docker push ${latest_docker_tag}
+      - run:
+          name: Push Docker Image to AWS ECR
+          command: |
+            set -x
+            docker push ${DOCKER_TAG}
+            docker push ${DOCKER_TAG_LATEST}
 
   test:
     description: Run pytest and integration test.
