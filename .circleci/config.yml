@@ -11,9 +11,9 @@ executors:
     docker:
       - image: circleci/python:3.5.7
           environment:
-            DOCKER_TAG_BASE: "820411415250.dkr.ecr.us-east-1.amazonaws.com/${CIRCLE_PROJECT_REPONAME}"
-            DOCKER_TAG: "${DOCKER_TAG_BASE}:${CIRCLE_SHA1}"
-            DOCKER_TAG_LATEST: "${DOCKER_TAG_BASE}:latest"
+            DOCKER_TAG_BASE: 820411415250.dkr.ecr.us-east-1.amazonaws.com/${CIRCLE_PROJECT_REPONAME}
+            DOCKER_TAG: ${DOCKER_TAG_BASE}:${CIRCLE_SHA1}
+            DOCKER_TAG_LATEST: ${DOCKER_TAG_BASE}:latest
 
 # Define a job to be invoked later in a workflow. See: https://circleci.com/docs/2.0/configuration-reference/#jobs
 jobs:
