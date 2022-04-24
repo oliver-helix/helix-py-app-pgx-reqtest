@@ -37,10 +37,18 @@ jobs:
       - run: &setup-env-vars
           name: Setup Environment Variables
           command: |
-              export AWS_ECR_ENDPOINT=820411415250.dkr.ecr.us-east-1.amazonaws.com
-              export DOCKER_TAG_BASE=${AWS_ECR_ENDPOINT}/${CIRCLE_PROJECT_REPONAME}
-              export DOCKER_TAG=${DOCKER_TAG_BASE}:${CIRCLE_SHA1}
-              export DOCKER_TAG_LATEST=${DOCKER_TAG_BASE}:latest
+            export AWS_ECR_ENDPOINT=820411415250.dkr.ecr.us-east-1.amazonaws.com
+            export DOCKER_TAG_BASE=${AWS_ECR_ENDPOINT}/${CIRCLE_PROJECT_REPONAME}
+            export DOCKER_TAG=${DOCKER_TAG_BASE}:${CIRCLE_SHA1}
+            export DOCKER_TAG_LATEST=${DOCKER_TAG_BASE}:latest
+
+      - run: &setup-env-vars
+          name: Test Environment Variables
+          command: |
+            echo AWS_ECR_ENDPOINT
+            echo DOCKER_TAG_BASE
+            echo DOCKER_TAG
+            echo DOCKER_TAG_LATEST
 
       - run:
           name: Build Docker Image
