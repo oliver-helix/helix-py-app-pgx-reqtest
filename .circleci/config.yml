@@ -3,7 +3,6 @@ version: 2.1
 
 # Use a package of configuration called an orb, see https://circleci.com/docs/2.0/orb-intro/
 orbs:
-  aws-cli: circleci/aws-cli@2.0.0
   aws-assume-role: holdaraffle/aws-assume-role@0.0.10
 
 executors:
@@ -13,21 +12,21 @@ executors:
 
 # Define a job to be invoked later in a workflow. See: https://circleci.com/docs/2.0/configuration-reference/#jobs
 jobs:
-  build:
-    description: Builds the Docker image
+  build-and-push:
+    description: Builds the Docker image and pushes to AWS ECR
     executor: default
     steps:
       - checkout
       - setup_remote_docker
-      - aws-cli/setup
   
       - attach_workspace: &tmp_workspace
           at: /tmp/workspace
 
-      - aws-assume-role/assume_role: &assume_role
-          profile_name: ${ASSUME_AWS_PROFILE} # from context: ci
-          account: ${AWS_ACCOUNT_ID} # from context: ci
-          role: ${ASSUME_AWS_PROFILE} # from context: ci
+      # - aws-assume-role/assume_role: &assume_role
+      #     # environment variables from context: basic
+      #     profile_name: ${ASSUME_AWS_PROFILE} 
+      #     account: ${AWS_ACCOUNT_ID} 
+      #     role: ${ASSUME_AWS_PROFILE}
 
       - run: &ecr_login
           name: AWS ECR Login
@@ -55,48 +54,13 @@ jobs:
             cat /tmp/workspace/bashvars >> ${BASH_ENV}
 
       - run:
-          name: Test Environment Variables
-          command: |
-            echo $AWS_ECR_ENDPOINT
-            echo $DOCKER_TAG_BASE
-            echo $DOCKER_TAG
-            echo $DOCKER_TAG_LATEST
-
-      - run:
           name: Build Docker Image
           command: |
             set -x
             docker build --build-arg PGX_DOCKER_TAG=4.0.4 -t ${DOCKER_TAG_BASE} .
             docker tag ${DOCKER_TAG_BASE} ${DOCKER_TAG}
             docker tag ${DOCKER_TAG} ${DOCKER_TAG_LATEST}
-
-  #     - persist_to_workspace:
-  #         root: /tmp/workspace
-  #         paths:
-  #           - bashvars
-
-  # push:
-  #   description: Pushes Docker image.
-  #   executor: default
-  #   steps:
-  #     - checkout
-  #     - setup_remote_docker
-    
-  #     - attach_workspace:
-  #         <<: *tmp_workspace
-
-  #     - aws-assume-role/assume_role:
-  #         <<: *assume_role
-
-  #     # # Running orbs
-  #     # - aws-cli/setup
-
-  #     - run:
-  #         <<: *ecr_login
-
-  #     - run:
-  #         <<: *load_env_vars
-
+        
       - run:
           name: Push Docker Image to AWS ECR
           command: |
@@ -105,12 +69,26 @@ jobs:
             docker push ${DOCKER_TAG}
             docker push ${DOCKER_TAG_LATEST}
 
+      - persist_to_workspace:
+          root: /tmp/workspace
+          paths:
+            - bashvars
+
   test:
     description: Run pytest and integration test.
     executor: default
     steps:
       - checkout
       - setup_remote_docker
+
+      - attach_workspace:
+          <<: *tmp_workspace
+
+      - run:
+          <<: *ecr_login
+      
+      - run:
+          <<: *load_env_vars
 
       - run:
           name: Run pytest
@@ -130,12 +108,14 @@ jobs:
 workflows:
   main:
     jobs:
-      - build:
-          name: Build
+      - build-and-push:
+          name: Build and Push
           context: basic
-          filters: &tag-only
+          filters:
             tags:
               only: /.*/
+            # branches:
+            #   only: main
       # - test:
       #     name: Test
       #     context: basic
@@ -144,12 +124,3 @@ workflows:
       #     requires:
       #       - Build
       #       - Push
-      # - push:
-      #     name: Push
-      #     context: basic
-      #     filters:
-      #       <<: *tag-only
-      #       # branches:
-      #       #   only: main
-      #     requires: 
-      #       - Build
