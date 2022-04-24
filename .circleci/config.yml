@@ -3,7 +3,7 @@ version: 2.1
 
 # Use a package of configuration called an orb, see https://circleci.com/docs/2.0/orb-intro/
 orbs:
-  # aws-cli: circleci/aws-cli@2.0.0
+  aws-cli: circleci/aws-cli@2.0.0
   aws-assume-role: holdaraffle/aws-assume-role@0.0.10
 
 executors:
@@ -19,6 +19,7 @@ jobs:
     steps:
       - checkout
       - setup_remote_docker
+      - aws-cli/setup
   
       - attach_workspace: &tmp_workspace
           at: /tmp/workspace
