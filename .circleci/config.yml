@@ -14,11 +14,6 @@ executors:
 # Define a job to be invoked later in a workflow. See: https://circleci.com/docs/2.0/configuration-reference/#jobs
 jobs:
   build:
-    environment:
-      AWS_ECR_ENDPOINT: 820411415250.dkr.ecr.us-east-1.amazonaws.com
-      DOCKER_TAG_BASE: ${AWS_ECR_ENDPOINT}/${CIRCLE_PROJECT_REPONAME}
-      DOCKER_TAG: ${DOCKER_TAG_BASE}:${CIRCLE_SHA1}
-      DOCKER_TAG_LATEST: ${DOCKER_TAG_BASE}:latest
     description: Builds the Docker image
     executor: default
     steps:
@@ -27,7 +22,7 @@ jobs:
   
       - attach_workspace: &tmp_workspace
           at: /tmp/workspace
-      
+
       - aws-assume-role/assume_role: &assume_role
           profile_name: ${ASSUME_AWS_PROFILE} # from context: ci
           account: ${AWS_ACCOUNT_ID} # from context: ci
@@ -39,6 +34,14 @@ jobs:
             aws ecr get-login-password --region ${AWS_DEFAULT_REGION} --profile ${ASSUME_AWS_PROFILE} | \
             docker login --username AWS --password-stdin ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com
 
+      - run: &setup-env-vars
+          name: Setup Environment Variables
+          command: |
+              export AWS_ECR_ENDPOINT=820411415250.dkr.ecr.us-east-1.amazonaws.com
+              export DOCKER_TAG_BASE=${AWS_ECR_ENDPOINT}/${CIRCLE_PROJECT_REPONAME}
+              export DOCKER_TAG=${DOCKER_TAG_BASE}:${CIRCLE_SHA1}
+              export DOCKER_TAG_LATEST=${DOCKER_TAG_BASE}:latest
+
       - run:
           name: Build Docker Image
           command: |
@@ -48,11 +51,6 @@ jobs:
             docker tag ${DOCKER_TAG} ${DOCKER_TAG_LATEST}
 
   push-image:
-      environment:
-        AWS_ECR_ENDPOINT: 820411415250.dkr.ecr.us-east-1.amazonaws.com
-        DOCKER_TAG_BASE: ${AWS_ECR_ENDPOINT}/${CIRCLE_PROJECT_REPONAME}
-        DOCKER_TAG: ${DOCKER_TAG_BASE}:${CIRCLE_SHA1}
-        DOCKER_TAG_LATEST: ${DOCKER_TAG_BASE}:latest
       description: Pushes Docker image.
       executor: default
       steps:
@@ -71,12 +69,14 @@ jobs:
         - run:
             <<: *ecr_login
 
-      - run:
-          name: Push Docker Image to AWS ECR
-          command: |
-            set -x
-            docker push ${DOCKER_TAG}
-            docker push ${DOCKER_TAG_LATEST}
+        - run:
+            <<: *setup-env-vars
+        - run:
+            name: Push Docker Image to AWS ECR
+            command: |
+              set -x
+              docker push ${DOCKER_TAG}
+              docker push ${DOCKER_TAG_LATEST}
 
   test:
     description: Run pytest and integration test.
