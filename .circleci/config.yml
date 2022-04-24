@@ -109,14 +109,16 @@ jobs:
       #     name: Run pytest
       #     # /pgx-verification defined as WORKDIR in Dockerfile
       #     command: |
-      #       docker run ${DOCKER_TAG} sh -c \
-      #       "cd /pgx-verification && pytest"
+      #       docker run ${DOCKER_TAG} \
+      #       -v $HOME/.aws:/root/.aws:ro \
+      #       sh -c "cd /pgx-verification && pytest"
 
       - run:
           name: Run integration_test.sh
           command: |
-            docker run ${DOCKER_TAG} sh -c \
-            "cd /pgx-verification && bash integration_test.sh"
+            docker run ${DOCKER_TAG} \
+            -v $HOME/.aws:/root/.aws:ro \
+            sh -c "cd /pgx-verification && bash integration_test.sh"
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
