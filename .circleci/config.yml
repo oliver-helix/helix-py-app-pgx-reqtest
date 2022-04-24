@@ -42,7 +42,23 @@ jobs:
             export DOCKER_TAG=${DOCKER_TAG_BASE}:${CIRCLE_SHA1}
             export DOCKER_TAG_LATEST=${DOCKER_TAG_BASE}:latest
 
-      - run: &setup-env-vars
+      - run:
+          name: Infer and Save Persisted Environment Variables
+          command: |
+            {
+              echo "export AWS_ECR_ENDPOINT=820411415250.dkr.ecr.us-east-1.amazonaws.com"
+              echo "export DOCKER_TAG_BASE=${AWS_ECR_ENDPOINT}/${CIRCLE_PROJECT_REPONAME}""
+              echo "export DOCKER_TAG=${DOCKER_TAG_BASE}:${CIRCLE_SHA1}"
+              echo "export DOCKER_TAG_LATEST=${DOCKER_TAG_BASE}:latest"
+            } >> /tmp/workspace/bashvars
+
+      - run:
+          name: Load Environment Variables
+          command: &load_env_vars |
+            cat /tmp/workspace/bashvars
+            cat /tmp/workspace/bashvars >> ${BASH_ENV}
+
+      - run:
           name: Test Environment Variables
           command: |
             echo $AWS_ECR_ENDPOINT
