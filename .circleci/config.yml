@@ -126,8 +126,10 @@ jobs:
       - run:
           name: Run integration_test.sh
           command: |
+            ls /tmp/workspace
+            ls /tmp/workspace/.aws/
             docker run ${DOCKER_TAG} \
-            -v /tmp/workspace/.aws:/root/.aws:ro \
+            -v /tmp/workspace/.aws:/root/.aws \
             sh -c "cd /pgx-verification && bash integration_test.sh"
 
 # Invoke jobs via workflows
