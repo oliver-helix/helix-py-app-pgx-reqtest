@@ -20,7 +20,7 @@ jobs:
       - setup_remote_docker
   
       - attach_workspace: &tmp_workspace
-          at: /tmp/workspace
+          at: /workspace
 
       - aws-assume-role/assume_role: &assume_my_role
           # environment variables from context: basic
@@ -45,13 +45,13 @@ jobs:
               echo "export DOCKER_TAG_BASE=${DOCKER_TAG_BASE}"
               echo "export DOCKER_TAG=${DOCKER_TAG_BASE}:${CIRCLE_SHA1}"
               echo "export DOCKER_TAG_LATEST=${DOCKER_TAG_BASE}:latest"
-            } >> /tmp/workspace/bashvars
+            } >> /workspace/bashvars
 
       - run: &load_env_vars 
           name: Load Environment Variables
           command: |
-            cat /tmp/workspace/bashvars
-            cat /tmp/workspace/bashvars >> ${BASH_ENV}
+            cat /workspace/bashvars
+            cat /workspace/bashvars >> ${BASH_ENV}
 
       - run:
           name: Build Docker Image
@@ -64,7 +64,7 @@ jobs:
       - run:
           name: Save Image to File
           command: |
-            docker save ${DOCKER_TAG} | gzip > /tmp/workspace/image.tar.gz
+            docker save ${DOCKER_TAG} | gzip > /workspace/image.tar.gz
         
       # # currently not working :-(
       # - run:
@@ -76,7 +76,7 @@ jobs:
       #       docker push ${DOCKER_TAG_LATEST}
 
       - persist_to_workspace:
-          root: /tmp/workspace
+          root: /workspace
           paths:
             - bashvars
             - image.tar.gz
@@ -100,10 +100,20 @@ jobs:
       - run:
           <<: *load_env_vars
 
+      - run: &create_aws_creds_file
+          name: Create temporary aws credential file
+          command: |
+            {
+              echo "[default]"
+              echo "AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}"
+              echo "AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}"
+              echo "AWS_REGION=${AWS_DEFAULT_REGION}"
+            } >> /workspace/.aws/credentials
+
       - run:
           name: Load image from file
           command: |
-            docker load --input /tmp/workspace/image.tar.gz
+            docker load --input /workspace/image.tar.gz
 
       # - run:
       #     name: Run pytest
@@ -117,7 +127,7 @@ jobs:
           name: Run integration_test.sh
           command: |
             docker run ${DOCKER_TAG} \
-            -v $HOME/.aws:/root/.aws:ro \
+            -v /workspace/.aws:/root/.aws:ro \
             sh -c "cd /pgx-verification && bash integration_test.sh"
 
 # Invoke jobs via workflows
