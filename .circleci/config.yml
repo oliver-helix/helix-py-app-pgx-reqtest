@@ -119,17 +119,17 @@ jobs:
       # - run:
       #     name: Run pytest
       #     command: |
-      #       docker run ${DOCKER_TAG} \
+      #       docker run \
       #       -v $HOME/.aws:/root/.aws:ro \
+      #       ${DOCKER_TAG} \
       #       sh -c "cd /pgx-verification && pytest"
 
       - run:
           name: Run integration_test.sh
           command: |
-            ls /tmp/workspace
-            ls /tmp/workspace/.aws/
-            docker run ${DOCKER_TAG} \
-            -v /tmp/workspace/.aws:/root/.aws \
+            docker run \
+            -v /tmp/workspace/.aws:/root/.aws:ro \
+            ${DOCKER_TAG} \
             sh -c "cd /pgx-verification && bash integration_test.sh"
 
 # Invoke jobs via workflows
