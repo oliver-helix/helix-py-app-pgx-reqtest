@@ -50,20 +50,18 @@ jobs:
       - run: &load_env_vars 
           name: Load Environment Variables
           command: |
-            cat /tmp/workspace/bashvars
             cat /tmp/workspace/bashvars >> ${BASH_ENV}
 
       - run:
           name: Build Docker Image
           command: |
-            set -x
             docker build --build-arg PGX_DOCKER_TAG=4.0.4 -t ${DOCKER_TAG_BASE} .
             docker tag ${DOCKER_TAG_BASE} ${DOCKER_TAG}
             docker tag ${DOCKER_TAG} ${DOCKER_TAG_LATEST}
 
       # for faster testing
       - run:
-          name: Create .aws/config file
+          name: Create .aws/config & .aws/credential file
           command: |
             mkdir /tmp/workspace/.aws
             {
@@ -74,10 +72,6 @@ jobs:
             } >> /tmp/workspace/.aws/config
             cat /tmp/workspace/.aws/config
 
-      - run:
-          name: Create .aws/credential file
-          command: |
-            mkdir /tmp/workspace/.aws
             {
               echo "aws_access_key_id = ${AWS_ACCESS_KEY_ID}"
               echo "aws_secret_access_key = ${AWS_SECRET_ACCESS_KEY}"
