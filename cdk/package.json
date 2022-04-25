@@ -1,8 +1,8 @@
 {
-  "name": "helix-py-app-r2v",
+  "name": "helix-py-app-pgx",
   "version": "0.1.0",
   "bin": {
-    "helix-py-app-r2v": "bin/cdk.js"
+    "helix-py-app-pgx": "bin/cdk.js"
   },
   "scripts": {
     "build": "tsc",

@@ -7,14 +7,13 @@ import { core } from '@myhelix/cdk-library';
 import * as ec2 from '@aws-cdk/aws-ec2';
 import * as route53  from '@aws-cdk/aws-route53'
 import * as s3  from '@aws-cdk/aws-s3'
-import {getResourceArn} from "@aws-cdk/aws-stepfunctions-tasks/lib/resource-arn-suffix";
 
 export interface BatchProps {
     vpc: ec2.IVpc,
     bucket: string,
     ecrRepository: ecr.IRepository,
     imageTag: string,
-    r2vVersion: string,
+    pgxVersion: string,
     projectName: string,
     environment: core.NamedEnv,
     route53record: string
@@ -32,7 +31,7 @@ export class Batch extends cdk.Construct {
             managedPolicies: [iam.ManagedPolicy.fromAwsManagedPolicyName('service-role/AmazonECSTaskExecutionRolePolicy')],
         });
 
-        const resultsBucket = s3.Bucket.fromBucketName(this, 'r2v_bucket', props.bucket);
+        const resultsBucket = s3.Bucket.fromBucketName(this, 'pgx_bucket', props.bucket);
 
         resultsBucket.grantReadWrite(batchJobRole);
 
@@ -43,19 +42,19 @@ export class Batch extends cdk.Construct {
             awBucket.grantReadWrite(batchJobRole)
         }
 
-        const dataBucket = s3.Bucket.fromBucketName(this, 'data_bucket', 'helix-data-r2v');
+        const dataBucket = s3.Bucket.fromBucketName(this, 'data_bucket', 'helix-data-pgx');
         dataBucket.grantRead(batchJobRole)
 
         const mystack = cdk.Stack.of(this) as core.Stack;
 
         const jobDefinition = new batch.JobDefinition(this, 'BatchJob', {
-            jobDefinitionName: `r2v-batch-job-${mystack.namedEnv.name}`,
+            jobDefinitionName: `pgx-batch-job-${mystack.namedEnv.name}`,
             container: {
                 image: ecs.ContainerImage.fromEcrRepository(props.ecrRepository, props.imageTag),
                 vcpus: 32,
                 memoryLimitMiB: 66560, //65 GiB
                 jobRole: batchJobRole,
-                command: ['r2v', '--platform', 'host', '--json', 'Ref::input_json_s3_url'],
+                command: ['call_pgx', '--platform', 'host', '--json', 'Ref::input_json_s3_url'],
                 volumes: [{
                     name: 'ssd',
                     host: {
@@ -94,7 +93,7 @@ export class Batch extends cdk.Construct {
         const route53Record = new route53.TxtRecord(this, 'TXTRecord', {
             zone,
             recordName,
-            values: [jobDefinition.jobDefinitionArn, props.r2vVersion],
+            values: [jobDefinition.jobDefinitionArn, props.pgxVersion],
         });
 
         this.jobDefinition = jobDefinition;

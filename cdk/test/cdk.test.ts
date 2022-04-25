@@ -1,14 +1,14 @@
 import { expect as expectCDK, haveResource } from '@aws-cdk/assert';
-import * as cdk from '@aws-cdk/core';
+import { App } from '@aws-cdk/core';
 import { core } from '@myhelix/cdk-library';
-import * as Cdk from '../lib/cdk-stack';
+import { PGXStack } from '../lib/pgx-stack';
 import { Local } from "../lib/local";
 
 test('stack has components', () => {
-    const app = new cdk.App();
+    const app = new App();
     const local = new Local();
     // WHEN
-    const stack = new Cdk.R2vStack(app, 'MyTestStack', {
+    const stack = new PGXStack(app, 'MyTestStack', {
         accountingTag: core.AccountingCategory.ENGINEERING,
         serviceTag: `test-${local.projectName}-cdk`,
         namedEnv: core.Environment.PlatformDevelopment
