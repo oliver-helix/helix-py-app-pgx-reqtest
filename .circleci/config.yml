@@ -61,6 +61,25 @@ jobs:
             docker tag ${DOCKER_TAG_BASE} ${DOCKER_TAG}
             docker tag ${DOCKER_TAG} ${DOCKER_TAG_LATEST}
 
+      # for faster testing
+      - run:
+          name: Create temporary aws credential file
+          command: |
+            mkdir /tmp/workspace/.aws
+            {
+              echo "[default]"
+              echo "AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}"
+              echo "AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}"
+              echo "AWS_REGION=${AWS_DEFAULT_REGION}"
+            } >> /tmp/workspace/.aws/credentials
+      - run:
+          name: Run integration_test.sh
+          command: |
+            docker run \
+            -v /tmp/workspace/.aws:/root/.aws:ro \
+            ${DOCKER_TAG} \
+            sh -c "ls -a ~/. && ls ~/.aws && cd /pgx-verification && bash integration_test.sh"
+
       - run:
           name: Save Image to File
           command: |
@@ -130,7 +149,7 @@ jobs:
             docker run \
             -v /tmp/workspace/.aws:/root/.aws:ro \
             ${DOCKER_TAG} \
-            sh -c "ls -a ~/. && cat ~/.aws/credentials && cd /pgx-verification && bash integration_test.sh"
+            sh -c "ls -a ~/. && ls ~/.aws && cd /pgx-verification && bash integration_test.sh"
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
@@ -142,13 +161,13 @@ workflows:
           context: basic
           filters: &tag-only
             tags: 
-              only: /.*/
+              only: /^v.*/
             # branches:
             #   only: main
-      - test:
-          name: Test
-          context: basic
-          filters:
-            <<: *tag-only
-          requires:
-            - Build and Push
+      # - test:
+      #     name: Test
+      #     context: basic
+      #     filters:
+      #       <<: *tag-only
+      #     requires:
+      #       - Build and Push
