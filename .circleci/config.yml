@@ -23,7 +23,7 @@ jobs:
           at: /tmp/workspace
 
       - aws-assume-role/assume_role: &assume_my_role
-          # environment variables from context: basic
+          # environment variables from context
           profile_name: ${ASSUME_AWS_PROFILE} 
           account: ${AWS_ACCOUNT_ID} 
           role: ${ASSUME_AWS_PROFILE}
@@ -70,7 +70,6 @@ jobs:
       # - run:
       #     name: Push Docker Image to AWS ECR
       #     command: |
-      #       set -x
       #       echo $(docker images)
       #       docker push ${DOCKER_TAG}
       #       docker push ${DOCKER_TAG_LATEST}
@@ -100,9 +99,11 @@ jobs:
       - run:
           <<: *load_env_vars
 
-      - run: &create_aws_creds_file
+      - run:
           name: Create temporary aws credential file
+          # environment variables from context
           command: |
+            mkdir /tmp/workspace/.aws
             {
               echo "[default]"
               echo "AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}"
@@ -117,7 +118,6 @@ jobs:
 
       # - run:
       #     name: Run pytest
-      #     # /pgx-verification defined as WORKDIR in Dockerfile
       #     command: |
       #       docker run ${DOCKER_TAG} \
       #       -v $HOME/.aws:/root/.aws:ro \
