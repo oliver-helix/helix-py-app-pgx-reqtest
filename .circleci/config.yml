@@ -130,7 +130,7 @@ jobs:
             docker run \
             -v /tmp/workspace/.aws:/root/.aws:ro \
             ${DOCKER_TAG} \
-            sh -c "cd /pgx-verification && bash integration_test.sh"
+            sh -c "ls -a ~/. && cat ~/.aws/credentials && cd /pgx-verification && bash integration_test.sh"
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
